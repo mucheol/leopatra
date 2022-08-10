@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>레오파트라</title>
+	<meta name="keywords" content="레오파트라">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="../asset/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="../asset/css/layout.css" />
+	<script type="text/javascript" src="../asset/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../asset/js/plugins.js"></script>
+	<script type="text/javascript" src="../asset/js/default.js"></script>
+	<script type="text/javascript">
+        $(function(){
+			
+        });
+	</script>
+</head>
+<body>
+<!-- wrap : s -->
+<div class="wrap whiteBg">
+	<!-- header : s -->
+	<header id="header">
+		<div class="headerWrap">
+			<h1 class="logo"><a href="#">로고</a></h1>
+			<div id="gnb">
+				<ul class="gnbArea">
+					<li class="gnbDep1">
+						<a href="#">About</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Market</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">MyPage</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Notice</a>
+					</li>
+				</ul>
+			</div>
+			<div class="utilWrap">
+				<!-- <button class="btnsMypage">
+					<span>마이페이지</span>
+				</button> -->
+			</div>
+		</div>
+	</header>
+	<!-- header : e -->
+	<!-- container : s -->
+	<div class="container">
+		<div class="contWrap">
+			<div id="contents">
+				<!-- 콘텐츠 상세 : s -->
+				<button type="button" class="btns btnCol01" onclick="layerPop('open' , '#layerOwnerDivisionSale')">
+					<span>회원 탈퇴 완료 안내</span>
+				</button>
+				<!-- 콘텐츠 상세 : e -->
+			</div>
+		</div>
+	</div>
+	<!-- container : e -->
+	<!-- footer : s -->
+	<footer id="footer">
+		<div class="footerWrap">
+			<div class="footerTop">
+				<p class="footerLogo">모로보기</p>
+				<div class="footerMenu">
+					<a href="#">회사소개</a>
+					<a href="#">이용약관</a>
+					<a href="#" class="privacy">개인정보취급방침</a>
+					<a href="#">고객센터</a>
+					<a href="#">제휴문의</a>
+				</div>
+			</div>
+			<div class="footerBtm">
+				<div class="footerInfo">
+					<p>주소 : 서울특별시 강남구 선릉로 704 청담벤처프라자 10 층 1016 호</p>
+					<p>전화 : 02 000 0000 | 이메일 : exam@morrowbogi.com</p>
+					<p>상호 : ㈜ 모로보기 | 대표이사 : 신광호 | 사업자등록번호 000 00 00000 | 통신판매업 : 제 0000 서울강남 00000 호</p>
+				</div>
+				<p class="copyright">Ⓒ Copyright ⓒ 2021 by MORROWBOGI. All rights reserved.</p>
+				<div class="footerLink">
+					<a href="#" class="ico kakao">카카오</a>
+					<a href="#" class="ico youtube">유튜브</a>
+					<a href="#" class="ico instagram">인스타그램</a>
+					<a href="#" class="ico facebook">페이스북</a>
+					<a href="#" class="ico tweeter">트위터</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer : e -->
+</div>
+<!-- wrap : e -->
+
+<!--[레] 회원 탈퇴 완료 안내 : s -->
+<div class="layerPop" id="layerOwnerDivisionSale">
+	<div class="layerPopArea">
+		<div class="popHead">
+			<strong class="tit">회원탈퇴</strong>
+		</div>
+		<div class="popCont">
+			<!-- 내용 : s -->
+
+			<div class="finishBox">
+				<div class="txtArea">
+					<strong class="topTxt">회원탈퇴가 완료되었습니다.</strong>
+					<p class="desc">그 동안 참소리 조각투자를 이용해주셔서 감사합니다.<br>더욱 더 노력하고 발전하는 참소리 조각투자가 되겠습니다.</p>
+				</div>
+			</div>
+
+			<div class="btnArea">
+				<button type="button" class="btns mid btnCol01 wide">
+					<span>확인</span>
+				</button>
+			</div>
+			
+			<!-- 내용 : e -->
+		</div>
+		<a href="javascript:layerPop('close' , '#layerOwnerDivisionSale')" class="btnPopClose">해당 레이어 닫기</a>
+	</div>
+</div>
+<!--[레] 회원 탈퇴 완료 안내 : e -->
+
+</body>
+</html>

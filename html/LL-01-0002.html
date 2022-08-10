@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>레오파트라</title>
+	<meta name="keywords" content="레오파트라">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="../asset/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="../asset/css/layout.css" />
+	<script type="text/javascript" src="../asset/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../asset/js/plugins.js"></script>
+	<script type="text/javascript" src="../asset/js/default.js"></script>
+	<script type="text/javascript">
+        $(function(){
+
+        });
+	</script>
+</head>
+<body>
+<!-- wrap : s -->
+<div class="wrap join">
+	<!-- header : s -->
+	<header id="header">
+		<div class="headerWrap">
+			<h1 class="logo"><a href="#">로고</a></h1>
+			<div id="gnb">
+				<ul class="gnbArea">
+					<li class="gnbDep1">
+						<a href="#">About</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Market</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">MyPage</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Notice</a>
+					</li>
+				</ul>
+			</div>
+			<div class="utilWrap">
+				<!-- <button class="btnsMypage">
+					<span>마이페이지</span>
+				</button> -->
+			</div>
+		</div>
+	</header>
+	<!-- header : e -->
+	<!-- container : s -->
+	<div class="container">
+		<div class="contWrap">
+			<div id="contents">
+				<!-- 콘텐츠 상세 : s -->
+				<ol class="stepTitle">
+					<li>1</li>
+					<li class="cur">2</li>
+					<li>3</li>
+				</ol>
+				<div class="topTitle center">
+					<h2 class="title big">회원가입</h2>
+				</div>
+				<!-- 회원가입 : s -->
+				<div class="boxShow">
+					<div class="boxShowTitle">
+						<strong class="tit">개인회원 가입</strong>
+					</div>
+					<div class="boxShowCont ver02">
+						<!-- tblForm: s -->
+						<div class="tblForm">
+							<table>
+								<caption>회원가입 : 아이디, 비밀번호, 비밀번호 확인, 이름 (한글), 이름 (영문), 주소, 휴대폰번호, 의 항목으로 구성된 표</caption>
+								<colgroup>
+									<col style="width:190px">
+									<col style="width:auto">
+								</colgroup>
+								<tbody>
+									<tr>
+										<th scope="col">아이디</th>
+										<td>
+											<div class="boxHorizental email">
+												<span>
+													<input type="text" class="inpText w195" />
+												</span>
+												<span class="dash">@</span>
+												<span>
+													<input type="text" class="inpText w208" />
+												</span>
+												<span class="selectboxWrap w180">
+													<select>
+														<option value="">직접 입력</option>
+														<option value="">직접 입력</option>
+													</select>
+												</span>
+											</div>
+											<div class="boxVertical">
+												<div class="boxHorizental">
+													<span class="btn">
+														<button type="button" class="btns small btnCol01">
+															<span>중복확인</span>
+														</button>
+													</span>
+													<span>
+														<span class="errorMsg">* 이미 가입된 이메일 주소 입니다.</span>
+													</span>
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="col">비밀번호</th>
+										<td>
+											<div class="boxVertical">
+												<span>
+													<input type="password" class="inpText" placeholder="비밀번호를 입력해 주세요" />
+												</span>
+												<span>
+													<span class="errorMsg">* 비밀번호는 최소 영문 숫자 특수문자 중 2 개 이상 조합되어야 합니다.</span>
+												</span>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="col">비밀번호 확인</th>
+										<td>
+											<div class="boxVertical">
+												<span>
+													<input type="password" class="inpText" placeholder="비밀번호를 한번 더 입력해 주세요" />
+												</span>
+												<span>
+													<span class="errorMsg">* 동일한 비밀번호를 입력해 주세요.</span>
+												</span>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="col">이름 (한글)</th>
+										<td>
+											<span>
+												<input type="text" class="inpText" placeholder="한글 이름을 입력해 주세요" />
+											</span>
+										</td>
+									</tr>
+									<tr>
+										<th scope="col">이름 (영문)</th>
+										<td>
+											<span>
+												<input type="text" class="inpText" placeholder="영문 이름을 입력해 주세요" />
+											</span>
+										</td>
+									</tr>
+									<tr>
+										<th scope="col">주소</th>
+										<td>
+											<div class="boxHorizental">
+												<span>
+													<input type="text" class="inpText w490" placeholder="" />
+												</span>
+												<span class="btn">
+													<button type="button" class="btns small btnCol01">
+														<span>우편번호</span>
+													</button>
+												</span>
+											</div>
+											<div class="boxVertical">
+												<span>
+													<input type="text" class="inpText" placeholder="주소" />
+												</span>
+												<span>
+													<span class="errorMsg">* 주소를 올바르게 입력해 주세요.</span>
+												</span>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="col">휴대폰번호</th>
+										<td>
+											<div class="boxHorizental">
+												<span>
+													<input type="text" class="inpText w133" />
+												</span>
+												<span class="dash">-</span>
+												<span>
+													<input type="text" class="inpText w133" />
+												</span>
+												<span class="dash">-</span>
+												<span> 
+													<input type="text" class="inpText w133" />
+												</span>
+												<span class="btn">
+													<button type="button" class="btns small btnCol01">
+														<span>인증번호 받기</span>
+													</button>
+												</span>
+											</div>
+											<div class="boxVertical">
+												<span>
+													<div class="boxHorizental">
+														<span class="certified">
+															<input type="text" class="inpText w447" placeholder="인증번호를 입력하세요" />
+															<em class="time">2:38</em>
+														</span>
+														<span class="btn">
+															<button type="button" class="btns small btnLine01">
+																<span>인증번호 확인</span>
+															</button>
+														</span>
+													</div>
+												</span>
+												<span class="errorMsg">*  인증번호를 확인해 주세요</span>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- tblForm: e -->
+						<!-- tblBtm : s -->
+						<div class="tblBtm col">
+							<dt class="label">이용약관동의</dt>
+							<dd>
+								<div class="boxVertical">
+									<span class="checkboxList row">
+										<span class="checkboxWrap">
+											<input type="checkbox" name="chk01" id="chk0101" />
+											<label for="chk0101">전체동의</label>
+										</span>
+										<span class="checkboxWrap">
+											<input type="checkbox" name="chk01" id="chk0102" />
+											<label for="chk0102">이용약관 동의 (필수)</label>
+											<a href="#" class="cta more">약관보기</a>
+										</span>
+										<span class="checkboxWrap">
+											<input type="checkbox" name="chk01" id="chk0103" />
+											<label for="chk0103">개인정보처리방침 동의 (필수)</label>
+											<a href="#" class="cta more">약관보기</a>
+										</span>										
+									</span>
+									<span class="checkboxItem">
+										<span class="checkboxWrap">
+											<input type="checkbox" name="chk02" id="chk0201" />
+											<label for="chk0201">마케팅 정보 수신 및 활용 동의 (선택)</label>
+										</span>
+										<div class="checkboxList">
+											<span class="checkboxWrap">
+												<input type="checkbox" name="chk02" id="chk0202" />
+												<label for="chk0202">SMS</label>
+											</span>
+											<span class="checkboxWrap">
+												<input type="checkbox" name="chk02" id="chk0203" />
+												<label for="chk0203">이메일</label>
+											</span>
+										</div>
+									</span>
+								</div>
+							</dd>
+						</div>
+						<!-- tblBtm : e -->
+					</div>
+				</div>
+				<!-- 회원가입 : e -->
+
+				<div class="btnArea">
+					<button type="button" class="btns btnCol01">
+						<span>회원가입</span>
+					</button>
+				</div>
+				<!-- 콘텐츠 상세 : e -->
+			</div>
+		</div>
+	</div>
+	<!-- container : e -->
+	<!-- footer : s -->
+	<footer id="footer">
+		<div class="footerWrap">
+			<div class="footerTop">
+				<p class="footerLogo">모로보기</p>
+				<div class="footerMenu">
+					<a href="#">회사소개</a>
+					<a href="#">이용약관</a>
+					<a href="#" class="privacy">개인정보취급방침</a>
+					<a href="#">고객센터</a>
+					<a href="#">제휴문의</a>
+				</div>
+			</div>
+			<div class="footerBtm">
+				<div class="footerInfo">
+					<p>주소 : 서울특별시 강남구 선릉로 704 청담벤처프라자 10 층 1016 호</p>
+					<p>전화 : 02 000 0000 | 이메일 : exam@morrowbogi.com</p>
+					<p>상호 : ㈜ 모로보기 | 대표이사 : 신광호 | 사업자등록번호 000 00 00000 | 통신판매업 : 제 0000 서울강남 00000 호</p>
+				</div>
+				<p class="copyright">Ⓒ Copyright ⓒ 2021 by MORROWBOGI. All rights reserved.</p>
+				<div class="footerLink">
+					<a href="#" class="ico kakao">카카오</a>
+					<a href="#" class="ico youtube">유튜브</a>
+					<a href="#" class="ico instagram">인스타그램</a>
+					<a href="#" class="ico facebook">페이스북</a>
+					<a href="#" class="ico tweeter">트위터</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer : e -->
+</div>
+<!-- wrap : e -->
+</body>
+</html>

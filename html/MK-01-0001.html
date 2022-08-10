@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>레오파트라</title>
+	<meta name="keywords" content="레오파트라">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="../asset/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="../asset/css/layout.css" />
+	<script type="text/javascript" src="../asset/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../asset/js/plugins.js"></script>
+	<script type="text/javascript" src="../asset/js/default.js"></script>
+	<script type="text/javascript">
+        $(function(){
+
+        });
+	</script>
+</head>
+<body>
+<!-- wrap : s -->
+<div class="wrap market">
+	<!-- header : s -->
+	<header id="header">
+		<div class="headerWrap">
+			<h1 class="logo"><a href="#">로고</a></h1>
+			<div id="gnb">
+				<ul class="gnbArea">
+					<li class="gnbDep1">
+						<a href="#">About</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Market</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">MyPage</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Notice</a>
+					</li>
+				</ul>
+			</div>
+			<div class="utilWrap">
+				<button class="btnsLogin">
+					<span>로그인</span>
+				</button>
+			</div>
+		</div>
+	</header>
+	<!-- header : e -->
+	<!-- container : s -->
+	<div class="container">
+		<div class="visual market">
+			<p class="visualTit">Market</p>
+			<div class="searchInpArea">
+				<div class="searchInp">
+					<div class="inputWrap">
+						<input type="text" placeholder="검색어를 입력하세요." class="inpText" value="슈퍼" />
+						<!-- <button type="button" class="searchDelBtn on">검색 삭제</button>인풋창 입력시 생성  : 클래스 'on' 추가 -->
+						<button type="button" class="searchBtn">검색</button>
+					</div>
+					<!-- 자동 검색 : s -->
+					<div class="searchAutoComplete" style="display:block">
+						<!-- 검색어 입력중 : s -->
+						<div class="searchResultIng">
+							<div class="searchResultCol">
+								<dl>
+									<dt>추천검색</dt>
+									<dd>
+										<div class="item">
+											<strong class="word">정</strong>다운
+											<a href="#" class="itemDel">항목 삭제</a>
+										</div>
+										<div class="item">
+											<strong class="word">정</strong>기문
+											<a href="#" class="itemDel">항목 삭제</a>
+										</div>
+										<div class="item">
+											한<strong class="word">정</strong>판
+											<a href="#" class="itemDel">항목 삭제</a>
+										</div>
+										<div class="item">
+											긍<strong class="word">정</strong>
+											<a href="#" class="itemDel">항목 삭제</a>
+										</div>
+										<div class="item">
+											우<strong class="word">정</strong>
+											<a href="#" class="itemDel">항목 삭제</a>
+										</div>
+									</dd>
+								</dl>
+								<a href="#" class="allDel">전체삭제</a>	
+							</div>
+							<div class="searchResultCol">
+								<dl>
+									<dt>최근검색</dt>
+									<dd>
+										<div class="item">
+											고려상회
+											<a href="#" class="itemDel">항목 삭제</a>
+										</div>
+										<div class="item">
+											이미영
+											<a href="#" class="itemDel">항목 삭제</a>
+										</div>
+										<div class="item">
+											홍길동
+											<a href="#" class="itemDel">항목 삭제</a>
+										</div>
+										<div class="item">
+											홍길동
+											<a href="#" class="itemDel">항목 삭제</a>
+										</div>
+										<div class="item">
+											홍길동
+											<a href="#" class="itemDel">항목 삭제</a>
+										</div>
+									</dd>
+								</dl>
+								<a href="#" class="allDel">전체삭제</a>	
+							</div>
+						</div>
+						<!-- 검색어 입력중 : e -->
+
+						<!-- 검색창 클릭시 : s -->
+						<div class="searchResultList" style="display:none">
+							<div class="item">
+								<a href="#">
+									<strong class="word">슈퍼</strong>향매
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<strong class="word">슈퍼</strong>고산<strong class="word">슈퍼</strong>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									정든<strong class="word">슈퍼</strong>2021
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									정다운<strong class="word">슈퍼</strong>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									교동도<strong class="word">슈퍼</strong>
+								</a>
+							</div>
+						</div>
+						<!-- 검색창 클릭시 : e -->
+					</div>
+					<!-- 자동 검색 : e -->
+				</div>
+				<!-- 검색 결과 : s -->
+				<div class="searchResult">
+					<strong class="word">'정겨운 슈퍼'</strong> 검색결과가 없습니다.
+				</div>
+				<!-- 검색 결과 : e -->
+			</div>
+		</div>
+		<div class="searchArea">
+			<div class="searchInner">
+				<dl class="searchItem"><!-- 클릭 시 .on 추가 -->
+					<dt class="searchTit">분야</dt>
+					<dd class="searchCont">
+						<a href="#" class="selectAnchor">회화</a>
+						<div class="selectList">
+							<a href="#" class="selectItem">한국화</a>
+							<a href="#" class="selectItem">회화</a>
+							<a href="#" class="selectItem">조각</a>
+						</div>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="contWrap">
+			<div id="contents">
+				<!-- 콘텐츠 상세 : s -->
+				<div class="topTitle first">
+					<div class="boardTop left">
+						<div class="total"><em>2,500</em>개의 작품</div>
+						<p class="desc">
+							<span class="checkboxWrap">
+								<label for="chk0101">공모 중 보기</label>
+								<input type="checkbox" name="chk01" id="chk0101">
+							</span>
+						</p>
+					</div>
+					<div class="right sorting">
+						<div class="selectboxWrap02">
+							<select>
+								<option>최신순</option>
+								<option>인기순</option>
+								<option>베스트</option>
+								<option>등록일순</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<div class="prdList">
+					<div class="prdItem">
+						<a href="#" class="prdInner">
+							<button type="button" class="btn interest">즐겨찾기</button>
+							<p class="label amateur">아마추어</p>
+							<p class="name">홍길동</p>
+							<p class="title">정다운 슈퍼</p>
+							<div class="thumb">
+								<img src="../asset/images/_temp/@thumb_product.png" alt="" />
+							</div>
+							<div class="info">
+								<p class="item">진품 소유권</p>
+								<p class="item">분할 소유권</p>
+								<p class="item">에디션</p>
+							</div>
+							<div class="info">
+								<span class="stickerState complete"><em>판매완료</em></span>
+							</div>
+						</a>
+					</div>
+					<div class="prdItem">
+						<a href="#" class="prdInner">
+							<button type="button" class="btn interest on">즐겨찾기</button>
+							<p class="label general">일반작가</p>
+							<p class="name">홍길동</p>
+							<p class="title">정다운 슈퍼</p>
+							<div class="thumb">
+								<img src="../asset/images/_temp/@thumb_product.png" alt="" />
+							</div>
+							<div class="info">
+								<p class="item">진품 소유권</p>
+								<p class="item">분할 소유권</p>
+								<p class="item">에디션</p>
+							</div>
+							<div class="info">
+								<span class="stickerState preparing"><em>판매 준비중</em></span>
+							</div>
+						</a>
+					</div>
+					<div class="prdItem">
+						<a href="#" class="prdInner">
+							<button type="button" class="btn interest">즐겨찾기</button>
+							<p class="label invited">초대작가</p>
+							<p class="name">홍길동</p>
+							<p class="title">정다운 슈퍼</p>
+							<div class="thumb">
+								<img src="../asset/images/_temp/@thumb_product.png" alt="" />
+							</div>
+							<div class="info">
+								<p class="item">진품 소유권</p>
+								<p class="item">분할 소유권</p>
+								<p class="item">에디션</p>
+							</div>
+							<div class="info">
+								<span class="stickerState complete"><em>판매완료</em></span>
+							</div>
+						</a>
+					</div>
+					<div class="prdItem">
+						<a href="#" class="prdInner">
+							<button type="button" class="btn interest">즐겨찾기</button>
+							<p class="label invited">초대작가</p>
+							<p class="name">홍길동</p>
+							<p class="title">정다운 슈퍼</p>
+							<div class="thumb">
+								<img src="../asset/images/_temp/@thumb_product.png" alt="" />
+							</div>
+							<div class="info">
+								<p class="item">진품 소유권</p>
+								<p class="item">분할 소유권</p>
+								<p class="item">에디션</p>
+							</div>
+							<div class="info">
+								<span class="stickerState complete"><em>판매완료</em></span>
+							</div>
+						</a>
+					</div>
+					<div class="prdItem">
+						<a href="#" class="prdInner">
+							<button type="button" class="btn interest">즐겨찾기</button>
+							<p class="label invited">초대작가</p>
+							<p class="name">홍길동</p>
+							<p class="title">정다운 슈퍼</p>
+							<div class="thumb">
+								<img src="../asset/images/_temp/@thumb_product.png" alt="" />
+							</div>
+							<div class="info">
+								<p class="item">진품 소유권</p>
+								<p class="item">분할 소유권</p>
+								<p class="item">에디션</p>
+							</div>
+							<div class="info">
+								<span class="stickerState preparing"><em>승인 대기중</em></span>
+							</div>
+						</a>
+					</div>
+					<div class="prdItem">
+						<a href="#" class="prdInner">
+							<button type="button" class="btn interest">즐겨찾기</button>
+							<p class="label invited">초대작가</p>
+							<p class="name">홍길동</p>
+							<p class="title">정다운 슈퍼</p>
+							<div class="thumb">
+								<img src="../asset/images/_temp/@thumb_product.png" alt="" />
+							</div>
+							<div class="info">
+								<p class="item">진품 소유권</p>
+								<p class="item">분할 소유권</p>
+								<p class="item">에디션</p>
+							</div>
+							<div class="info">
+								<span class="stickerState companion"><em>반려</em></span>
+							</div>
+						</a>
+					</div>
+					<div class="prdItem">
+						<a href="#" class="prdInner">
+							<button type="button" class="btn interest">즐겨찾기</button>
+							<p class="label invited">초대작가</p>
+							<p class="name">홍길동</p>
+							<p class="title">정다운 슈퍼</p>
+							<div class="thumb">
+								<img src="../asset/images/_temp/@thumb_product.png" alt="" />
+							</div>
+							<div class="info">
+								<p class="item">진품 소유권</p>
+								<p class="item">분할 소유권</p>
+								<p class="item">에디션</p>
+							</div>
+							<div class="info">
+								<span class="stickerState companion"><em>반려</em></span>
+							</div>
+						</a>
+					</div>
+					<div class="prdItem">
+						<a href="#" class="prdInner">
+							<button type="button" class="btn interest">즐겨찾기</button>
+							<p class="label professional">전문작가</p>
+							<p class="name">홍길동</p>
+							<p class="title">정다운 슈퍼</p>
+							<div class="thumb">
+								<img src="../asset/images/_temp/@thumb_product.png" alt="" />
+							</div>
+							<div class="info">
+								<p class="item">진품 소유권</p>
+								<p class="item">분할 소유권</p>
+								<p class="item">에디션</p>
+							</div>
+							<div class="info">
+								<span class="stickerState preparing"><em>판매중</em></span>
+							</div>
+						</a>
+					</div>
+					<div class="prdItem">
+						<a href="#" class="prdInner">
+							<button type="button" class="btn interest">즐겨찾기</button>
+							<p class="label invited">초대작가</p>
+							<p class="name">홍길동</p>
+							<p class="title">정다운 슈퍼</p>
+							<div class="thumb">
+								<img src="../asset/images/_temp/@thumb_product.png" alt="" />
+							</div>
+							<div class="info">
+								<p class="item">진품 소유권</p>
+								<p class="item">분할 소유권</p>
+							</div>
+							<div class="info">
+								<span class="stickerState companion"><em>반려</em></span>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="paging">
+					<div class="inner">
+						<a href="#" class="btn prev">이전 페이지로 이동</a>
+						<div class="number">
+							<span class="current">1</span>
+							<span class="slash">/</span>
+							<span class="total">5</span>
+						</div>
+						<a href="#" class="btn next">다음 페이지로 이동</a>
+					</div>
+				</div>
+				<!-- 콘텐츠 상세 : e -->
+			</div>
+		</div>
+	</div>
+	<!-- container : e -->
+	<!-- footer : s -->
+	<footer id="footer">
+		<div class="footerWrap">
+			<div class="footerTop">
+				<p class="footerLogo">모로보기</p>
+				<div class="footerMenu">
+					<a href="#">회사소개</a>
+					<a href="#">이용약관</a>
+					<a href="#" class="privacy">개인정보취급방침</a>
+					<a href="#">고객센터</a>
+					<a href="#">제휴문의</a>
+				</div>
+			</div>
+			<div class="footerBtm">
+				<div class="footerInfo">
+					<p>주소 : 서울특별시 강남구 선릉로 704 청담벤처프라자 10 층 1016 호</p>
+					<p>전화 : 02 000 0000 | 이메일 : exam@morrowbogi.com</p>
+					<p>상호 : ㈜ 모로보기 | 대표이사 : 신광호 | 사업자등록번호 000 00 00000 | 통신판매업 : 제 0000 서울강남 00000 호</p>
+				</div>
+				<p class="copyright">Ⓒ Copyright ⓒ 2021 by MORROWBOGI. All rights reserved.</p>
+				<div class="footerLink">
+					<a href="#" class="ico kakao">카카오</a>
+					<a href="#" class="ico youtube">유튜브</a>
+					<a href="#" class="ico instagram">인스타그램</a>
+					<a href="#" class="ico facebook">페이스북</a>
+					<a href="#" class="ico tweeter">트위터</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer : e -->
+</div>
+<!-- wrap : e -->
+</body>
+</html>
