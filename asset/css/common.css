@@ -421,7 +421,7 @@ div.inpText{line-height:46px;overflow:hidden}
 .selectboxWrap select{position:relative;display:block;width:100%;height:100%;padding:0 32px 0 15px;font-size:18px;color:#000;border:none;background:#fff url('../images/arr_select.png') no-repeat right 16px center;}
 .selectboxWrap select:disabled{background-color:#eee;color:rgba(2, 2, 25, 0.5)}
 .selectboxWrap02 {position:relative;display:inline-block;width:100%;min-width:100px;height:46px;vertical-align:middle;text-align:left;overflow:hidden;padding:0 !important}
-.selectboxWrap02 select{position:relative;width:100%;height:100%;padding:0 32px 0 0;font-size:21px;color:#000;border:none;background:url('../images/arr_select.png') no-repeat right 16px center;}
+.selectboxWrap02 select{position:relative;width:100%;height:100%;padding:0 32px 0 0;font-size:21px;color:#000;border:none;background:url('../images/arr_nav.png') no-repeat right 16px center;}
 
 /* TextArea */
 textarea.textarea{width:100%;height:162px;border:2px solid rgba(219, 219, 219, 1);resize:none;padding:15px;overflow-y:auto;overflow-x:hidden;font-size:18px;}
@@ -812,15 +812,17 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .boardTop .total {display:inline-block;vertical-align:middle;font-size:24px;font-weight:700;}
 .boardTop .total em {color:#5A67D8;}
 .boardTop .total.small{font-size:21px}
-.sorting .selectboxWrap02 {width:155px;}
+.sorting .selectboxWrap02 {width:130px;}
 .sorting .selectboxWrap02 + .selectboxWrap02 {margin-left:20px;}
 
 /* paging */
 .paging {text-align:center;margin:60px 0 0;}
 .paging .inner {display:inline-flex;height:60px;}
 .paging .btn {text-indent:-9999em;width:50px;display:inline-block;background-repeat:no-repeat;background-position:50% 50%;}
+.paging .btn.pFirst {background-image:url('../images/arr_paging_first.png');}
 .paging .btn.prev {background-image:url('../images/arr_paging_perv.png');}
 .paging .btn.next {background-image:url('../images/arr_paging_next.png');}
+.paging .btn.pLast {background-image:url('../images/arr_paging_last.png');}
 .paging .number {display:flex;align-items:center;font-size:18px;}
 .paging .number > span {padding:0 15px;color:#9B9B9B;}
 .paging .number .current {font-weight:700;color:#506FB3;}
