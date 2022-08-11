@@ -79,9 +79,9 @@ html.closeHidden body{overflow:hidden}
 #footer .footerBtm .footerLink .ico.tweeter{background-image:url(../images/ico_footer_link_tweeter.png)}
 
 /* searchArea */
-.searchArea {position:sticky;top:0;background:#fff;z-index:10;}
+.searchArea {position:relative;top:0;background:#fff;z-index:10;}
 .searchArea .searchInner {display:flex;align-items:center; justify-content: center; max-width:1280px;margin:0 auto;}
-.searchArea .searchItem {display: flex; width: 225px; height: 170px; align-items: center;}
+.searchArea .searchItem {display: flex; width: 225px; height: 150px; align-items: center;}
 .searchArea .searchItem.on .selectAnchor {background-image:url('../images/arr_nav_on.png')}
 .searchArea .searchItem.on .selectList {display:block;}
 .searchArea .searchTit {font-size:18px;font-weight:700;position:relative;padding:0;width:116px;flex:none;text-align:center;}
@@ -176,7 +176,7 @@ html.closeHidden body{overflow:hidden}
 
 /* 1280 이하*/
 @media (max-width: 1300px) {
-	.wrap{min-width:1240px}
+	/* .wrap{min-width:1240px}
 	#header{min-width:1240px;padding-left:20px;padding-right:20px}
 	#header .headerWrap{width:auto;}
 	#contents{width:1240px;padding-left:20px;padding-right:20px}
@@ -192,5 +192,5 @@ html.closeHidden body{overflow:hidden}
 
 	.mainWrap{margin-left:-20px;margin-right:-20px}
 	.mainWrap .mainSection .inner{width:1240px;padding-left:20px;padding-right:20px}
-	.mainWrap .mainSection .titleBox{width:1240px;padding-left:20px;padding-right:20px}
+	.mainWrap .mainSection .titleBox{width:1240px;padding-left:20px;padding-right:20px} */
 }

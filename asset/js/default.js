@@ -394,14 +394,14 @@ function searchAreaUI(){
 			return;
 		}
 
-		if(sct + $('#header').outerHeight(true) >= elPos){
-			el.addClass('fixed');
-			$('.container').addClass('searchAreaAdd');
-		}
-		else{
-			el.removeClass('fixed');
-			$('.container').removeClass('searchAreaAdd');
-		}
+		// if(sct + $('#header').outerHeight(true) >= elPos){
+		// 	el.addClass('fixed');
+		// 	$('.container').addClass('searchAreaAdd');
+		// }
+		// else{
+		// 	el.removeClass('fixed');
+		// 	$('.container').removeClass('searchAreaAdd');
+		// }
 	}).trigger('scroll.scrollSearchArea');
 }
 

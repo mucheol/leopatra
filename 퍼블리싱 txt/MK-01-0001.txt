@@ -1,0 +1,44 @@
+### MK-01-0001.html 작업
+
+@ HTML 수정
+- .prdItem div에서 상단 실물, 조각 박스 class명 변경
+- .name, .title, .info 내용수정
+- .prdItem의 두번째 .info 자식클래스 .stickerState .preparing에서 .price로 변경(판매상태 => 가격)
+- paging처리부분 변경
+
+
+-상단배너-
+.visual : 배경삭제
+
+-검색창-
+검색창 delete버튼 삭제
+common.css에서 
+.visual .searchInp .inpText : 백그라운드 색변경, 글씨 왼쪽정렬
+.visual .searchInp .searchBtn : 돋보기 검색버튼 위치 이동, 파란색 돋보기로 교체 크기이동 
+default.js에서 searchAreaAdd : 397 ~ 404 Line 주석처리
+
+
+-분류-
+layout.css에서 
+searchArea, .searchArea .searchInner, .searchArea .searchItem 수정 : position, 배경, border, 높이 등
+
+- ~개의 작품 공모중보기 -
+common.css에서
+.topTitle .left .desc수정 : 체크박스 오른쪽으로 이동
+.checkboxWrap label수정, 최 하단에 Market 주석으로 .market .boardTop .total::after 추가 (실선삽입)
+
+- 정렬 셀렉트박스 -
+common.css에서
+.selectboxWrap02수정 (border-bottom삭제)
+.sorting .selectboxWrap02(width값 축소)
+
+- 리스트 위쪽 border 추가-
+common.css에서
+.topTitle.first 수정
+
+-마켓 리스트 박스들-
+common.css에서 .prdList쪽 전부 수정
+
+-페이징-
+.common.css에서
+.paging .inner : border삭제

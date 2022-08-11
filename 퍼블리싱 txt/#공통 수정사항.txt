@@ -1,0 +1,6 @@
+commmon.css 공통수정
+- .contBottom > .inner, .about .contWrap .inner, .mainWrap .mainSection .inner, .mainWrap .mainSection .titleBox 사이즈 1300px로 변경
+
+
+laytout.css 공통수정
+- 미디어쿼리 삭제
