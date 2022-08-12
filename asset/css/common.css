@@ -1818,6 +1818,8 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .artist .searchArea .searchInner .searchItem:last-child{border-right:0}
 
 /* 퍼블 추가 */
+/* COMMON */
+.horLine {  display: block; width: 1px; height: 13px; margin: 3px 10px 0;  background-color: #575757;}
 
 /* Market */
 .market .boardTop .total::after {
@@ -1872,3 +1874,31 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .tblData.holdingTbl table tbody .item .cell{ text-align: left; color: #4D4D4D;}
 .tblData.holdingTbl table tbody .item .cell:nth-child(1){ width: 355px;}
 .tblData.holdingTbl table tbody .item .cell:nth-child(2){ width: 45px;}
+
+/* Mk-01-0003P */
+.layerPop#purchasePiece .layerPopArea { width: auto; margin: 0 auto;}
+.layerPop#purchasePiece .popCont { width: 653px; height: 705px; padding: 0 67.7px 0; max-height: none; font-size: 18px; overflow: hidden;}
+.layerPop#purchasePiece .topTitle { font-size: 28px; font-weight: 700; height:100px; margin:0; line-height: 100px; border-bottom: 1px solid #000;}
+
+.layerPop#purchasePiece .ownerItem { width: 100%; border: none; padding:0; border-bottom: 1px solid #000;}
+.layerPop#purchasePiece .ownerItem .thumb { width: 250px; height: 250px;}
+.layerPop#purchasePiece .ownerItem .info { position: relative; width: calc(517.63px - 250px); height: 287px; padding-left: 38.5px;}
+.layerPop#purchasePiece .ownerItem .info .name { font-size: 18px; color: #A7A7A7; padding-top: 50px;}
+.layerPop#purchasePiece .ownerItem .info .title { max-height: 101px; font-size: 24px; line-height: 32px; padding-top: 5px; margin-bottom: 14px;}
+.layerPop#purchasePiece .ownerItem .info .item { font-size: 16px; color:#2B2B2B}
+.layerPop#purchasePiece .ownerItem .info .subInfo {display: flex;}
+.layerPop#purchasePiece .ownerItem .info .subInfo + .subInfo {position: absolute; bottom: 55px;}
+.layerPop#purchasePiece .ownerItem .info .subInfo .piece { font-size: 18px; font-weight: 500; color: #2B2B2B; }
+.layerPop#purchasePiece .ownerItem .info .subInfo .price { font-size: 18px; font-weight: 700; color: #2B2B2B; }
+
+.layerPop#purchasePiece .resultBox { width: 100%; height: 150px; padding: 15px 0; border-bottom: 1px solid #000;}
+.layerPop#purchasePiece .resultBox .resultDiv { display: flex; justify-content: space-between; }
+.layerPop#purchasePiece .resultBox .resultDiv p {height: 30px; line-height: 30px; font-size: 22px; margin: 15px 0;}
+.layerPop#purchasePiece .resultBox .resultDiv .pointAmount { font-size: 24px;}
+.layerPop#purchasePiece .resultBox .resultDiv .payAmount { font-size: 26px; font-weight: 700;}
+
+.layerPop#purchasePiece .btnArea { width: 653px; margin-left: -67.5px; margin-top: 0;}
+.layerPop#purchasePiece .btnArea .noticeP { width: 653px; height: 73.5px; line-height: 73.5px; font-size: 20px; font-weight: 400; text-align: center; padding: 0 67.7px;}
+.layerPop#purchasePiece .btnArea.colum > span { width: 50%; padding-left: 0;}
+.layerPop#purchasePiece .btnArea .btns.mid { height: 88px; line-height: 88px; padding: 0; margin-top: 78px;}
+.layerPop#purchasePiece .btnArea .btns.mid span{ font-size: 22px; font-weight: 500;}

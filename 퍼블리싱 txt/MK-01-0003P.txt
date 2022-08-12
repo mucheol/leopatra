@@ -3,10 +3,11 @@
 
 
 @@@ HTML 수정 @@@
-
+layerPurchaseConfirm => purchasePiece 로 id값 수정
 
 @@@ CSS 수정 @@@
 common.css 제일 하단 /* MK-01-0003 */ 주석 아래로 css 적었습니다.
 
 
 @@@ IMAGE 수정 @@@
+없습니다.

@@ -53,8 +53,8 @@
 		<div class="contWrap">
 			<div id="contents">
 				<!-- 콘텐츠 상세 : s -->
-				<button type="button" class="btns btnCol01" onclick="layerPop('open' , '#layerPurchaseConfirm')">
-					<span>구매확정</span>
+				<button type="button" class="btns btnCol01" onclick="layerPop('open' , '#purchasePiece')">
+					<span>조각 구매</span>
 				</button>
 				<!-- 콘텐츠 상세 : e -->
 			</div>
@@ -96,48 +96,56 @@
 <!-- wrap : e -->
 
 <!--[레] 구매확정 : s -->
-<div class="layerPop" id="layerPurchaseConfirm">
+<div class="layerPop" id="purchasePiece">
 	<div class="layerPopArea">
-		<div class="popHead">
-			<strong class="tit">구매확정</strong>
-		</div>
 		<div class="popCont">
 			<!-- 내용 : s -->
-			<div class="boxNotice">
-				<dl>
-					<dt class="listMark">알려드립니다.</dt>
-					<dd>
-						<ul class="listStyle01">
-							<li>구매 확정 이후에는 반품/교환이 불가하므로 반드시 상품을 받으신 후에 진행해주세요</li>
-						</ul>
-					</dd>
-				</dl>
-			</div>
-			<div class="ownerItem space">
+      <p class="topTitle">조각 구매</p>
+			<div class="ownerItem">
 				<div class="thumb"><img src="../asset/images/_temp/@img_sale_item.png" alt="" /></div>
 				<div class="info">
-					<div class="subject">
-						<span>정다운수퍼 </span>
-						<span class="writer">이미경(Lee Me Kyeoung) 작가</span>
-					</div>
-					<div class="desc">구매가 :  250,000 KRW</div>
+					<p class="name">측음기</p>
+          <p class="title">스탠다드 포노그래프</p>
+          <div class="subInfo">
+            <p class="item">토마스 에디슨</p>
+            <span class="horLine"></span>
+            <p class="item">1879</p>
+          </div>
+          <div class="subInfo">
+            <p class="piece">조각 2개</p>
+            <span class="horLine"></span>
+            <p class="price">2,000,000원</p>
+          </div>
 				</div>
 			</div>
+
+      <div class="resultBox">
+        <div class="result_point resultDiv">
+          <p>보유 포인트</p>
+          <p class="pointAmount">1,500,000 원</p>
+        </div>
+        <div class="result_payment resultDiv">
+          <p>총 결제 금액</p>
+          <p class="payAmount colorText1">500,000 원</p>
+        </div>
+      </div>
+
 			<div class="btnArea colum">
+        <p class="noticeP">조각 2개를 <span class="colorText1">포인트</span>로 구매하시겠습니까?</p>
+        <span>
+          <button type="button" class="btns mid btnLine01 wide">
+            <span>취소</span>
+          </button>
+        </span>
 				<span>
 					<button type="button" class="btns mid btnCol01 wide">
-						<span>확인</span>
-					</button>
-				</span>
-				<span>
-					<button type="button" class="btns mid btnLine01 wide">
-						<span>취소</span>
+						<span>구매</span>
 					</button>
 				</span>
 			</div>
 			<!-- 내용 : e -->
 		</div>
-		<a href="javascript:layerPop('close' , '#layerPurchaseConfirm')" class="btnPopClose">해당 레이어 닫기</a>
+		<!-- <a href="javascript:layerPop('close' , '#purchasePiece')" class="btnPopClose">해당 레이어 닫기</a> -->
 	</div>
 </div>
 <!--[레] 구매확정 : e -->
