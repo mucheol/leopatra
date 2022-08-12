@@ -1948,6 +1948,8 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .collectionTbl { margin-top: 106px;}
 .collectionTbl table thead th { background-color: #fff; border-bottom: 1px solid #C5C5C5;}
 .collectionTbl table { border-top: 2px solid #171717;}
+.collectionTbl table tbody td {padding: 0 !important; }
+.collectionTbl table tbody .item:nth-child(odd) { background-color: #F9F9F9;}
 .collectionTbl table tbody .item .cell:nth-child(1){ width: 125px;}
 .collectionTbl table tbody .item .cell:nth-child(2){ width: 250px; text-align: left; display: flex;}
 .collectionTbl table tbody .item .cell:nth-child(3){ width: 200px;}
