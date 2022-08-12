@@ -1820,10 +1820,11 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 /* 퍼블 추가 */
 /* COMMON */
 .horLine {  display: block; width: 1px; height: 13px; margin: 3px 10px 0;  background-color: #575757;}
+.innerCon { width: 1300px; margin: 0 auto;}
+.dP {display: flex;}
 
 /* Market */
-.market .boardTop .total::after {
-  position: absolute; content: ""; width: 1px; height: 22.54px; margin-top: 3px; margin-left: 30px; background-color: #000;}
+.market .boardTop .total::after { position: absolute; content: ""; width: 1px; height: 22.54px; margin-top: 3px; margin-left: 30px; background-color: #000;}
 .market .contWrap { background-color: #fff; padding: 0 0 100px 0;}
 
 /* MK-01-0002 */
@@ -1850,24 +1851,23 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .viewInfo .infoArea .purchaseBtn { width: 100%; height: 70px; font-size: 20px; font-weight: 700; color:#fff; background-color: #506FB3; }
 .viewInfo .infoArea .purchaseQuantity .dt {color:#1E1E1E}
 
-.infoArea2 { width: 100%; height: 340px; border-bottom: 2px solid #0D0D0D;}
-.infoArea2 .topTitle { margin: 35px 0 25px;}
-.infoArea2 .content .dt { margin-top: 10px; float: left; width: 120px; font-size: 16px; font-weight: 400 !important; color: #535353; line-height: 23.17px; vertical-align: top; font-weight: 700;}
-.infoArea2 .content .dd { margin-top: 10px; font-size: 18px; float: left; vertical-align: top; width: calc(100% - 120px); min-height: 38px;}
+#MK-01-0002 .infoArea2 { width: 100%; height: 340px; border-bottom: 2px solid #0D0D0D;}
+#MK-01-0002 .infoArea2 .topTitle { margin: 35px 0 25px;}
+#MK-01-0002 .infoArea2 .content .dt { margin-top: 10px; float: left; width: 120px; font-size: 16px; font-weight: 400 !important; color: #535353; line-height: 23.17px; vertical-align: top; font-weight: 700;}
+#MK-01-0002 .infoArea2 .content .dd { margin-top: 10px; font-size: 18px; float: left; vertical-align: top; width: calc(100% - 120px); min-height: 38px;}
 
-.tblData.selectTbl table tbody .item.active {outline: none; box-shadow: none;}
-
-.topTitle.tT02 {margin:30px 0 20px 0}
-.topTitle .selectboxWrap02 { width: 95px; height: 35px; font-size: 21px;}
-.tblData table thead th { text-align: left; background-color: transparent; border-bottom: 1px solid #BDBDBD; padding: 19px 0px; color: #4D4D4D; font-weight: 400;}
-.tblData.historicalTbl table {border-bottom: none;}
-.tblData.historicalTbl table tbody .item .cell{ text-align: left; color: #4D4D4D;}
-.tblData.historicalTbl table tbody .item .cell:nth-child(1){ width: 204.05px;}
-.tblData.historicalTbl table tbody .item .cell:nth-child(2){ width: 329.18px;}
-.tblData.historicalTbl table tbody .item .cell:nth-child(3){ width: 327.18px;}
-.tblData.historicalTbl table tbody .item .cell:nth-child(4){ width: 186.67px;}
-.tblData.historicalTbl table tbody .item .cell:nth-child(5){ width: 135.62px;}
-.tblData.historicalTbl table tbody .item .cell:nth-child(6){ width: 97.3px;}
+#MK-01-0002 .topTitle.tT02 {margin:30px 0 20px 0}
+#MK-01-0002 .topTitle .selectboxWrap02 { width: 95px; height: 35px; font-size: 21px;}
+#MK-01-0002 .tblData table thead th { text-align: left; background-color: transparent; border-bottom: 1px solid #BDBDBD; padding: 19px 0px; color: #4D4D4D; font-weight: 400;}
+#MK-01-0002 .tblData.historicalTbl table {border-bottom: none;}
+#MK-01-0002 .tblData.selectTbl table tbody .item.active {outline: none; box-shadow: none;}
+#MK-01-0002 .tblData.historicalTbl table tbody .item .cell{ text-align: left; color: #4D4D4D;}
+#MK-01-0002 .tblData.historicalTbl table tbody .item .cell:nth-child(1){ width: 204.05px;}
+#MK-01-0002 .tblData.historicalTbl table tbody .item .cell:nth-child(2){ width: 329.18px;}
+#MK-01-0002 .tblData.historicalTbl table tbody .item .cell:nth-child(3){ width: 327.18px;}
+#MK-01-0002 .tblData.historicalTbl table tbody .item .cell:nth-child(4){ width: 186.67px;}
+#MK-01-0002 .tblData.historicalTbl table tbody .item .cell:nth-child(5){ width: 135.62px;}
+#MK-01-0002 .tblData.historicalTbl table tbody .item .cell:nth-child(6){ width: 97.3px;}
 
 .tblData.holdingTbl { width: 400px;}
 .tblData.holdingTbl table {border-bottom: none;}
@@ -1877,7 +1877,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 
 /* Mk-01-0003P */
 .layerPop#purchasePiece .layerPopArea { width: auto; margin: 0 auto;}
-.layerPop#purchasePiece .popCont { width: 653px; height: 705px; padding: 0 67.7px 0; max-height: none; font-size: 18px; overflow: hidden;}
+.layerPop#purchasePiece .popCont { width: 653px; height: 677px; padding: 0 67.7px 0; max-height: none; font-size: 18px; overflow: hidden;}
 .layerPop#purchasePiece .topTitle { font-size: 28px; font-weight: 700; height:100px; margin:0; line-height: 100px; border-bottom: 1px solid #000;}
 
 .layerPop#purchasePiece .ownerItem { width: 100%; border: none; padding:0; border-bottom: 1px solid #000;}
@@ -1898,7 +1898,35 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .layerPop#purchasePiece .resultBox .resultDiv .payAmount { font-size: 26px; font-weight: 700;}
 
 .layerPop#purchasePiece .btnArea { width: 653px; margin-left: -67.5px; margin-top: 0;}
-.layerPop#purchasePiece .btnArea .noticeP { width: 653px; height: 73.5px; line-height: 73.5px; font-size: 20px; font-weight: 400; text-align: center; padding: 0 67.7px;}
+.layerPop#purchasePiece .btnArea .noticeP { width: 653px; height: 77.5px; line-height: 77.5px; font-size: 20px; font-weight: 400; text-align: center; padding: 0 67.7px;}
 .layerPop#purchasePiece .btnArea.colum > span { width: 50%; padding-left: 0;}
-.layerPop#purchasePiece .btnArea .btns.mid { height: 88px; line-height: 88px; padding: 0; margin-top: 78px;}
+.layerPop#purchasePiece .btnArea .btns.mid { height: 60px; line-height: 60px; padding: 0; margin-top: 78px;}
 .layerPop#purchasePiece .btnArea .btns.mid span{ font-size: 22px; font-weight: 500;}
+
+
+/* MY Page */
+/* Mk-01-0003P */
+.snb { width: 250px; height: 100%; padding-right: 20px; border-right: 2px solid #000;}
+.snb .snbTitle { font-size: 48px; font-weight: 500; line-height: 56px; margin-bottom: 57px;}
+.snb ul { width: 190px;}
+.snb ul + ul{border-top: 1px solid #C7C7C7;}
+.snb ul li:nth-child(1) { font-size: 22px; font-weight: 700; line-height: 32px;}
+.snb ul li { font-size: 20px; font-weight: 400; line-height: 29px; margin-top: 26px; padding-left: 15px}
+.snb ul li:last-child { margin-bottom: 26px;}
+
+.topCon { width: 100%; padding-left: 55px;}
+.topCon .accountCon { display: flex; width: 100%;}
+.topCon .accountCon .accountBox { border: 1px solid #DCDCDC; width: 33.3%; height: 164px; padding: 26px 24px;}
+.topCon .accountCon .accountBox + .accountBox { border-left: none; padding:26px 40px;}
+.topCon .accountCon .accountBox .photoBox { width: 111px; height: 111px; background-color: #506FB3;}
+.topCon .accountCon .accountBox .accountInfo {  position: relative; height: 111px; padding: 0 14px;}
+.topCon .accountCon .accountBox .accountInfo .accountId {  font-size: 24px; line-height: 28px; font-weight: 700;}
+.topCon .accountCon .accountBox .accountInfo .accountEmail {  font-size: 14px; line-height: 16.5px; font-weight: 400; margin-top: 5px;}
+.topCon .accountCon .accountBox .accountInfo .accountBtn {  display: flex; position: absolute; bottom: 4px;}
+.topCon .accountCon .accountBox .accountInfo .accountBtn p {  font-size: 16px;}
+.topCon .accountCon .accountBox .accountInfo .accountBtn .horLine {  margin: 3px 15px 0;}
+.topCon .accountCon .accountBox .title { font-size: 22px; margin-bottom: 15px;}
+.topCon .accountCon .accountBox .accountDetailBox .accountDetail { display: flex;}
+.topCon .accountCon .accountBox .accountDetailBox .accountDetail p{ width: 30%; font-size:16px; color: #4B4B4B;margin-top: 12px; }
+.topCon .accountCon .accountBox .accountDetailBox .accountDetail p:nth-child(2){ width: 70%; text-align: right; }
+
