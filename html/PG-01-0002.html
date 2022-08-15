@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>레오파트라</title>
+	<meta name="keywords" content="레오파트라">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="../asset/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="../asset/css/layout.css" />
+	<script type="text/javascript" src="../asset/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../asset/js/plugins.js"></script>
+	<script type="text/javascript" src="../asset/js/default.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			
+		});
+	</script>
+</head>
+<body>
+<!-- wrap : s -->
+<div class="wrap ">
+	<!-- header : s -->
+	<header id="header">
+		<div class="headerWrap">
+			<h1 class="logo"><a href="#">로고</a></h1>
+			<div id="gnb">
+				<ul class="gnbArea">
+					<li class="gnbDep1">
+						<a href="#">About</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Market</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">MyPage</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Notice</a>
+					</li>
+				</ul>
+			</div>
+			<div class="utilWrap">
+				<button class="btnsLogin">
+					<span>로그인</span>
+				</button>
+			</div>
+		</div>
+	</header>
+	<!-- header : e -->
+	<!-- container : s -->
+	<div class="container">
+		<div class="contWrap">
+      <!--  -->
+      <div class="collectionRegi">
+        <div class="innerCon">
+          <p class="title fontB">소장품 등록</p>
+          <div class="infoCon">
+            <div class="con01">
+              <div class="infoTitle">1. 소장품 정보</div>
+              <div class="col">
+                <p class="dl">이미지 업로드</p>
+                <div class="dr">
+                  <div class="file">
+                    <button>파일 선택</button>
+                    <input type="text" placeholder="파일을 선택해 주세요.">
+                  </div>
+                  <p class="miniP">* 이미지 형식의 파일(JPG, PNG, GIF)만 올리실 수 있습니다.</p>
+                  <p class="miniP">* 사이즈 = 125*125 | 크기 = 5MB 이하</p>
+                </div>
+              </div>  
+              <div class="col">
+                <p class="dl">카테고리</p>
+                <div class="dr">
+                  <input type="text" placeholder="카테고리를 선택해주세요.">
+                </div>
+              </div>
+              <div class="col">
+                <p class="dl">이름</p>
+                <div class="dr">
+                  <input type="text" placeholder="이름을 입력해주세요.(최대 100자)">
+                </div>
+              </div>
+              <div class="col">
+                <p class="dl">설명</p>
+                <div class="dr">
+                  <textarea placeholder="설명을 입력해주세요. (최대 2000자)"></textarea>
+                </div>
+              </div>
+              <div class="col">
+                <p class="dl">제작자</p>
+                <div class="dr">
+                  <input type="text" placeholder="제작자명을 입력해주세요.">
+                </div>
+              </div>
+              <div class="col">
+                <p class="dl">제작연도</p>
+                <div class="dr">
+                  <input type="text" placeholder="제작연도를 입력해주세요.">
+                </div>
+              </div>
+              <div class="col">
+                <p class="dl">관련링크</p>
+                <div class="dr">
+                  <input type="text" placeholder="링크를 입력해주세요.">
+                </div>
+              </div>
+            </div>  
+            <div class="con02">
+              <div class="infoTitle">2. 조각 발행 정보</div>
+              <div class="col">
+                <p class="dl">입력방식</p>
+                <div class="dr radioDr">
+                  <input type="radio" id="radi01" name="radInput01" class="radioInput">
+                  <label for="radi01">발행수량</label>
+                  <input type="radio" id="radi02" name="radInput01" class="radioInput">
+                  <label for="radi02">개당가격</label>
+                  <p class="miniP">* 총 금액과 총 발행 수량 입력 시 개당 가격이 (총 금액 / 총 발행 수량) 으로 정해집니다.</p>
+                </div>
+              </div>  
+              <div class="col">
+                <p class="dl">총 금액</p>
+                <div class="dr">
+                  <input type="text" placeholder="금액을 입력해주세요.">
+                </div>
+              </div>
+              <div class="col">
+                <p class="dl">총 발행 수량</p>
+                <div class="dr">
+                  <input type="text" placeholder="수량을 입력해주세요">
+                </div>
+              </div>
+              <div class="col">
+                <p class="dl">개당 가격</p>
+                <div class="dr">
+                  <input placeholder="0" class="readonlyBox" readonly></input>
+                </div>
+              </div>
+              <div class="col">
+                <p class="dl">입력 방식</p>
+                <div class="dr radioDr">
+                  <input type="radio" id="radi03" name="radInput02" class="radioInput">
+                  <label for="radi03">발행수량</label>
+                  <input type="radio" id="radi04" name="radInput02" class="radioInput">
+                  <label for="radi04">개당가격</label>
+                  <p class="miniP">* 총 금액과 총 발행 수량 입력 시 개당 가격이 (총 금액 / 총 발행 수량) 으로 정해집니다.</p>
+                </div>
+              </div>
+              <div class="col">
+                <p class="dl">총 금액</p>
+                <div class="dr">
+                  <input type="text" placeholder="금액을 입력해주세요.">
+                </div>
+              </div>
+              <div class="col">
+                <p class="dl">총 발행 수량</p>
+                <div class="dr">
+                  <input type="text" class="readonlyBox" placeholder="0" readonly>
+                </div>
+              </div>
+              <div class="col">
+                <p class="dl">개당 가격</p>
+                <div class="dr">
+                  <input type="text" placeholder="개당 가격을 입력해주세요.">
+                </div>
+              </div>
+              <div class="col">
+                <p class="dl">청산 예정일</p>
+                <div class="dr">
+                  <input type="text">
+                  <img src="/asset/images/calendar.png" class="calendar" alt="청산 예정일">
+                </div>
+              </div>
+            </div>  
+            <button class="buyBtn">구매하기</button>
+          </div>
+        </div>
+      </div>
+		</div>
+	</div>
+	<!-- container : e -->
+	<!-- footer : s -->
+	<footer id="footer">
+		<div class="footerWrap">
+			<div class="footerTop">
+				<p class="footedlogo">모로보기</p>
+				<div class="footerMenu">
+					<a href="#">회사소개</a>
+					<a href="#">이용약관</a>
+					<a href="#" class="privacy">개인정보취급방침</a>
+					<a href="#">고객센터</a>
+					<a href="#">제휴문의</a>
+				</div>
+			</div>
+			<div class="footerBtm">
+				<div class="footerInfo">
+					<p>주소 : 서울특별시 강남구 선릉로 704 청담벤처프라자 10 층 1016 호</p>
+					<p>전화 : 02 000 0000 | 이메일 : exam@morrowbogi.com</p>
+					<p>상호 : ㈜ 모로보기 | 대표이사 : 신광호 | 사업자등록번호 000 00 00000 | 통신판매업 : 제 0000 서울강남 00000 호</p>
+				</div>
+				<p class="copyright">Ⓒ Copyright ⓒ 2021 by MORROWBOGI. All rights reserved.</p>
+				<div class="footedlink">
+					<a href="#" class="ico kakao">카카오</a>
+					<a href="#" class="ico youtube">유튜브</a>
+					<a href="#" class="ico instagram">인스타그램</a>
+					<a href="#" class="ico facebook">페이스북</a>
+					<a href="#" class="ico tweeter">트위터</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer : e -->
+</div>
+<!-- wrap : e -->
+</body>
+</html>
