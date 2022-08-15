@@ -1930,6 +1930,11 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .layerPop#purchasePiece .btnArea .btns.mid { height: 60px; line-height: 60px; padding: 0; margin-top: 78px;}
 .layerPop#purchasePiece .btnArea .btns.mid span{ font-size: 22px; font-weight: 500;}
 
+.popupBtnBox { width: 100%;  display: flex;}
+.popupBtnBox button { width: 50%; height: 60px; font-size: 22px;}
+.popupBtnBox button.fffBtn{ border: 1px solid #506FB3; color: #506FB3;}
+.popupBtnBox button.blueBtn{ background-color: #506FB3; color: #fff;}
+
 
 /* MY Page 공통 */
 .horLineBox { display: flex; }
@@ -2026,7 +2031,20 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #auctionRegi .secondBox .iconInput img.arrowIcon { position: absolute; top: 50%; right: 17px; transform: translateY(-50%);}
 #auctionRegi .secondBox .iconInput + .iconInput { margin-top: 14px;}
 
-.popupBtnBox { width: 100%;  display: flex;}
-.popupBtnBox button { width: 50%; height: 60px; font-size: 22px;}
-.popupBtnBox button.fffBtn{ border: 1px solid #506FB3; color: #506FB3;}
-.popupBtnBox button.blueBtn{ background-color: #506FB3; color: #fff;}
+/* PG-01-0004P */
+#auctionStatus .layerPopArea { width: 650px;}
+#auctionStatus .popCont { padding: 0 65px 0 70px;}
+#auctionStatus .ownerItem { padding: 20px 0;}
+#auctionStatus .ownerItem .info{ width: calc(498px - 250px); padding-left: 35px;}
+#auctionStatus .secondBox { height: auto; padding: 15px 0 35px 0;}
+#auctionStatus .dl { font-size: 16px; color: #535353;}
+#auctionStatus .secondBox .dr { position: relative; font-size: 18px;}
+#auctionStatus .secondBox .dr img { position: absolute; top: 50%; right: 11px; transform: translateY(-50%);}
+#auctionStatus .secondBox .dr img.arrowIcon { position: absolute; top: 50%; right: 17px; transform: translateY(-50%);}
+#auctionStatus .secondBox .arrowSel { border: 1px solid #BFBFBF; line-height: 46px; padding-left: 20px;}
+#auctionStatus .tblData table { border-bottom: 1px solid #BDBDBD; margin-bottom: 55px;}
+#auctionStatus .tblData table thead th { height: 38px; text-align: left; padding:0; font-size: 14px; border-top: 1px solid #BDBDBD;border-bottom: 1px solid #BDBDBD;}
+#auctionStatus table tbody .item { font-size: 14px;}
+#auctionStatus table tbody .item .cell:nth-child(1){ width:228px;}
+#auctionStatus table tbody .item .cell:nth-child(2){ width:200px;}
+#auctionStatus table tbody .item .cell:nth-child(3){ width:70px}
