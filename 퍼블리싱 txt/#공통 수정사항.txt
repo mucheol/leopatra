@@ -4,3 +4,5 @@ commmon.css 공통수정
 
 laytout.css 공통수정
 - 미디어쿼리 삭제
+
+ common.css 하단에 css수정, 신규 내역 전부 있습니다.
