@@ -1981,6 +1981,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .mainCon .situationBox02 input{ width: 24px; height: 24px; margin-left: 22px; margin-right: 13px;}
 .mainCon .situationBox02 label{ font-size: 18px; line-height: 24px;}
 
+/* PG-01-0001 */
 .collectionTbl { margin-top: 106px;}
 .collectionTbl table thead th { background-color: #fff; border-bottom: 1px solid #C5C5C5;}
 .collectionTbl table { border-top: 2px solid #171717;}
@@ -1997,7 +1998,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .collectionTbl .horLineBox { font-size: 14px;}
 .collectionTbl .horLineBox .horLine{ background-color: #868686; margin: 1px 10px;}
 .collectionTbl .situCell { display: flex; flex-wrap: wrap; justify-content: center;}
-.collectionTbl .situCell .situDetailItem {display: flex; justify-content: center; align-items: center; width: 100px; height: 40px; margin: 2px; font-size: 14px; border: 1px solid #D3D3D3;}
+.collectionTbl .situCell .situDetailItem {display: flex; justify-content: center; align-items: center; width: 100px; height: 40px; line-height: 40px; margin: 2px; font-size: 14px; border: 1px solid #D3D3D3;}
 
 /* PG-01-0002 */
 .collectionRegi .title {  width: 100%; font-size: 24px; line-height: 35px; padding-bottom: 23px; border-bottom: 1px solid #000;}
@@ -2064,3 +2065,9 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #splitPieces .secondBox .arrowSel { position: relative;}
 #splitPieces .dr p { width: auto;}
 #splitPieces .dr img.arrR { position: relative; top:-2px; right: 0; transform: none; padding: 0 10px;}
+
+/* PG-01-0006 */
+#collectManage .collectionTbl table tbody .item .cell:nth-child(1){ width: 410px; text-align: left; display: flex; margin-left: 20px;}
+#collectManage .collectionTbl table tbody .item .cell:nth-child(2){ width: 220px; display: table-cell; text-align: center;;}
+#collectManage .collectionTbl table tbody .item .cell:nth-child(3){ width: 220px;}
+#collectManage .collectionTbl table tbody .item .cell:nth-child(4){ width: 162px;}
