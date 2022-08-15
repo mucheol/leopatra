@@ -1823,6 +1823,33 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .innerCon { width: 1300px; margin: 0 auto;}
 .dP {display: flex;}
 
+/* 팝업창 공통 */
+.popupCon .layerPopArea { width: auto; margin: 0 auto;}
+.popupCon .popCont { width: 653px; height: 677px; padding: 0 67.7px 0; max-height: none; font-size: 18px; overflow: hidden;}
+.popupCon .topTitle { font-size: 28px; font-weight: 700; height:100px; margin:0; line-height: 100px; border-bottom: 1px solid #000;}
+.popupCon .ownerItem { width: 100%; border: none; padding:45px 0; border-bottom: 1px solid #000;}
+.popupCon .ownerItem .thumb { width: 250px; height: 250px;}
+.popupCon .ownerItem .info { position: relative; width: calc(517.63px - 250px); height: 287px; padding-left: 38.5px;}
+.popupCon .ownerItem .info .name { font-size: 18px; color: #A7A7A7; padding-top: 50px;}
+.popupCon .ownerItem .info .title { max-height: 101px; font-size: 24px; line-height: 32px; padding-top: 5px; margin-bottom: 14px;}
+.popupCon .ownerItem .info .item { font-size: 16px; color:#2B2B2B}
+.popupCon .ownerItem .info .subInfo {display: flex;}
+.popupCon .ownerItem .info .subInfo + .subInfo {position: absolute; bottom: 55px;}
+.popupCon .ownerItem .info .subInfo p { font-size: 18px; font-weight: 700; color: #2B2B2B; }
+.popupCon .secondBox { width: 100%; height: 150px; padding: 15px 0;}
+.popupCon .secondBox .secondDiv { display: flex; }
+.popupCon .secondBox .secondDiv p {height: 30px; line-height: 30px; font-size: 22px; margin: 15px 0;}
+.popupCon .btnArea { width: 653px; margin-left: -67.5px; margin-top: 0;}
+.popupCon .btnArea .noticeP { width: 653px; height: 77.5px; line-height: 77.5px; font-size: 20px; font-weight: 400; text-align: center; padding: 0 67.7px;}
+.popupCon .btnArea.colum > span { width: 50%; padding-left: 0;}
+.popupCon .btnArea .btns.mid { height: 60px; line-height: 60px; padding: 0; margin-top: 78px;}
+.popupCon .btnArea .btns.mid span{ font-size: 22px; font-weight: 500;}
+.popupCon .col { display: flex; width: 100%; min-height: 46px; padding: 11px 0;}
+.popupCon .dl {display: flex; width: 170px; font-size: 20px; font-weight: 500; line-height: 46px;}
+.popupCon .dr { position: relative; width: 100%;}
+.popupCon .dr p {width: 100%; height: 100%; line-height: 46px;}
+.popupCon .dr input{ width: 100%; height: 46px; padding-left: 18px; font-size: 16px; border: 1px solid #BFBFBF;}
+
 /* Market */
 .market .boardTop .total::after { position: absolute; content: ""; width: 1px; height: 22.54px; margin-top: 3px; margin-left: 30px; background-color: #000;}
 .market .contWrap { background-color: #fff; padding: 0 0 100px 0;}
@@ -1888,8 +1915,8 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .layerPop#purchasePiece .ownerItem .info .item { font-size: 16px; color:#2B2B2B}
 .layerPop#purchasePiece .ownerItem .info .subInfo {display: flex;}
 .layerPop#purchasePiece .ownerItem .info .subInfo + .subInfo {position: absolute; bottom: 55px;}
-.layerPop#purchasePiece .ownerItem .info .subInfo .piece { font-size: 18px; font-weight: 500; color: #2B2B2B; }
-.layerPop#purchasePiece .ownerItem .info .subInfo .price { font-size: 18px; font-weight: 700; color: #2B2B2B; }
+.layerPop#purchasePiece .ownerItem .info .subInfo p { font-size: 18px; font-weight: 700; color: #2B2B2B; }
+.layerPop#purchasePiece .ownerItem .info .subInfo .piece {font-weight: 500;}
 
 .layerPop#purchasePiece .resultBox { width: 100%; height: 150px; padding: 15px 0; border-bottom: 1px solid #000;}
 .layerPop#purchasePiece .resultBox .resultDiv { display: flex; justify-content: space-between; }
@@ -1985,3 +2012,21 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .collectionRegi .infoCon .readonlyBox { background-color: #E9E9E9;}
 .collectionRegi .infoCon .calendar {position: absolute; top: 50%; left: 19px; transform: translateY(-50%); width: 24px; height: 24px;}
 .collectionRegi .buyBtn { display: flex; justify-content: center; align-items: center; width: 545px; height: 70px; background-color: #506FB3; color: #fff; font-size: 20px; font-weight: 700; margin-left: 147.77px;}
+
+
+/* PG-01-0003P */
+#auctionRegi .layerPopArea { width: 650px;}
+#auctionRegi .popCont { padding: 0 65px 0 70px;}
+#auctionRegi .ownerItem { padding: 20px 0;}
+#auctionRegi .ownerItem .info{ width: calc(498px - 250px); padding-left: 35px;}
+#auctionRegi .secondBox { height: auto; padding: 15px 0 35px 0;}
+#auctionRegi .dl { font-size: 16px; color: #535353;}
+#auctionRegi .secondBox .iconInput { position: relative; }
+#auctionRegi .secondBox .iconInput img { position: absolute; top: 50%; right: 11px; transform: translateY(-50%);}
+#auctionRegi .secondBox .iconInput img.arrowIcon { position: absolute; top: 50%; right: 17px; transform: translateY(-50%);}
+#auctionRegi .secondBox .iconInput + .iconInput { margin-top: 14px;}
+
+.popupBtnBox { width: 100%;  display: flex;}
+.popupBtnBox button { width: 50%; height: 60px; font-size: 22px;}
+.popupBtnBox button.fffBtn{ border: 1px solid #506FB3; color: #506FB3;}
+.popupBtnBox button.blueBtn{ background-color: #506FB3; color: #fff;}
