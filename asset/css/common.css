@@ -2008,6 +2008,8 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .collectionRegi .infoCon { padding-left: 170px;}
 .collectionRegi .infoCon .infoTitle { font-size: 24px; font-weight: 600; padding-bottom: 30px;}
 .collectionRegi .infoCon .col {  display: flex; width: 100%; min-height: 46px; padding: 11px 0;}
+.collectionRegi .infoCon .col:nth-child(2) { padding: 11px 0 0 0;}
+.collectionRegi .infoCon .col:nth-child(6) { padding: 11px 0 0 0;}
 .collectionRegi .infoCon .con01, .collectionRegi .infoCon .con02 {padding: 40px 0;}
 .collectionRegi .infoCon .dl {display: flex; width: 170px; font-size: 20px; font-weight: 500; line-height: 46px;}
 .collectionRegi .infoCon .dr { position: relative; width: 100%;}
