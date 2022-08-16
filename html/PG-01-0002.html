@@ -72,7 +72,9 @@
               <div class="col">
                 <p class="dl">카테고리</p>
                 <div class="dr">
-                  <input type="text" placeholder="카테고리를 선택해주세요.">
+                  <select name="" id="" class="selBox">
+                    <option value="카테고리를 선택해주세요">카테고리를 선택해주세요</option>
+                  </select>
                 </div>
               </div>
               <div class="col">
@@ -111,9 +113,9 @@
               <div class="col">
                 <p class="dl">입력방식</p>
                 <div class="dr radioDr">
-                  <input type="radio" id="radi01" name="radInput01" class="radioInput">
+                  <input type="radio" id="radi01" name="radInput" value="1" class="radioInput" checked>
                   <label for="radi01">발행수량</label>
-                  <input type="radio" id="radi02" name="radInput01" class="radioInput">
+                  <input type="radio" id="radi02" name="radInput" value="2" class="radioInput">
                   <label for="radi02">개당가격</label>
                   <p class="miniP">* 총 금액과 총 발행 수량 입력 시 개당 가격이 (총 금액 / 총 발행 수량) 으로 정해집니다.</p>
                 </div>
@@ -127,52 +129,24 @@
               <div class="col">
                 <p class="dl">총 발행 수량</p>
                 <div class="dr">
-                  <input type="text" placeholder="수량을 입력해주세요">
+                  <input type="text" name="issuedQuantity" placeholder="수량을 입력해주세요">
                 </div>
               </div>
               <div class="col">
                 <p class="dl">개당 가격</p>
                 <div class="dr">
-                  <input placeholder="0" class="readonlyBox" readonly></input>
+                  <input type="text" placeholder="0" name="pricePerPiece" class="readonlyBox" disabled>
                 </div>
               </div>
-              <div class="col">
-                <p class="dl">입력 방식</p>
-                <div class="dr radioDr">
-                  <input type="radio" id="radi03" name="radInput02" class="radioInput">
-                  <label for="radi03">발행수량</label>
-                  <input type="radio" id="radi04" name="radInput02" class="radioInput">
-                  <label for="radi04">개당가격</label>
-                  <p class="miniP">* 총 금액과 총 발행 수량 입력 시 개당 가격이 (총 금액 / 총 발행 수량) 으로 정해집니다.</p>
-                </div>
-              </div>
-              <div class="col">
-                <p class="dl">총 금액</p>
-                <div class="dr">
-                  <input type="text" placeholder="금액을 입력해주세요.">
-                </div>
-              </div>
-              <div class="col">
-                <p class="dl">총 발행 수량</p>
-                <div class="dr">
-                  <input type="text" class="readonlyBox" placeholder="0" readonly>
-                </div>
-              </div>
-              <div class="col">
-                <p class="dl">개당 가격</p>
-                <div class="dr">
-                  <input type="text" placeholder="개당 가격을 입력해주세요.">
-                </div>
-              </div>
-              <div class="col">
+              <div class="col"  id="cheongsan">
                 <p class="dl">청산 예정일</p>
                 <div class="dr">
-                  <input type="text">
+                  <input type="text" name="calendar">
                   <img src="/asset/images/calendar.png" class="calendar" alt="청산 예정일">
                 </div>
               </div>
             </div>  
-            <button class="buyBtn">구매하기</button>
+            <button class="buyBtn">등록하기</button>
           </div>
         </div>
       </div>

@@ -657,3 +657,22 @@ $(function(){
 	videoUI();
 	toolTipLayer();
 });
+
+// PG-01-0002
+$(document).ready(function(){
+$("input:radio[name=radInput]").click(function(){
+    if($("input[name=radInput]:checked").val() == "1"){
+      $("input:text[name=issuedQuantity]").attr("disabled",false);
+      $("input:text[name=issuedQuantity]").attr("placeholder","수량을 입력해주세요.");
+      $("input:text[name=pricePerPiece]").attr("disabled",true);
+      $("input:text[name=pricePerPiece]").attr("placeholder","0");
+      $("#cheongsan").removeClass('on');
+    }else if($("input[name=radInput]:checked").val() == "2"){
+      $("input:text[name=issuedQuantity]").attr("disabled",true);
+      $("input:text[name=issuedQuantity]").attr("placeholder","0");
+      $("input:text[name=pricePerPiece]").attr("disabled",false);
+      $("input:text[name=pricePerPiece]").attr("placeholder","개당 가격을 입력해주세요.");
+      $("#cheongsan").addClass('on');
+    }
+  });
+});
