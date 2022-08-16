@@ -2032,12 +2032,8 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .collectionRegi .infoCon .calendar {position: absolute; top: 50%; left: 19px; transform: translateY(-50%); width: 24px; height: 24px;}
 .collectionRegi .buyBtn { display: flex; justify-content: center; align-items: center; width: 545px; height: 70px; background-color: #506FB3; color: #fff; font-size: 20px; font-weight: 700; margin-left: 147.77px;}
 input[type="text"]:disabled { background-color: #E9E9E9;}
-#cheongsan {
-  display: none;
-}
-#cheongsan.on {
-  display: flex;
-}
+#cheongsan { display: none;}
+#cheongsan.on { display: flex;}
 
 /* PG-01-0003P */
 #auctionRegi .layerPopArea { width: 650px;}
@@ -2051,6 +2047,7 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #auctionRegi .secondBox .iconInput img { position: absolute; top: 50%; right: 11px; transform: translateY(-50%);}
 #auctionRegi .secondBox .iconInput img.arrowIcon { position: absolute; top: 50%; right: 17px; transform: translateY(-50%);}
 #auctionRegi .secondBox .iconInput + .iconInput { margin-top: 14px;}
+#auctionRegi .selBox{ margin-top: 11px;}
 
 /* PG-01-0004P */
 #auctionStatus .layerPopArea { width: 650px;}
