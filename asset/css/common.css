@@ -2001,7 +2001,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .collectionTbl .horLineBox { font-size: 14px;}
 .collectionTbl .horLineBox .horLine{ background-color: #868686; margin: 1px 10px;}
 .collectionTbl .situCell { display: flex; flex-wrap: wrap; justify-content: center;}
-.collectionTbl .situCell .situDetailItem {display: flex; justify-content: center; align-items: center; width: 100px; height: 40px; line-height: 40px; margin: 2px; font-size: 14px; border: 1px solid #D3D3D3;}
+.collectionTbl .situCell .situDetailItem {display: flex; justify-content: center; align-items: center; width: 100px; height: 40px; background-color: #fff; line-height: 40px; margin: 2px; font-size: 14px; border: 1px solid #D3D3D3;}
 
 /* PG-01-0002 */
 .collectionRegi .title {  width: 100%; font-size: 24px; line-height: 35px; padding-bottom: 23px; border-bottom: 1px solid #000;}
