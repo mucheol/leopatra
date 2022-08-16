@@ -658,8 +658,8 @@ $(function(){
 	toolTipLayer();
 });
 
-// PG-01-0002
 $(document).ready(function(){
+  // PG-01-0002
 $("input:radio[name=radInput]").click(function(){
     if($("input[name=radInput]:checked").val() == "1"){
       $("input:text[name=issuedQuantity]").attr("disabled",false);
@@ -675,4 +675,14 @@ $("input:radio[name=radInput]").click(function(){
       $("#cheongsan").addClass('on');
     }
   });
+  
+  //PG-01-0008P
+  $('#searchIdInput').on('change keyup',function(){
+    if($('#searchIdInput').val() == ''){
+      console.log('efkwj')
+      $('#searchIdBtn').removeClass('on')
+    }else {
+      $('#searchIdBtn').addClass('on')
+    }
+  })
 });
