@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>레오파트라</title>
+	<meta name="keywords" content="레오파트라">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="../asset/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="../asset/css/layout.css" />
+	<script type="text/javascript" src="../asset/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../asset/js/plugins.js"></script>
+	<script type="text/javascript" src="../asset/js/default.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			
+		});
+	</script>
+</head>
+<body>
+<!-- wrap : s -->
+<div class="wrap ">
+	<!-- header : s -->
+	<header id="header">
+		<div class="headerWrap">
+			<h1 class="logo"><a href="#">로고</a></h1>
+			<div id="gnb">
+				<ul class="gnbArea">
+					<li class="gnbDep1">
+						<a href="#">About</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Market</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">MyPage</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Notice</a>
+					</li>
+				</ul>
+			</div>
+			<div class="utilWrap">
+				<button class="btnsLogin">
+					<span>로그인</span>
+				</button>
+			</div>
+		</div>
+	</header>
+	<!-- header : e -->
+	<!-- container : s -->
+	<div class="container">
+		<div class="contWrap">
+      <!-- MYPage 공통 -->
+      <div class="innerCon dP">
+        <div class="snb">
+          <p class="snbTitle">My Page</p>
+          <ul>
+            <li>보유 현황</li>
+            <li>소장품 관리</li>
+            <li class="colorText1 fontB">조각 관리</li>
+            <li>구매 내역</li>
+          </ul>
+          <ul>
+            <li>MY 찜</li>
+            <li>관심 소장품</li>
+          </ul>
+          <ul>
+            <li>MY 포인트</li>
+            <li>포인트 현황</li>
+            <li>대기금 내역</li>
+          </ul>
+          <ul>
+            <li>MY 정보</li>
+            <li>회원정보 수정</li>
+          </ul>
+        </div>
+        <div class="inner-rightCon">
+          <div class="topCon">
+            <div class="accountCon">
+              <div class="accountBox">
+                <div class="photoBox fl" >
+                  <img src="" alt="이미지">
+                </div>
+                <div class="accountInfo fl">
+                  <p class="accountId">Chamsori</p>
+                  <p class="accountEmail">Chamsori@gmail.com</p>
+                  <div class="accountBtn horLineBox">
+                    <p>회원구분</p>
+                    <span class="horLine"></span>
+                    <p>소장자</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accountBox">
+                <p class="title fontB">보유 현황</p>
+                <div class="accountDetailBox">
+                  <div class="accountDetail">
+                    <p>소장품</p>
+                    <p class="colorText1 fontR">4개</p>
+                  </div>
+                  <div class="accountDetail">
+                    <p>조각</p>
+                    <p class="colorText1 fontR">1,200개</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accountBox">
+                <p class="title fontB">포인트</p>
+                <div class="accountDetailBox">
+                  <div class="accountDetail">
+                    <p>가용 포인트</p>
+                    <p class="colorText1 fontR">1,500,000 P</p>
+                  </div>
+                  <div class="accountDetail">
+                    <p>대기 포인트</p>
+                    <p class="colorText1 fontR">500,000 P</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 콘텐츠 상세 -->
+          <div class="mainCon" id="pg010009">
+            <div class="titleBox">
+              <p class="mainTitle fontB">조각 관리</p>
+            </div>
+            <div class="situationBox fl">
+              <p>보유 중</p>
+              <p class="active">청산 완료</p>
+            </div>
+            <div class="situationBox02 fl">
+              <p class="fontB">총 4개</p>
+            </div>
+
+            <div class="tblData selectTbl collectionTbl">
+              <table>
+                <colgroup>
+                  <col style="width:250px;">
+                  <col style="width:180px;">
+                  <col style="width:130px;">
+                  <col style="width:130px;">
+                  <col style="width:130px;">
+                  <col style="width:130px;">
+                </colgroup>
+                <thead>
+                <tr>
+                  <th scope="col">소장품 정보</th>
+                  <th scope="col">보유 조각<br/><span class="littleP">(조각 평균금액)</span></th>
+                  <th scope="col">청산금액<br/><span class="littleP">(개당)</span></th>
+                  <th scope="col">수익율</th>
+                  <th scope="col">청산일</th>
+                  <th scope="col">상태</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="6">
+                      <div class="item"><!-- 선택시 클래스 active 추가 -->
+                        <a href="#">
+                          <div class="cell">
+                            <div class="cellInfoImg">
+                              <img src="" alt="이미지">
+                            </div>
+                            <div class="cellInfoDes">
+                              <p class="classification colorText3">전구</p>
+                              <p class="title">최초의 전구</p>
+                              <div class="horLineBox">
+                                <p class="colorText3">토마스 에디슨</p>
+                                <span class="horLine"></span>
+                                <p class="colorText3">1901</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">3,500 / 5,000<br>(3,000 원)</div>
+                          <div class="cell">5,000 원</div>
+                          <div class="cell colorText2">+66.7%</div>
+                          <div class="cell">2022.07.20</div>
+                          <div class="cell">
+                            <div class="situCell">
+                              <div class="situDetailItem">청산 결과</div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="item">
+                        <a href="#">
+                          <div class="cell">
+                            <div class="cellInfoImg">
+                              <img src="" alt="이미지">
+                            </div>
+                            <div class="cellInfoDes">
+                              <p class="classification colorText3">축음기</p>
+                              <p class="title">아이텔리아 포노그래프 스탠다드</p>
+                              <div class="horLineBox">
+                                <p class="colorText3">토마스 에디슨</p>
+                                <span class="horLine"></span>
+                                <p class="colorText3">1901</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">1,500 / 2,000<br>(2,000 원)</div>
+                          <div class="cell">4,000 원</div>
+                          <div class="cell colorText2">+100%</div>
+                          <div class="cell">2022.07.20</div>
+                          <div class="cell">
+                            <div class="situCell">
+                              <div class="situDetailItem">청산 결과</div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="item">
+                        <a href="#">
+                          <div class="cell">
+                            <div class="cellInfoImg">
+                              <img src="" alt="이미지">
+                            </div>
+                            <div class="cellInfoDes">
+                              <p class="classification colorText3">전구</p>
+                              <p class="title">최초의 전구</p>
+                              <div class="horLineBox">
+                                <p class="colorText3">토마스 에디슨</p>
+                                <span class="horLine"></span>
+                                <p class="colorText3">1901</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">3,500 / 5,000<br>(3,000 원)</div>
+                          <div class="cell">5,000 원</div>
+                          <div class="cell colorText4">-33.3%</div>
+                          <div class="cell">2022.07.20</div>
+                          <div class="cell">
+                            <div class="situCell">
+                              <div class="situDetailItem">청산 결과</div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="item">
+                        <a href="#">
+                          <div class="cell">
+                            <div class="cellInfoImg">
+                              <img src="" alt="이미지">
+                            </div>
+                            <div class="cellInfoDes">
+                              <p class="classification colorText3">전구</p>
+                              <p class="title">최초의 전구</p>
+                              <div class="horLineBox">
+                                <p class="colorText3">토마스 에디슨</p>
+                                <span class="horLine"></span>
+                                <p class="colorText3">1901</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">3,500 / 5,000<br>(3,000 원)</div>
+                          <div class="cell">5,000 원</div>
+                          <div class="cell">0%</div>
+                          <div class="cell">2022.07.20</div>
+                          <div class="cell">
+                            <div class="situCell">
+                              <div class="situDetailItem">청산 결과</div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </div>
+      </div>
+		</div>
+	</div>
+	<!-- container : e -->
+	<!-- footer : s -->
+	<footer id="footer">
+		<div class="footerWrap">
+			<div class="footerTop">
+				<p class="footerLogo">모로보기</p>
+				<div class="footerMenu">
+					<a href="#">회사소개</a>
+					<a href="#">이용약관</a>
+					<a href="#" class="privacy">개인정보취급방침</a>
+					<a href="#">고객센터</a>
+					<a href="#">제휴문의</a>
+				</div>
+			</div>
+			<div class="footerBtm">
+				<div class="footerInfo">
+					<p>주소 : 서울특별시 강남구 선릉로 704 청담벤처프라자 10 층 1016 호</p>
+					<p>전화 : 02 000 0000 | 이메일 : exam@morrowbogi.com</p>
+					<p>상호 : ㈜ 모로보기 | 대표이사 : 신광호 | 사업자등록번호 000 00 00000 | 통신판매업 : 제 0000 서울강남 00000 호</p>
+				</div>
+				<p class="copyright">Ⓒ Copyright ⓒ 2021 by MORROWBOGI. All rights reserved.</p>
+				<div class="footerLink">
+					<a href="#" class="ico kakao">카카오</a>
+					<a href="#" class="ico youtube">유튜브</a>
+					<a href="#" class="ico instagram">인스타그램</a>
+					<a href="#" class="ico facebook">페이스북</a>
+					<a href="#" class="ico tweeter">트위터</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer : e -->
+</div>
+<!-- wrap : e -->
+</body>
+</html>

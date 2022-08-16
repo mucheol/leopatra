@@ -439,6 +439,7 @@ textarea.textarea.answer:read-only{background:#F3F5FF;}
 .colorText1 {color:#506FB3 !important}
 .colorText2 {color:#FF0000 !important}
 .colorText3 {color:#939393 !important}
+.colorText4 {color:#005A9A !important}
 .dotText {position:relative;font-size:21px;padding-left:20px;}
 .dotText:before {content:"";width:4px;height:4px;position:absolute;left:0;top:10px;background:#FF0000;border-radius:50%;}
 
@@ -1995,7 +1996,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 
 /* PG-01-0001 */
 .collectionTbl { margin-top: 106px;}
-.collectionTbl table thead th { background-color: #fff; border-bottom: 1px solid #C5C5C5;}
+.collectionTbl table thead th { background-color: #fff; border-bottom: 1px solid #C5C5C5; font-weight: 500;}
 .collectionTbl table { border-top: 2px solid #171717;}
 .collectionTbl table tbody td {padding: 0 !important; }
 .collectionTbl table tbody .item:nth-child(odd) { background-color: #F9F9F9;}
@@ -2089,13 +2090,13 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 
 /* PG-01-0006 */
 #collectManage .collectionTbl table tbody .item .cell:nth-child(1){ width: 410px; text-align: left; display: flex; margin-left: 20px;}
-#collectManage .collectionTbl table tbody .item .cell:nth-child(2){ width: 237px; display: table-cell; text-align: center;;}
+#collectManage .collectionTbl table tbody .item .cell:nth-child(2){ width: 237px; display: table-cell; text-align: center;}
 #collectManage .collectionTbl table tbody .item .cell:nth-child(3){ width: 270px;}
 #collectManage .collectionTbl table tbody .item .cell:nth-child(4){ width: 162px;}
 
 /* PG-01-0007 */
 #pieceManage .collectionTbl table tbody .item .cell:nth-child(1){ width: 410px; text-align: left; display: flex; margin-left: 20px;}
-#pieceManage .collectionTbl table tbody .item .cell:nth-child(2){ width: 237px; display: table-cell; text-align: center;;}
+#pieceManage .collectionTbl table tbody .item .cell:nth-child(2){ width: 237px; display: table-cell; text-align: center;}
 #pieceManage .collectionTbl table tbody .item .cell:nth-child(3){ width: 270px;}
 #pieceManage .collectionTbl table tbody .item .cell:nth-child(4){ width: 162px;}
 
@@ -2129,3 +2130,12 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #pg010008pId02 .popCont .dr { display: flex; justify-content: left; align-items: center; font-size: 18px;}
 #pg010008pId02 .popCont .dr input{ width: 78%;}
 #pg010008pId02 .popupBtnBox button { width: 100%;}
+
+/* PG-01-0009 */
+#pg010009 .collectionTbl table tbody .item .cell:nth-child(1){ width: 250px; text-align: left; display: flex; margin-left: 20px;}
+#pg010009 .collectionTbl table tbody .item .cell:nth-child(2){ width: 180px; display: table-cell; text-align: center;}
+#pg010009 .collectionTbl table tbody .item .cell:nth-child(3){ width: 130px;}
+#pg010009 .collectionTbl table tbody .item .cell:nth-child(4){ width: 130px;}
+#pg010009 .collectionTbl table tbody .item .cell:nth-child(5){ width: 130px;}
+#pg010009 .collectionTbl table tbody .item .cell:nth-child(6){ width: 130px;}
+#pg010009 .littleP { font-size: 14px;}
