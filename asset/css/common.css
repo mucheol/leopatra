@@ -2053,10 +2053,11 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #auctionStatus .ownerItem { padding: 20px 0;}
 #auctionStatus .ownerItem .info{ width: calc(498px - 250px); padding-left: 35px;}
 #auctionStatus .secondBox { height: auto; padding: 15px 0 35px 0;}
+#auctionStatus .secondBox .col {padding-top: 5px;}
 #auctionStatus .dl { font-size: 16px; color: #535353;}
 #auctionStatus .secondBox .dr { position: relative; font-size: 18px;}
 #auctionStatus .tblData table { border-bottom: 1px solid #BDBDBD; margin-bottom: 55px;}
-#auctionStatus .tblData table thead th { height: 38px; text-align: left; padding:0; font-size: 14px; border-top: 1px solid #BDBDBD;border-bottom: 1px solid #BDBDBD;}
+#auctionStatus .tblData table thead th { height: 38px; text-align: left; padding:0; font-size: 14px; border-top: 1px solid #BDBDBD;border-bottom: 1px solid #BDBDBD;background-color: transparent;}
 #auctionStatus table tbody .item { font-size: 14px;}
 #auctionStatus table tbody .item .cell:nth-child(1){ width:228px;}
 #auctionStatus table tbody .item .cell:nth-child(2){ width:200px;}
