@@ -2150,3 +2150,20 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #pg010010p.layerPop .popCont .col { padding-top: 0; padding: 3px 0;}
 #pg010010p.layerPop .popCont .dl { width: 100px; font-size: 16px; line-height: 46px; color: #535353;}
 #pg010010p.layerPop .popCont .dr { width: 80%; font-size: 18px; line-height: 46px; color: #000;}
+
+/* PG-01-0011 */
+#pg010011 .situationBox { width: calc(100% - 60px); margin-top: 26px; flex-direction: column;}
+#pg010011 .situationBox > div{ display: flex; flex-direction: row;}
+#pg010011 .situationBox button { width: 100px; height: 46px; font-size: 18px; font-weight: 500; color: #000; border: 1px solid #BFBFBF; margin-right: 6px;}
+#pg010011 .situationBox button.active, #pg010011 .situationBox button.searchBtn { border: 1px solid #506FB3; background-color: #506FB3; color: #fff;}
+#pg010011 .situationBox .calendarBox { width: 180px; height: 46px; border: 1px solid #BFBFBF; margin: 0 6px; padding-left: 19px; font-size: 18px; line-height: 46px; background: url(/asset/images/calendar.png) no-repeat 95% 50%;}
+#pg010011 .situationBox .wave { line-height: 46px;}
+#pg010011 .situationBox .miniP{ justify-content: flex-start; width: 100%; height: 20px; font-size: 14px; font-weight: 500; line-height: 20px; margin-top: 7px; margin-bottom: 6px; color: #6C6C6C; background-color: transparent;}
+#pg010011 .situationBox02 { width: 60px; margin-top: 52px; }
+
+#pg010011 .collectionTbl table tbody .item .cell:nth-child(1){ width: 150px; display: table-cell; text-align: center;}
+#pg010011 .collectionTbl table tbody .item .cell:nth-child(2){ width: 100px; display: table-cell; text-align: center;}
+#pg010011 .collectionTbl table tbody .item .cell:nth-child(3){ width: 310px; text-align: left; display: flex; margin-left: 20px;}
+#pg010011 .collectionTbl table tbody .item .cell:nth-child(4){ width: 160px;}
+#pg010011 .collectionTbl table tbody .item .cell:nth-child(5){ width: 100px;}
+#pg010011 .collectionTbl table tbody .item .cell:nth-child(6){ width: 130px;}
