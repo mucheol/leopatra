@@ -1986,8 +1986,8 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .mainCon .situationBox, .mainCon .situationBox02{ display: flex; width: 50%; margin-top: 52px;}
 .mainCon .situationBox p{display: flex; justify-content: center; align-items: center; width: 131px; height: 54px; font-size: 20px; color: #656565; background-color: #F0F0F0;}
 .mainCon .situationBox p.active { color: #fff; background-color: #506FB3; font-weight: 700;}
-.mainCon .situationBox02{justify-content: right; }
-.mainCon .situationBox02 p{ font-size: 22px; }
+.mainCon .situationBox02{justify-content: right; align-items: center;}
+.mainCon .situationBox02 p{ font-size: 22px; height: 54px; line-height: 54px;}
 .mainCon .situationBox02 input{ width: 24px; height: 24px; margin-left: 22px; margin-right: 13px;}
 .mainCon .situationBox02 label{ font-size: 18px; line-height: 24px;}
 
@@ -2090,3 +2090,9 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #collectManage .collectionTbl table tbody .item .cell:nth-child(2){ width: 237px; display: table-cell; text-align: center;;}
 #collectManage .collectionTbl table tbody .item .cell:nth-child(3){ width: 270px;}
 #collectManage .collectionTbl table tbody .item .cell:nth-child(4){ width: 162px;}
+
+/* PG-01-0007 */
+#pieceManage .collectionTbl table tbody .item .cell:nth-child(1){ width: 410px; text-align: left; display: flex; margin-left: 20px;}
+#pieceManage .collectionTbl table tbody .item .cell:nth-child(2){ width: 237px; display: table-cell; text-align: center;;}
+#pieceManage .collectionTbl table tbody .item .cell:nth-child(3){ width: 270px;}
+#pieceManage .collectionTbl table tbody .item .cell:nth-child(4){ width: 162px;}
