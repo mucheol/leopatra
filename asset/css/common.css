@@ -2064,6 +2064,7 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #auctionStatus table tbody .item .cell:nth-child(1){ width:228px;}
 #auctionStatus table tbody .item .cell:nth-child(2){ width:200px;}
 #auctionStatus table tbody .item .cell:nth-child(3){ width:70px}
+#auctionStatus .selBox {color: #000;}
 
 /* PG-01-0005P */
 #splitPieces .layerPopArea { width: 650px;}
@@ -2071,14 +2072,17 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #splitPieces .ownerItem { padding: 20px 0;}
 #splitPieces .ownerItem .info{ width: calc(498px - 250px); padding-left: 35px;}
 #splitPieces .secondBox { height: auto; padding: 15px 0;}
+#splitPieces .explanationBox { width: 100%; padding: 30px; font-size: 15px; background: #F3F3F3; color: #535353;}
+#splitPieces .explanationBox p {padding:3px 0;}
 #splitPieces .dl { width: 105px; font-size: 16px; color: #535353;}
-#splitPieces .secondBox .dr { position: relative; display: flex; align-items: baseline; font-size: 18px; }
+#splitPieces .secondBox .dr { position: relative; display: flex; align-items: baseline; font-size: 18px; line-height: 22px;}
 #splitPieces .secondBox .col:nth-child(1) .arrowSel {margin-left: 12px;}
 #splitPieces .secondBox .col:nth-child(2) .arrowSel:nth-child(2) {margin-left: 10px;}
 #splitPieces .secondBox .dr .iconInput { position: relative;}
 #splitPieces .secondBox .arrowSel { position: relative;}
 #splitPieces .dr p { width: auto;}
 #splitPieces .dr img.arrR { position: relative; top:-2px; right: 0; transform: none; padding: 0 10px;}
+#splitPieces .selBox {background: url(/asset/images/arr_select-gray.png) no-repeat 95% 50%; color: #000;}
 
 /* PG-01-0006 */
 #collectManage .collectionTbl table tbody .item .cell:nth-child(1){ width: 410px; text-align: left; display: flex; margin-left: 20px;}
