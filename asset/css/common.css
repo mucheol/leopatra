@@ -2139,3 +2139,14 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #pg010009 .collectionTbl table tbody .item .cell:nth-child(5){ width: 130px;}
 #pg010009 .collectionTbl table tbody .item .cell:nth-child(6){ width: 130px;}
 #pg010009 .littleP { font-size: 14px;}
+
+/* PG-01-0010P */
+#pg010010p.layerPop .layerPopArea { width: 650px;}
+#pg010010p.layerPop .popCont { padding: 0 70px; height: 640px;}
+#pg010010p.layerPop .popCont .ownerItem { padding: 35px 0;}
+#pg010010p.layerPop .popCont .ownerItem .info { width: auto;}
+#pg010010p.layerPop .popCont .ownerItem .info .title { max-width: 202px;}
+#pg010010p.layerPop .popCont .secondBox { padding: 30px 0; height: auto;}
+#pg010010p.layerPop .popCont .col { padding-top: 0; padding: 3px 0;}
+#pg010010p.layerPop .popCont .dl { width: 100px; font-size: 16px; line-height: 46px; color: #535353;}
+#pg010010p.layerPop .popCont .dr { width: 80%; font-size: 18px; line-height: 46px; color: #000;}
