@@ -2069,10 +2069,10 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #splitPieces .ownerItem { padding: 20px 0;}
 #splitPieces .ownerItem .info{ width: calc(498px - 250px); padding-left: 35px;}
 #splitPieces .secondBox { height: auto; padding: 15px 0;}
-#splitPieces .dl { width: 98px; font-size: 16px; color: #535353;}
-#splitPieces .secondBox .dr { position: relative; display: flex; align-items: baseline; font-size: 18px;}
-#splitPieces .secondBox .col:nth-child(1) .arrowSel {margin-left: 29px;}
-#splitPieces .secondBox .col:nth-child(2) .arrowSel {margin-left: 10px; top: 3px;}
+#splitPieces .dl { width: 105px; font-size: 16px; color: #535353;}
+#splitPieces .secondBox .dr { position: relative; display: flex; align-items: baseline; font-size: 18px; }
+#splitPieces .secondBox .col:nth-child(1) .arrowSel {margin-left: 12px;}
+#splitPieces .secondBox .col:nth-child(2) .arrowSel:nth-child(2) {margin-left: 10px;}
 #splitPieces .secondBox .dr .iconInput { position: relative;}
 #splitPieces .secondBox .arrowSel { position: relative;}
 #splitPieces .dr p { width: auto;}
