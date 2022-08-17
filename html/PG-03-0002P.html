@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>레오파트라</title>
+	<meta name="keywords" content="레오파트라">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="../asset/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="../asset/css/layout.css" />
+	<script type="text/javascript" src="../asset/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../asset/js/plugins.js"></script>
+	<script type="text/javascript" src="../asset/js/default.js"></script>
+	<script type="text/javascript">
+        $(function(){
+
+        });
+	</script>
+</head>
+<body>
+<!-- wrap : s -->
+<div class="wrap whiteBg">
+	<!-- header : s -->
+	<header id="header">
+		<div class="headerWrap">
+			<h1 class="logo"><a href="#">로고</a></h1>
+			<div id="gnb">
+				<ul class="gnbArea">
+					<li class="gnbDep1">
+						<a href="#">About</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Market</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">MyPage</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Notice</a>
+					</li>
+				</ul>
+			</div>
+			<div class="utilWrap">
+				<button class="btnsLogin">
+					<span>로그인</span>
+				</button>
+			</div>
+		</div>
+	</header>
+	<!-- header : e -->
+	<!-- container : s -->
+	<div class="container">
+		<div class="contWrap">
+			<div id="contents">
+				<!-- 콘텐츠 상세 : s -->
+				<button type="button" class="btns btnCol01" onclick="layerPop('open' , '#layerPointWithdrawal')">
+					<span>포인트 인출</span>
+				</button>
+				<!-- 콘텐츠 상세 : e -->
+			</div>
+		</div>
+	</div>
+	<!-- container : e -->
+	<!-- footer : s -->
+	<footer id="footer">
+		<div class="footerWrap">
+			<div class="footerTop">
+				<p class="footerLogo">모로보기</p>
+				<div class="footerMenu">
+					<a href="#">회사소개</a>
+					<a href="#">이용약관</a>
+					<a href="#" class="privacy">개인정보취급방침</a>
+					<a href="#">고객센터</a>
+					<a href="#">제휴문의</a>
+				</div>
+			</div>
+			<div class="footerBtm">
+				<div class="footerInfo">
+					<p>주소 : 서울특별시 강남구 선릉로 704 청담벤처프라자 10 층 1016 호</p>
+					<p>전화 : 02 000 0000 | 이메일 : exam@morrowbogi.com</p>
+					<p>상호 : ㈜ 모로보기 | 대표이사 : 신광호 | 사업자등록번호 000 00 00000 | 통신판매업 : 제 0000 서울강남 00000 호</p>
+				</div>
+				<p class="copyright">Ⓒ Copyright ⓒ 2021 by MORROWBOGI. All rights reserved.</p>
+				<div class="footerLink">
+					<a href="#" class="ico kakao">카카오</a>
+					<a href="#" class="ico youtube">유튜브</a>
+					<a href="#" class="ico instagram">인스타그램</a>
+					<a href="#" class="ico facebook">페이스북</a>
+					<a href="#" class="ico tweeter">트위터</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer : e -->
+</div>
+<!-- wrap : e -->
+
+<!--[레] 포인트 인출 : s -->
+<div class="layerPop w480" id="layerPointWithdrawal">
+	<div class="layerPopArea">
+		<div class="popHead">
+			<strong class="tit">포인트 인출</strong>
+		</div>
+		<div class="popCont">
+			<!-- 내용 : s -->
+			<div class="boxPointState">
+				<dl>
+					<dt>인출 가능 포인트</dt>
+					<dd><em>20,000</em>P</dd>
+				</dl>
+			</div>
+
+			<div class="topTitle space">
+				<strong class="title">인출 금액</strong>
+			</div>
+
+			<div class="boxHorizental">
+				<span>
+					<input type="text" class="inpText w418" placeholder="금액을 입력해주세요">
+				</span>
+			</div>
+
+			<div class="topTitle space">
+				<strong class="title">인출 계좌</strong>
+			</div>
+
+			<div class="finishBox auto pt0">
+				<div class="boxNotice">
+					<!-- tblForm: s -->
+					<div class="tblForm">
+						<table>
+							<colgroup>
+								<col style="width:110px">
+								<col style="width:auto">
+							</colgroup>
+							<tbody>
+								<tr>
+									<th scope="col">은행</th>
+									<td>우리은행</td>
+								</tr>
+								<tr>
+									<th scope="col">계좌번호</th>
+									<td>123****7890</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- tblForm: e -->
+				</div>
+			</div>
+
+			<ul class="textStar">
+				<li>* 인출 신청하신 포인트는 다음 영업일 오후 3시 이후 <br>등록하신 계좌로 입금됩니다.</li>
+				<li>* 유상수단으로 충전한 포인트만 인출이 가능합니다.</li>
+				<li>* 본인 명의의 계좌가 아닌 경우 인출이 제한됩니다.</li>
+				<li>* 인출 신청 당일에 한하여 취소가 가능하며,<br>대기금 내역 페이지에서 취소하실 수 있습니다.</li>
+			</ul>
+
+			<div class="btnArea">
+				<button type="button" class="btns mid btnCol01 wide">
+					<span>충전하기</span>
+				</button>
+			</div>
+			<!-- 내용 : e -->
+		</div>
+		<a href="javascript:layerPop('close' , '#layerPointWithdrawal')" class="btnPopClose">해당 레이어 닫기</a>
+	</div>
+</div>
+<!--[레] 포인트 인출 : e -->
+
+</body>
+</html>
