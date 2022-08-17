@@ -8,6 +8,7 @@
   src: url("../font/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../font/Roboto-Thin.woff") format("woff"), url("../font/Roboto-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
+  unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
 }
 
 @font-face {
@@ -16,6 +17,7 @@
   src: url("../font/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../font/Roboto-Light.woff") format("woff"), url("../font/Roboto-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
+  unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
 }
 
 @font-face {
@@ -24,6 +26,7 @@
   src: url("../font/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../font/Roboto-Regular.woff") format("woff"), url("../font/Roboto-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+  unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
 }
 
 @font-face {
@@ -32,6 +35,7 @@
   src: url("../font/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../font/Roboto-Medium.woff") format("woff"), url("../font/Roboto-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
+  unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
 }
 
 @font-face {
@@ -40,6 +44,7 @@
   src: url("../font/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../font/Roboto-Bold.woff") format("woff"), url("../font/Roboto-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
+  unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
 }
 
 @font-face {
@@ -48,6 +53,7 @@
   src: url("../font/notokr-light.eot?#iefix") format("embedded-opentype"), url("../font/notokr-light.woff") format("woff"), url("../font/notokr-light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
+  unicode-range: U+AC00-D7A3;
 }
 
 @font-face {
@@ -56,6 +62,7 @@
   src: url("../font/notokr-regular.eot?#iefix") format("embedded-opentype"), url("../font/notokr-regular.woff") format("woff"), url("../font/notokr-regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+  unicode-range: U+AC00-D7A3;
 }
 
 @font-face {
@@ -64,6 +71,7 @@
   src: url("../font/notokr-medium.eot?#iefix") format("embedded-opentype"), url("../font/notokr-medium.woff") format("woff"), url("../font/notokr-medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
+  unicode-range: U+AC00-D7A3;
 }
 
 @font-face {
@@ -72,6 +80,7 @@
   src: url("../font/notokr-bold.eot?#iefix") format("embedded-opentype"), url("../font/notokr-bold.woff") format("woff"), url("../font/notokr-bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
+  unicode-range: U+AC00-D7A3;
 }
 
 /* reset */
@@ -1855,7 +1864,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .popupCon .btnArea .btns.mid { height: 60px; line-height: 60px; padding: 0; margin-top: 78px;}
 .popupCon .btnArea .btns.mid span{ font-size: 22px; font-weight: 500;}
 .popupCon .col { display: flex; width: 100%; min-height: 46px; padding-top: 11px;}
-.popupCon .dl {display: flex; width: 170px; font-size: 20px; font-weight: 500; line-height: 46px;}
+.popupCon .dl {display: flex; width: 170px; font-size: 20px; font-weight: 400; line-height: 46px;}
 .popupCon .dr { font-size: 18px; position: relative; width: 100%;}
 .popupCon .dr p {width: 100%; height: 100%; line-height: 46px;}
 .popupCon .dr input{ width: 100%; height: 46px; padding-left: 18px; font-size: 16px; border: 1px solid #BFBFBF;}
@@ -1987,8 +1996,8 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .mainCon .titleBox .subTitle { font-size: 18px; font-weight: 500; margin: 7px 0 0 21px;}
 .mainCon .titleBox .subTitle img { width: 7px; height: 15px; margin-left: 15px; margin-top: -3px;}
 .mainCon .situationBox, .mainCon .situationBox02{ display: flex; width: 50%; margin-top: 52px;}
-.mainCon .situationBox p{display: flex; justify-content: center; align-items: center; width: 131px; height: 54px; font-size: 20px; color: #656565; background-color: #F0F0F0;}
-.mainCon .situationBox p.active { color: #fff; background-color: #506FB3; font-weight: 700;}
+.mainCon .situationBox p{display: flex; justify-content: center; align-items: center; width: 131px; height: 54px; font-size: 20px; color: #656565; border: 1px solid #CFCFCF;}
+.mainCon .situationBox p.active { color: #fff; background-color: #506FB3; font-weight: 700; border: none;}
 .mainCon .situationBox02{justify-content: right; align-items: center;}
 .mainCon .situationBox02 p{ font-size: 22px; height: 54px; line-height: 54px;}
 .mainCon .situationBox02 input{ width: 24px; height: 24px; margin-left: 22px; margin-right: 13px;}
@@ -2051,7 +2060,7 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #auctionRegi .secondBox .iconInput img { position: absolute; top: 50%; right: 11px; transform: translateY(-50%);}
 #auctionRegi .secondBox .iconInput img.arrowIcon { position: absolute; top: 50%; right: 17px; transform: translateY(-50%);}
 #auctionRegi .secondBox .iconInput + .iconInput { margin-top: 14px;}
-#auctionRegi .selBox{ margin-top: 11px;}
+#auctionRegi .selBox{ margin-top: 11px;background:url('/asset/images/arr_select-gray.png') no-repeat 340px 50%;}
 
 /* PG-01-0004P */
 #auctionStatus .layerPopArea { width: 650px;}
@@ -2076,7 +2085,7 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #splitPieces .ownerItem { padding: 20px 0;}
 #splitPieces .ownerItem .info{ width: calc(498px - 250px); padding-left: 35px;}
 #splitPieces .secondBox { height: auto; padding: 15px 0;}
-#splitPieces .explanationBox { width: 100%; padding: 30px; font-size: 15px; background: #F3F3F3; color: #535353;}
+#splitPieces .explanationBox { width: 100%; padding: 30px; margin:15px 0 19px 0; font-size: 15px; background: #F3F3F3; color: #535353;}
 #splitPieces .explanationBox p {padding:3px 0;}
 #splitPieces .dl { width: 105px; font-size: 16px; color: #535353;}
 #splitPieces .secondBox .dr { position: relative; display: flex; align-items: baseline; font-size: 18px; line-height: 22px;}
@@ -2158,12 +2167,18 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #pg010011 .situationBox button.active, #pg010011 .situationBox button.searchBtn { border: 1px solid #506FB3; background-color: #506FB3; color: #fff;}
 #pg010011 .situationBox .calendarBox { width: 180px; height: 46px; border: 1px solid #BFBFBF; margin: 0 6px; padding-left: 19px; font-size: 18px; line-height: 46px; background: url(/asset/images/calendar.png) no-repeat 95% 50%;}
 #pg010011 .situationBox .wave { line-height: 46px;}
-#pg010011 .situationBox .miniP{ justify-content: flex-start; width: 100%; height: 20px; font-size: 14px; font-weight: 500; line-height: 20px; margin-top: 7px; margin-bottom: 6px; color: #6C6C6C; background-color: transparent;}
+#pg010011 .situationBox .miniP{ justify-content: flex-start; width: 100%; height: 20px; font-size: 14px; font-weight: 500; line-height: 20px; margin-top: 7px; margin-bottom: 6px; color: #6C6C6C; background-color: transparent; border: none;}
 #pg010011 .situationBox02 { width: 60px; margin-top: 52px; }
 
 #pg010011 .collectionTbl table tbody .item .cell:nth-child(1){ width: 150px; display: table-cell; text-align: center;}
 #pg010011 .collectionTbl table tbody .item .cell:nth-child(2){ width: 100px; display: table-cell; text-align: center;}
 #pg010011 .collectionTbl table tbody .item .cell:nth-child(3){ width: 310px; text-align: left; display: flex; margin-left: 20px;}
-#pg010011 .collectionTbl table tbody .item .cell:nth-child(4){ width: 160px;}
+#pg010011 .collectionTbl table tbody .item .cell:nth-child(4){ width: 164px;}
 #pg010011 .collectionTbl table tbody .item .cell:nth-child(5){ width: 100px;}
 #pg010011 .collectionTbl table tbody .item .cell:nth-child(6){ width: 130px;}
+
+/* PG-02-0001 */
+#pg020001 .collectionTbl { margin-top: 22px; border-top: 2px solid #171717;}
+#pg020001 .noticeBox { margin-top: 83.5px; width: 100%; text-align: center;}
+#pg020001 .noticeBox .noti01 { font-size: 24px; line-height: 35px;}
+#pg020001 .noticeBox .noti02 { font-size: 18px; line-height: 26px; color: #777777;  margin-top: 10px;}
