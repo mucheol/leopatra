@@ -2197,3 +2197,31 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #pg020001 .collectItem .itemBox .info .horLine{ margin: 1px 7px 0; background-color: #868686;}
 #pg020001 .collectItem .itemBox .info:nth-child(3) p:nth-child(2){ font-size: 14px;}
 #pg020001 .collectItem .itemBox .info .price { font-size: 20px; line-height: 23px; font-weight: 500; color: #000; position: absolute; bottom: 17px; right: 15px;}
+
+/* PG-03-0001 */
+#pg030001 .pointBox {display: flex; width: 595px; height: 186px; border: 1px solid #9B9B9B; padding: 30px 32px; margin-top: 26px;}
+#pg030001 .pointBox .col { display: flex; width: 362px;}
+#pg030001 .pointBox .col .dl{ width: 50%; font-size: 16px; color: #4B4B4B;}
+#pg030001 .pointBox .col .dr{ width: 50%; font-size: 16px; text-align: right;}
+#pg030001 .pointBox .col:nth-child(1) .dl, #pg030001 .pointBox .col:nth-child(1) .dr{ font-size: 24px;}
+#pg030001 .pointBox .col:nth-child(1) { margin-bottom: 35px;}
+#pg030001 .pointBox .col:nth-child(2) { margin: 12px 0;}
+#pg030001 .pointBox .horLine { height: 117px; margin: 0 33px; background-color: #989898;}
+#pg030001 .pointBox .pointBtnBox { display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 100%;}
+#pg030001 .pointBox .pointBtnBox .pointBtn{ width: 100%; height: 40px; font-size: 14px; font-weight: 500; color: #fff; background-color: #506FB3; margin: 6.5px 0;}
+
+#pg030001 .situationBox { width: 100%; margin-top: 26px; flex-direction: column;}
+#pg030001 .situationBox > div{ display: flex; flex-direction: row;}
+#pg030001 .situationBox button { width: 100px; height: 46px; font-size: 18px; font-weight: 500; color: #000; border: 1px solid #BFBFBF; margin-right: 6px;}
+#pg030001 .situationBox button.active, #pg030001 .situationBox button.searchBtn { border: 1px solid #506FB3; background-color: #506FB3; color: #fff;}
+#pg030001 .situationBox .calendarBox { width: 180px; height: 46px; border: 1px solid #BFBFBF; margin: 0 6px; padding-left: 19px; font-size: 18px; line-height: 46px; background: url(/asset/images/calendar.png) no-repeat 95% 50%;}
+#pg030001 .situationBox .wave { line-height: 46px;}
+
+#pg030001 .collectionTbl table tbody .item .cell:nth-child(1){ width: 200px;}
+#pg030001 .collectionTbl table tbody .item .cell:nth-child(2){ width: 157px; justify-content: center;}
+#pg030001 .collectionTbl table tbody .item .cell:nth-child(3){ width: 445px;}
+#pg030001 .collectionTbl table tbody .item .cell:nth-child(4){ width: 150px;}
+#pg030001 .selBox { width: 134px; margin-right: 6px; color: #000; background: url(/asset/images/arr_select-gray.png) no-repeat 92% 50%;}
+#pg030001 .collectionTbl { margin-top: 100px;} 
+#pg030001 .item { display: flex; align-items: center; font-size: 16px; height: 80px;}
+#pg030001 .item span{ margin-left: 18px;}
