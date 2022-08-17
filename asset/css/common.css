@@ -681,7 +681,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 
 /* tblData */
 .tblData{width:100%}
-.tblData table{width:100%;border-bottom:2px solid #DBDBDB;}
+ .tblData table{width:100%;}/*border-bottom:2px solid #DBDBDB; */
 .tblData table thead th {background:#F3F5FF;font-size:18px;font-weight:700;padding:17px 15px;text-align:center}
 .tblData table tbody td {background:#ffffff;font-size:18px;text-align:center;padding:15px 12px;text-align:center}
 .tblData table tbody td .ing {color:#506FB3;font-weight:700}
