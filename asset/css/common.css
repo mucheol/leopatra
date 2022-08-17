@@ -2179,6 +2179,21 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 
 /* PG-02-0001 */
 #pg020001 .collectionTbl { margin-top: 22px; border-top: 2px solid #171717;}
-#pg020001 .noticeBox { margin-top: 83.5px; width: 100%; text-align: center;}
+/* 관심 소장품 없을때 (display: none해놨습니다) */
+#pg020001 .noticeBox {display: none; margin-top: 83.5px; width: 100%; text-align: center;}
 #pg020001 .noticeBox .noti01 { font-size: 24px; line-height: 35px;}
 #pg020001 .noticeBox .noti02 { font-size: 18px; line-height: 26px; color: #777777;  margin-top: 10px;}
+/* 관심 소장품 있을때 */
+#pg020001 .collectibleBox { display: flex; width: 100%; padding-top: 33px;}
+#pg020001 .collectItem { width: 212px; height: 370px; border: 1px solid #868686;}
+#pg020001 .collectItem + .collectItem { margin-left: 36px;}
+#pg020001 .collectItem .thumb{ width: 212px; height: 212px;}
+#pg020001 .collectItem .thumb img{ width: 100%; height: 100%;}
+#pg020001 .collectItem .itemBox{ position: relative; padding: 15px; height: 157px;}
+#pg020001 .collectItem .itemBox .title{ width: 100%;}
+#pg020001 .collectItem .itemBox .info p{ color: #868686;}
+#pg020001 .collectItem .itemBox .info:nth-child(3){ display: flex;}
+#pg020001 .collectItem .itemBox .info:nth-child(3) p:nth-child(1){ font-size: 12px;}
+#pg020001 .collectItem .itemBox .info .horLine{ margin: 1px 7px 0; background-color: #868686;}
+#pg020001 .collectItem .itemBox .info:nth-child(3) p:nth-child(2){ font-size: 14px;}
+#pg020001 .collectItem .itemBox .info .price { font-size: 20px; line-height: 23px; font-weight: 500; color: #000; position: absolute; bottom: 17px; right: 15px;}
