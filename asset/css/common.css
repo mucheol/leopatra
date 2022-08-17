@@ -1956,8 +1956,8 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 
 .popupBtnBox { width: 100%;  display: flex;}
 .popupBtnBox button { width: 50%; height: 60px; font-size: 22px;}
-.popupBtnBox button.fffBtn{ border: 1px solid #506FB3; color: #506FB3;}
-.popupBtnBox button.blueBtn{ background-color: #506FB3; color: #fff;}
+button.fffBtn{ border: 1px solid #506FB3; color: #506FB3;}
+button.blueBtn{ background-color: #506FB3; color: #fff;}
 
 
 /* MY Page 공통 */
@@ -2238,3 +2238,14 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #pg030004 .item { display: flex; align-items: center; font-size: 16px;}
 #pg030004 .item span{ margin-left: 18px;}
 #pg030004 button { width: 100px; height: 40px; border: 1px solid #D3D3D3; font-size: 14px; background-color: #fff;}
+
+/* PG-04-0001 */
+#pg040001 .collectionTbl { margin-top: 22px; border-top: 2px solid #171717;}
+#pg040001 .notiP {width: 100%; height: 83px; line-height: 83px; font-size: 18px;}
+#pg040001 .col { display: flex; margin-bottom: 22px;}
+#pg040001 .col .dl { width: 180px; height: 46px; line-height: 46px; font-size: 20px; font-weight: 500;}
+#pg040001 .col .dr { width: 418px; height: 46px;}
+#pg040001 .col .dr input { width: 100%; height: 100%; line-height: 46px; font-size: 16px; font-weight: 500;}
+#pg040001 .col input { padding-left: 20px;}
+#pg040001 .btnBox { width: 600px; height: 70px; margin-top: 20px;}
+#pg040001 .btnBox .blueBtn{ width: 100%; height: 100%; color: #fff; font-size: 20px; font-weight: 700; margin-top: 20px;}
