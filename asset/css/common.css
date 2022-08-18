@@ -2287,3 +2287,51 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #pg040002 .tBox04 .flexBox label { font-size: 18px; font-weight: 500;}
 #pg040002 .tBox04 .flexBox + a { font-size: 18px; line-height: 26px;}
 #pg040002 .saveBtn { width: 600px; height: 70px; font-size: 20px; font-weight: 700; margin-top: 15px;}
+
+
+/* NOTICE 공통 */
+.notice.container .contWrap { padding: 40px 0;}
+.notice.container .contWrap .snb { height: 897px; border-right: 1px solid #DFDFDF;}
+.notice.container .contWrap .snb .snbTitle { margin-top: 54px;}
+.notice.container .contWrap .snb ul li { padding-left: 0px;}
+.notice.container .mainCon { margin-top: 170px;}
+.notice.container .mainCon .titleBox { border-bottom: 2px solid #000; padding-bottom: 22px;}
+
+.notice.container .contentsBox .item{
+  border-bottom: 1px solid #000;
+}
+.notice.container .contentsBox .mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  position: relative;
+  height: 110px;
+}
+.notice.container .contentsBox .mainDiv img {
+  position: absolute;
+  top: 51px;
+  right: 15px;
+}
+.notice.container .contentsBox p:nth-child(1){
+  font-size: 20px ;
+  font-weight: 500;
+  line-height: 28px;
+}
+.notice.container .contentsBox p:nth-child(2){
+  font-size: 14px ;
+  line-height: 28px;
+  color: #777777;
+}
+.notice.container .contentsBox .suvDiv {
+  padding-bottom: 35px;
+}
+.notice.container .contentsBox .suvDiv p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #303030;
+}
+
+
+
+/* NT-01-0001 */
