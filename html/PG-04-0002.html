@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>레오파트라</title>
+	<meta name="keywords" content="레오파트라">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="../asset/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="../asset/css/layout.css" />
+	<script type="text/javascript" src="../asset/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../asset/js/plugins.js"></script>
+	<script type="text/javascript" src="../asset/js/default.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			
+		});
+	</script>
+</head>
+<body>
+<!-- wrap : s -->
+<div class="wrap ">
+	<!-- header : s -->
+	<header id="header">
+		<div class="headerWrap">
+			<h1 class="logo"><a href="#">로고</a></h1>
+			<div id="gnb">
+				<ul class="gnbArea">
+					<li class="gnbDep1">
+						<a href="#">About</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Market</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">MyPage</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Notice</a>
+					</li>
+				</ul>
+			</div>
+			<div class="utilWrap">
+				<button class="btnsLogin">
+					<span>로그인</span>
+				</button>
+			</div>
+		</div>
+	</header>
+	<!-- header : e -->
+	<!-- container : s -->
+	<div class="container">
+		<div class="contWrap">
+      <!-- MYPage 공통 -->
+      <div class="innerCon dP">
+        <div class="snb">
+          <p class="snbTitle">My Page</p>
+          <ul>
+            <li>보유 현황</li>
+            <li>소장품 관리</li>
+            <li>조각 관리</li>
+            <li>구매 내역</li>
+          </ul>
+          <ul>
+            <li>MY 찜</li>
+            <li>관심 소장품</li>
+          </ul>
+          <ul>
+            <li>MY 포인트</li>
+            <li>포인트 현황</li>
+            <li>대기금 내역</li>
+          </ul>
+          <ul>
+            <li>MY 정보</li>
+            <li class="colorText1 fontB">회원정보 수정</li>
+          </ul>
+        </div>
+        <div class="inner-rightCon">
+          <div class="topCon">
+            <div class="accountCon">
+              <div class="accountBox">
+                <div class="photoBox fl" >
+                  <img src="" alt="이미지">
+                </div>
+                <div class="accountInfo fl">
+                  <p class="accountId">Chamsori</p>
+                  <p class="accountEmail">Chamsori@gmail.com</p>
+                  <div class="accountBtn horLineBox">
+                    <p>회원구분</p>
+                    <span class="horLine"></span>
+                    <p>소장자</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accountBox">
+                <p class="title fontB">보유 현황</p>
+                <div class="accountDetailBox">
+                  <div class="accountDetail">
+                    <p>소장품</p>
+                    <p class="colorText1 fontR">4개</p>
+                  </div>
+                  <div class="accountDetail">
+                    <p>조각</p>
+                    <p class="colorText1 fontR">1,200개</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accountBox">
+                <p class="title fontB">포인트</p>
+                <div class="accountDetailBox">
+                  <div class="accountDetail">
+                    <p>가용 포인트</p>
+                    <p class="colorText1 fontR">1,500,000 P</p>
+                  </div>
+                  <div class="accountDetail">
+                    <p>대기 포인트</p>
+                    <p class="colorText1 fontR">500,000 P</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 콘텐츠 상세 -->
+          <div class="mainCon" id="pg040002">
+            <!-- 로그인정보 -->
+            <div class="titleBox">
+              <p class="mainTitle fontB">로그인 정보</p>
+            </div>
+            <div class="tblData selectTbl collectionTbl"></div>
+            <div class="col colFirst">
+              <div class="dl">
+                <p> 아이디 (이메일)</p></div>
+              <div class="dr">yourdesigner@naver.com</div>
+            </div>
+            <div class="col">
+              <div class="dl">비밀번호</div>
+              <div class="dr">
+                <div class="flexBox">
+                  * * * * *
+                  <button class="darkGrayBtn btn">변경</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="dl">가입일자</div>
+              <div class="dr">2021.01.18</div>
+            </div>
+
+            <!-- 기본 정보 -->
+            <!-- 로그인정보 -->
+            <div class="titleBox">
+              <p class="mainTitle fontB">기본 정보</p>
+            </div>
+            <div class="tblData selectTbl collectionTbl"></div>
+            <div class="col colFirst" style="height:151px;">
+              <div class="dl">프로필 이미지</div>
+              <div class="dr">
+                <div class="flexBox">
+                  <div class="imgBox">
+                    <img src="" alt="">
+                  </div>
+                  <div class="btnBox">
+                    <button class="darkGrayBtn btn">변경</button>
+                    <button class="grayBtn btn">삭제</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="dl">이름(한글)</div>
+              <div class="dr">유아인</div>
+            </div>
+            <div class="col">
+              <div class="dl">닉네임</div>
+              <div class="dr">아수라백작</div>
+            </div>
+            <div class="col" style="height:134px;">
+              <div class="dl">휴대폰</div>
+              <div class="dr">
+                <div class="flexBox">
+                  <div class="inputBox">
+                    <input type="text">
+                    <input type="text" class="mt10">
+                  </div>
+                </div>
+                <div class="btnBox">
+                  <button class="blueBtn btn">인증번호 받기</button>
+                  <button class="grayBtn btn mt10">인증번호 확인</button>
+                </div>
+              </div>
+            </div>
+            <div class="col" style="height:191px;">
+              <div class="dl">주소</div>
+              <div class="dr" style="flex-direction: column; align-items: baseline; justify-content: center;">
+                <div class="flexBox">
+                  <input type="text">
+                  <button class="blueBtn btn">우편번호 검색</button>
+                </div>
+                <input type="text" class="input100">
+                <input type="text" class="input100">
+              </div>
+            </div>
+
+            <!-- 계좌정보 -->
+            <div class="titleBox ">
+              <p class="mainTitle fontB">계좌 정보</p>
+            </div>
+            <div class="tblData selectTbl collectionTbl tBox03">
+              <!-- 계좌정보 있을때 -->
+              <table>
+                <colgroup>
+                  <col style="width:120px;">
+                  <col style="width:360px;">
+                  <col style="width:120px;">
+                </colgroup>
+                <thead>
+                <tr>
+                  <th scope="col">은행</th>
+                  <th scope="col">계좌정보</th>
+                  <th scope="col">삭제</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="3">
+                      <div class="item"><!-- 선택시 클래스 active 추가 -->
+                        <a href="#">
+                          <div class="cell">@@은행</div>
+                          <div class="cell">123****7890</div>
+                          <div class="cell">
+                            <div class="situCell">
+                              <div class="situDetailItem">취소</div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- 계좌정보 없을때 -->
+              <table class="mt30">
+                <colgroup>
+                  <col style="width:120px;">
+                  <col style="width:360px;">
+                  <col style="width:120px;">
+                </colgroup>
+                <thead>
+                <tr>
+                  <th scope="col">은행</th>
+                  <th scope="col">계좌정보</th>
+                  <th scope="col">삭제</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="3">
+                      <div class="item"><!-- 선택시 클래스 active 추가 -->
+                        <a href="#">
+                          <p class="noticeBox">등록된 계좌 정보가 없습니다.</p>
+                        </a>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- 마케팅 정보 수신 및 동의 -->
+            <div class="titleBox">
+              <p class="mainTitle fontB">마케팅 정보 수신 및 동의</p>
+            </div>
+            <div class="tblData selectTbl collectionTbl tBox04">
+              <div class="flexBox">
+                <p>포인트, 이벤트 등 혜택 / 정보를 전해드립니다.</p>
+                <div class="flexBox">
+                  <div class="checkBox">
+                    <input type="checkbox" id="chkSns" checked>
+                    <label for="chkSns" class="fontB">SNS</label>
+                  </div>
+                  <div class="checkBox">
+                    <input type="checkbox" id="chkEmail">
+                    <label for="chkSns">이메일</label>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="colorText3">회원탈퇴</a>
+            </div>
+            <button class="blueBtn saveBtn">저장</button>
+          </div>
+        </div>
+      </div>
+		</div>
+	</div>
+	<!-- container : e -->
+	<!-- footer : s -->
+	<footer id="footer">
+		<div class="footerWrap">
+			<div class="footerTop">
+				<p class="footerLogo">모로보기</p>
+				<div class="footerMenu">
+					<a href="#">회사소개</a>
+					<a href="#">이용약관</a>
+					<a href="#" class="privacy">개인정보취급방침</a>
+					<a href="#">고객센터</a>
+					<a href="#">제휴문의</a>
+				</div>
+			</div>
+			<div class="footerBtm">
+				<div class="footerInfo">
+					<p>주소 : 서울특별시 강남구 선릉로 704 청담벤처프라자 10 층 1016 호</p>
+					<p>전화 : 02 000 0000 | 이메일 : exam@morrowbogi.com</p>
+					<p>상호 : ㈜ 모로보기 | 대표이사 : 신광호 | 사업자등록번호 000 00 00000 | 통신판매업 : 제 0000 서울강남 00000 호</p>
+				</div>
+				<p class="copyright">Ⓒ Copyright ⓒ 2021 by MORROWBOGI. All rights reserved.</p>
+				<div class="footerLink">
+					<a href="#" class="ico kakao">카카오</a>
+					<a href="#" class="ico youtube">유튜브</a>
+					<a href="#" class="ico instagram">인스타그램</a>
+					<a href="#" class="ico facebook">페이스북</a>
+					<a href="#" class="ico tweeter">트위터</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer : e -->
+</div>
+<!-- wrap : e -->
+</body>
+</html>
