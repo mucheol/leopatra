@@ -2280,7 +2280,7 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #pg040002 table {margin-bottom: 60px;}
 #pg040002 .noticeBox {height: 60px; line-height: 60px;}
 
-#pg040002 .tBox04 .flexBox { margin-bottom: 30px;}
+#pg040002 .tBox04 .flexBox:nth-child(1) { margin-bottom: 45px;}
 #pg040002 .tBox04 .flexBox p { font-size: 16px; font-weight: 500; line-height: 19px;}
 #pg040002 .tBox04 .flexBox .checkBox { display: flex; align-items: center; margin-left: 55px;}
 #pg040002 .tBox04 .flexBox input { width: 24px; height: 24px; margin-right: 24px;}
