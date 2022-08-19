@@ -2236,7 +2236,7 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #pg030001 .collectionTbl table tbody .item .cell:nth-child(2){ width: 157px; justify-content: center;}
 #pg030001 .collectionTbl table tbody .item .cell:nth-child(3){ width: 400px;}
 #pg030001 .collectionTbl table tbody .item .cell:nth-child(4){ width: 195px;}
-#pg030001 .item { display: flex; align-items: center; font-size: 16px;}
+#pg030001 .item { display: table; align-items: center; font-size: 16px;}
 #pg030001 .item span{ margin-left: 18px;}
 
 /* PG-03-0004 */
@@ -2247,7 +2247,7 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #pg030004 .collectionTbl table tbody .item .cell:nth-child(2){ width: 400px; display: table-cell; text-align: center;}
 #pg030004 .collectionTbl table tbody .item .cell:nth-child(3){ width: 195px;}
 #pg030004 .collectionTbl table tbody .item .cell:nth-child(4){ width: 150px;}
-#pg030004 .item { display: flex; align-items: center; font-size: 16px;}
+#pg030004 .item { display: table; align-items: center; font-size: 16px;}
 #pg030004 .item span{ margin-left: 18px;}
 #pg030004 button { width: 100px; height: 40px; border: 1px solid #D3D3D3; font-size: 14px; background-color: #fff;}
 
