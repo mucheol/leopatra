@@ -659,6 +659,11 @@ $(function(){
 });
 
 $(document).ready(function(){
+  // MK-01-0002
+$('.dibBtn').on('click',function(){
+  $(this).toggleClass('active');
+})
+
   // PG-01-0002
 $("input:radio[name=radInput]").click(function(){
     if($("input[name=radInput]:checked").val() == "1"){
