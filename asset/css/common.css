@@ -1892,33 +1892,11 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .viewInfo .infoArea .dt { width: 101px; padding: 12.3px 0; font-size: 16px; font-weight: 400; line-height: 23.17px; color: #535353;}
 .viewInfo .infoArea .dd {padding: 13.3px 0; font-size: 18px; line-height: 21.09px; color: #000;}
 .viewInfo .infoArea .purchaseQuantity {position: relative; height: 91px; display: flex; align-items: center; margin-top: 27px; border-top : 1px solid #D9D9D9; border-bottom : 1px solid #D9D9D9;}
-.viewInfo .infoArea .purchaseQuantity p {
-  width: 71px;
-  font-size: 18px;
-  margin-right: 34px;
-  color: #1E1E1E;
-}
-.viewInfo .infoArea .purchaseQuantity p:nth-child(3) {
-  width: 91px;
-  margin-left: 24px;
-}
-.viewInfo .infoArea .purchaseQuantity input {
-  width: 92px;
-  height: 48px;
-  text-align: right;
-  padding: 0 11px;
-}
-.viewInfo .infoArea .purchaseQuantity input:nth-child(4) {
-  width: 253px;
-  font-size: 20px;
-  font-weight: 700;
-  padding: 0 30px 0 11px;
-}
-.viewInfo .infoArea .purchaseQuantity p:nth-child(5) {
-  position: absolute;
-  top: 34px;
-  right: -75px
-}
+.viewInfo .infoArea .purchaseQuantity p { width: 71px; font-size: 18px; margin-right: 34px; color: #1E1E1E;}
+.viewInfo .infoArea .purchaseQuantity p:nth-child(3) { width: 91px; margin-left: 24px;}
+.viewInfo .infoArea .purchaseQuantity input { width: 92px; height: 48px; text-align: right; padding: 0 11px;}
+.viewInfo .infoArea .purchaseQuantity input:nth-child(4) { width: 253px; font-size: 20px; font-weight: 700; padding: 0 30px 0 11px;}
+.viewInfo .infoArea .purchaseQuantity p:nth-child(5) { position: absolute; top: 34px;  right: -75px}
 .viewInfo .infoArea .purchase { height: 120px; padding: 10px 0;}
 .viewInfo .infoArea .dibBtn {width: 70px; height: 70px; border:1px solid #999999; }
 .viewInfo .infoArea .dibBtn a { width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }
@@ -2026,6 +2004,8 @@ table tbody .item .cell { height: 90px;}
 .mainCon .situationBox, .mainCon .situationBox02{ display: flex; width: 50%; margin-top: 52px;}
 .mainCon .situationBox p{display: flex; justify-content: center; align-items: center; width: 131px; height: 54px; font-size: 20px; color: #656565; border: 1px solid #CFCFCF;}
 .mainCon .situationBox p.active { color: #fff; background-color: #506FB3; font-weight: 700; border: none;}
+.mainCon .situationBox p.active a { color: #fff; background-color: #506FB3; font-weight: 700; border: none;}
+.mainCon .situationBox p a {  display: flex; justify-content: center; align-items: center; width: 100%; height: 100%;}
 .mainCon .situationBox02{justify-content: right; align-items: center;}
 .mainCon .situationBox02 p{ font-size: 22px; height: 54px; line-height: 54px;}
 .mainCon .situationBox02 input{ width: 24px; height: 24px; margin-left: 22px; margin-right: 13px;}
@@ -2036,6 +2016,7 @@ table tbody .item .cell { height: 90px;}
 .collectionTbl table thead th { background-color: #fff; border-bottom: 1px solid #C5C5C5; font-weight: 500;}
 .collectionTbl table { border-top: 2px solid #171717;}
 .collectionTbl table tbody td {padding: 0 !important; }
+.tblData.collectionTbl table tbody .item {display:table;table-layout:fixed;width:100%;padding:10px 0}
 .collectionTbl table tbody .item:nth-child(odd) { background-color: #F9F9F9;}
 .collectionTbl table tbody .item .cell:nth-child(1){ width: 114px;}
 .collectionTbl table tbody .item .cell:nth-child(2){ width: 253px; text-align: left; display: flex;}
@@ -2049,6 +2030,7 @@ table tbody .item .cell { height: 90px;}
 .collectionTbl .horLineBox .horLine{ background-color: #868686; margin: 1px 10px;}
 .collectionTbl .situCell { display: flex; flex-wrap: wrap; justify-content: center;}
 .collectionTbl .situCell .situDetailItem {display: flex; justify-content: center; align-items: center; width: 100px; height: 40px; background-color: #fff; line-height: 40px; margin: 2px; font-size: 14px; border: 1px solid #D3D3D3;}
+.tblData.collectionTbl table tbody .item a:hover { background: transparent;}
 
 /* PG-01-0002 */
 .collectionRegi .title {  width: 100%; font-size: 24px; line-height: 35px; padding-bottom: 23px; border-bottom: 1px solid #000;}
