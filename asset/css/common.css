@@ -2350,20 +2350,13 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #nt020001 .btnBox button.blueBtn{ color: #fff; font-weight: 700;}
 #nt020001 .btnBox button.whiteBtn{ color: #6A6A6A; border: 1px solid #6A6A6A;}
 
-.notice.container #nt020001 .contentsBox .mainDiv {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  height: 110px;
-}
-.notice.container #nt020001 .contentsBox .mainDiv p{
-  font-size: 16px;
-  color: #0F0F0F;
-}
-.notice.container #nt020001 .contentsBox .mainDiv p:nth-child(2){
-  font-size: 18px;
-  font-weight: 500;
-}
-
-}
+.notice.container #nt020001 .contentsBox .mainDiv { display: flex; flex-direction: row; align-items: center; justify-content: left; height: 110px;}
+.notice.container #nt020001 .contentsBox .mainDiv p{ font-size: 16px; color: #0F0F0F;}
+.notice.container #nt020001 .contentsBox .mainDiv p:nth-child(1){ text-align: center; width: 150px;}
+.notice.container #nt020001 .contentsBox .mainDiv p:nth-child(2){ width: 500px; font-size: 18px; font-weight: 500; padding-left: 40px;}
+.notice.container #nt020001 .contentsBox .mainDiv p:nth-child(3){ width: 150px;}
+.notice.container #nt020001 .contentsBox .mainDiv p:nth-child(4){ width: 157px;}
+.notice.container #nt020001 .contentsBox .suvDiv { position: relative; width: 100%; height: auto; background-color: #F6F6F6; padding: 52px 35px;}
+.notice.container #nt020001 .contentsBox .suvDiv p{ font-size: 16px; color: #0F0F0F; max-width: 700px;}
+.notice.container #nt020001 .contentsBox .suvDiv p:nth-child(2) { font-size: 18px; margin-top: 20px;}
+.notice.container #nt020001 .contentsBox .suvDiv p:nth-child(3) { position: absolute; bottom: 28px; right: 40px; font-size: 14px; font-weight: 400; color: #8B8B8B;}
