@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>레오파트라</title>
+	<meta name="keywords" content="레오파트라">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="../asset/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="../asset/css/layout.css" />
+	<script type="text/javascript" src="../asset/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../asset/js/plugins.js"></script>
+	<script type="text/javascript" src="../asset/js/default.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			
+		});
+	</script>
+</head>
+<body>
+<!-- wrap : s -->
+<div class="wrap ">
+	<!-- header : s -->
+	<header id="header">
+		<div class="headerWrap">
+			<h1 class="logo"><a href="#">로고</a></h1>
+			<div id="gnb">
+				<ul class="gnbArea">
+					<li class="gnbDep1">
+						<a href="#">About</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Market</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">MyPage</a>
+					</li>
+					<li class="gnbDep1">
+						<a href="#">Notice</a>
+					</li>
+				</ul>
+			</div>
+			<div class="utilWrap">
+				<button class="btnsLogin">
+					<span>로그인</span>
+				</button>
+			</div>
+		</div>
+	</header>
+	<!-- header : e -->
+	<!-- container : s -->
+	<div class="container">
+		<div class="contWrap">
+      <!-- MYPage 공통 -->
+      <div class="innerCon dP">
+        <div class="snb">
+          <p class="snbTitle">My Page</p>
+          <ul>
+            <li>보유 현황</li>
+            <li>소장품 관리</li>
+            <li>조각 관리</li>
+            <li>구매 내역</li>
+          </ul>
+          <ul>
+            <li>MY 찜</li>
+            <li>관심 소장품</li>
+          </ul>
+          <ul>
+            <li>MY 포인트</li>
+            <li>포인트 현황</li>
+            <li>대기금 내역</li>
+          </ul>
+          <ul>
+            <li>MY 정보</li>
+            <li class="colorText1 fontB">회원정보 수정</li>
+          </ul>
+        </div>
+        <div class="inner-rightCon">
+          <div class="topCon">
+            <div class="accountCon">
+              <div class="accountBox">
+                <div class="photoBox fl" >
+                  <img src="" alt="이미지">
+                </div>
+                <div class="accountInfo fl">
+                  <p class="accountId">Chamsori</p>
+                  <p class="accountEmail">Chamsori@gmail.com</p>
+                  <div class="accountBtn horLineBox">
+                    <p>회원구분</p>
+                    <span class="horLine"></span>
+                    <p>소장자</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accountBox">
+                <p class="title fontB">보유 현황</p>
+                <div class="accountDetailBox">
+                  <div class="accountDetail">
+                    <p>소장품</p>
+                    <p class="colorText1 fontR">4개</p>
+                  </div>
+                  <div class="accountDetail">
+                    <p>조각</p>
+                    <p class="colorText1 fontR">1,200개</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accountBox">
+                <p class="title fontB">포인트</p>
+                <div class="accountDetailBox">
+                  <div class="accountDetail">
+                    <p>가용 포인트</p>
+                    <p class="colorText1 fontR">1,500,000 P</p>
+                  </div>
+                  <div class="accountDetail">
+                    <p>대기 포인트</p>
+                    <p class="colorText1 fontR">500,000 P</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 콘텐츠 상세 -->
+          <div class="mainCon" id="pg040006">
+            <div class="titleBox">
+              <p class="mainTitle fontB">회원 탈퇴</p>
+            </div>
+            <div class="tblData selectTbl collectionTbl">
+              <div class="notice">
+                <p class="notiTitle">안내사항</p>
+                <p>1) 회원탈퇴 시점을 기준으로 보유중인 조각이 없을 경우에만 탈퇴처리가 가능합니다.<br/>
+                  2) 탈퇴 시 고객님의 정보는 전자상거래 등에서의 소비자 보호에 관한 법률에 의거한 고객정보 보호정책에 따라 관리됩니다.<br/>
+                  3) 탈퇴 시 보유하고 계신  쿠폰 및 포인트가 자동 소멸됩니다.<br/>
+                  4) 회원 탈퇴 후 30일간 재가입이 불가능합니다.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="dl">아이디</div>
+              <div class="dr">designer@naver.com</div>
+            </div>
+            <div class="col">
+              <div class="dl">비밀번호 확인</div>
+              <div class="dr">
+                <input type="password">
+              </div>
+            </div>
+            <div class="col"style="align-items: start">
+              <div class="dl">탈퇴사유</div>
+              <div class="dr" style="display: block">
+                <div class="inputDr">
+                  <input type="checkbox" id="quitChk01" class="chkInput">
+                  <label for="quitChk01">사이트 이용 불편</label>
+                  <input type="checkbox" id="quitChk02" class="chkInput">
+                  <label for="quitChk02">개인정보 유출 우려</label>
+                  <input type="checkbox" id="quitChk03" class="chkInput">
+                  <label for="quitChk03">상품 품질 / 가격 불안</label>
+                  <input type="checkbox" id="quitChk04" class="chkInput">
+                  <label for="quitChk04">기타 사유</label>
+                </div>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+              </div>
+            </div>
+            <div class="agreeBox">
+              <input type="checkbox" id="agreeChk">
+              <label for="agreeChk">회원탈퇴 안내사항을 모두 확인하였으며, 탈퇴에 동의합니다.</label>
+            </div>
+            <div class="btnBox">
+              <button type="button" class="whiteBtn">취소</button>
+              <button type="button" class="blueBtn">확인</button>
+            </div>
+          </div>
+        </div>
+      </div>
+		</div>
+	</div>
+	<!-- container : e -->
+	<!-- footer : s -->
+	<footer id="footer">
+		<div class="footerWrap">
+			<div class="footerTop">
+				<p class="footerLogo">모로보기</p>
+				<div class="footerMenu">
+					<a href="#">회사소개</a>
+					<a href="#">이용약관</a>
+					<a href="#" class="privacy">개인정보취급방침</a>
+					<a href="#">고객센터</a>
+					<a href="#">제휴문의</a>
+				</div>
+			</div>
+			<div class="footerBtm">
+				<div class="footerInfo">
+					<p>주소 : 서울특별시 강남구 선릉로 704 청담벤처프라자 10 층 1016 호</p>
+					<p>전화 : 02 000 0000 | 이메일 : exam@morrowbogi.com</p>
+					<p>상호 : ㈜ 모로보기 | 대표이사 : 신광호 | 사업자등록번호 000 00 00000 | 통신판매업 : 제 0000 서울강남 00000 호</p>
+				</div>
+				<p class="copyright">Ⓒ Copyright ⓒ 2021 by MORROWBOGI. All rights reserved.</p>
+				<div class="footerLink">
+					<a href="#" class="ico kakao">카카오</a>
+					<a href="#" class="ico youtube">유튜브</a>
+					<a href="#" class="ico instagram">인스타그램</a>
+					<a href="#" class="ico facebook">페이스북</a>
+					<a href="#" class="ico tweeter">트위터</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer : e -->
+</div>
+<!-- wrap : e -->
+</body>
+</html>
