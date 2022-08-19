@@ -2062,7 +2062,7 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #auctionRegi .secondBox .iconInput img { position: absolute; top: 50%; right: 11px; transform: translateY(-50%);}
 #auctionRegi .secondBox .iconInput img.arrowIcon { position: absolute; top: 50%; right: 17px; transform: translateY(-50%);}
 #auctionRegi .secondBox .iconInput + .iconInput { margin-top: 14px;}
-#auctionRegi .selBox{ margin-top: 11px;background:url('/asset/images/arr_select-gray.png') no-repeat 340px 50%;}
+#auctionRegi .selBox{ margin-top: 11px;background:url('../asset/images/arr_select-gray.png') no-repeat 340px 50%;}
 
 /* PG-01-0004P */
 #auctionStatus .layerPopArea { width: 650px;}
@@ -2334,4 +2334,27 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 .notice.container .contentsBox .suvDiv { padding-bottom: 35px;}
 .notice.container .contentsBox .suvDiv p { font-size: 18px; line-height: 26px; color: #303030;}
 
-/* NT-01-0001 */
+/* NT-02-0001 */
+#nt020001.mainCon .titleBox { flex-direction: column;}
+#nt020001 .btnBox { display: flex; justify-content: space-between; width: 100%; height: 65px; margin-top: 22px;}
+#nt020001 .btnBox button{ width: 460px; height: 100%; font-size: 18px;}
+#nt020001 .btnBox button.blueBtn{ color: #fff; font-weight: 700;}
+#nt020001 .btnBox button.whiteBtn{ color: #6A6A6A; border: 1px solid #6A6A6A;}
+
+.notice.container #nt020001 .contentsBox .mainDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 110px;
+}
+.notice.container #nt020001 .contentsBox .mainDiv p{
+  font-size: 16px;
+  color: #0F0F0F;
+}
+.notice.container #nt020001 .contentsBox .mainDiv p:nth-child(2){
+  font-size: 18px;
+  font-weight: 500;
+}
+
+}
