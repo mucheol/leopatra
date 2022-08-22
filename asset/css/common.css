@@ -1838,7 +1838,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 /* MN-MA-0001 */
 #mnma0001 .mainSection.visual { height: 650px;}
 #mnma0001 .mainSection.visual .swiper-slide { display: flex; position: relative; height: 650px;}
-#mnma0001 .mainSection.visual .swiper-slide .textBox { position: absolute; top: 185px; left: 50%; transform: translateX(-50%); width: 1280px;color: #fff;}
+#mnma0001 .mainSection.visual .swiper-slide .textBox { position: absolute; top: 124px; left: 50%; transform: translateX(-50%); width: 1280px;color: #fff;}
 #mnma0001 .mainSection.visual .swiper-slide .textBox .title { font-size: 48px;}
 #mnma0001 .mainSection.visual .swiper-slide .textBox .subTitle { font-size: 24px; line-height: 33px; margin-top: 55px;}
 #mnma0001 .mainSection.visual .swiper-slide .textBox .link { width: 200px;}
@@ -1859,8 +1859,8 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #mnma0001 .eventCon .eventBox .item .item_main { font-size: 28px; font-weight: 500;}
 #mnma0001 .eventCon .eventBox .item .item_sub { font-size: 18px; margin-top: 30px;}
 #mnma0001 .eventCon .eventBox .item .link { position: absolute; bottom: 43px;}
-#mnma0001 .eventCon .eventBox .item .link a{ display: flex; flex-direction: row; align-items: flex-end;}
-#mnma0001 .eventCon .eventBox .item .link a img{ height: 6px; margin-left: 10px; margin-bottom: 4px;}
+#mnma0001 .eventCon .eventBox .item .link a{ display: flex; flex-direction: row; align-items: flex-end; font-size: 22px;}
+#mnma0001 .eventCon .eventBox .item .link a img{ height: 10px; margin-left: 10px; margin-bottom: 5px;}
 
 
 
