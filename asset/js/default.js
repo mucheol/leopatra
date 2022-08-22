@@ -510,41 +510,19 @@ function mainUI(){
 		},
 		pagination : {
 			el : '.mainVisualSwiper .ctrlBoxSwiper .paginationSwiper',
-			type : 'fraction'
+			type : 'bullets',
+      clickable: true
 		},
 		autoplay : {
 			delay : 5000,
-			disableOnInteraction : true
+      disableOnInteraction: false
 		},
 		speed : 300,
 		simulateTouch  : false,
 		loop : true,
-		on : {
-			init : function(swiper){
-				// 정지 / 재생
-				el.find('.mainSection.visual .ctrlBoxSwiper .btnCtrl').on('click' , function(e){
-					e.preventDefault();
-
-					if($(this).hasClass('pause')){
-						$(this).removeClass('pause');
-						$(this).addClass('play');
-
-						mainVisualSwiper.autoplay.stop();
-					}
-					else{
-						$(this).addClass('pause');
-						$(this).removeClass('play');
-
-						mainVisualSwiper.autoplay.start();
-					}
-				});
-			}
-		}
 	});
 
-	mainVisualSwiper.on('autoplayStop' , function(){
-		el.find('.mainVisualSwiper .ctrlBoxSwiper .btnCtrl').removeClass('pause').addClass('play');
-	});
+
 
 	var communitySwiper = new Swiper('.communitySwiper .swiper', {
 		observeParents : true,
@@ -659,6 +637,8 @@ $(function(){
 });
 
 $(document).ready(function(){
+  // MN-MA-0001
+
   // MK-01-0002
 $('.dibBtn').on('click',function(){
   $(this).toggleClass('active');

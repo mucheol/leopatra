@@ -1835,6 +1835,35 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .innerCon { width: 1300px; margin: 0 auto;}
 .dP {display: flex;}
 
+/* MN-MA-0001 */
+#mnma0001 .mainSection.visual { height: 650px;}
+#mnma0001 .mainSection.visual .swiper-slide { display: flex; position: relative; height: 650px;}
+#mnma0001 .mainSection.visual .swiper-slide .textBox { position: absolute; top: 185px; left: 50%; transform: translateX(-50%); width: 1280px;color: #fff;}
+#mnma0001 .mainSection.visual .swiper-slide .textBox .title { font-size: 48px;}
+#mnma0001 .mainSection.visual .swiper-slide .textBox .subTitle { font-size: 24px; line-height: 33px; margin-top: 55px;}
+#mnma0001 .mainSection.visual .swiper-slide .textBox .link { width: 200px;}
+#mnma0001 .mainSection.visual .swiper-slide .textBox .link a { width: 100%}
+#mnma0001 .mainSection.visual .swiper-slide .textBox .linkP { width: 200px; font-size: 18px; color: #fff; margin-top: 89px;}
+#mnma0001 .mainSection.visual .swiper-slide .leftBox { width: 50%; height: 100%; background-color: #00091E;}
+#mnma0001 .mainSection.visual .swiper-slide .rightBox { width: 50%; height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;}
+#mnma0001 .mainSection.visual .swiper-wrapper .swiper-slide:nth-child(3) .rightBox { background-image: url("../images/bg_main_01.png");}
+#mnma0001 .mainSection.visual .swiper-wrapper .swiper-slide:nth-child(2) .rightBox { background-image: url("../images/bg_main_02.png");}
+#mnma0001 .mainSection.visual .ctrlBoxSwiper .paginationSwiper { position: absolute; bottom: -75px; left: 45%; transform: translate(-50%, -50%);}
+#mnma0001 .mainSection.visual .ctrlBoxSwiper .paginationSwiper span::before { content: ""; display: none;}
+#mnma0001 .mainSection.visual .ctrlBoxSwiper .paginationSwiper span { position: relative; background-color: #fff; width: 9px; height: 9px; border-radius: 50%; margin-left: 13px;}
+#mnma0001 .mainSection.visual .ctrlBoxSwiper .paginationSwiper span.swiper-pagination-bullet-active { background-color: #506FB3;  }
+#mnma0001 .eventCon { width: 1280px; margin: 0 auto; padding: 84px 0 139px 0;}
+#mnma0001 .eventCon .title { font-size: 38px;}
+#mnma0001 .eventCon .eventBox { margin-top: 39px; display: flex; justify-content: space-between;}
+#mnma0001 .eventCon .eventBox .item{ position: relative; width: 630px; height: 400px; padding: 48px 54px 43px; background-color: #E9E9E9;}
+#mnma0001 .eventCon .eventBox .item .item_main { font-size: 28px; font-weight: 500;}
+#mnma0001 .eventCon .eventBox .item .item_sub { font-size: 18px; margin-top: 30px;}
+#mnma0001 .eventCon .eventBox .item .link { position: absolute; bottom: 43px;}
+#mnma0001 .eventCon .eventBox .item .link a{ display: flex; flex-direction: row; align-items: flex-end;}
+#mnma0001 .eventCon .eventBox .item .link a img{ height: 6px; margin-left: 10px; margin-bottom: 4px;}
+
+
+
 /* 팝업창 공통 */
 .popupCon .layerPopArea { width: auto; margin: 0 auto;}
 .popupCon .popCont { width: 653px; height: 677px; padding: 0 67.7px 0; max-height: none; font-size: 18px; overflow: hidden;}
