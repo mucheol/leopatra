@@ -2100,7 +2100,7 @@ table tbody .item .cell { height: 90px;}
 #collectCertfi .subject { margin-left: 48px;}
 #collectCertfi .subject .year{ font-size: 16px; line-height: 23px; color: #4D4D4D;}
 #collectCertfi .subject .title{ font-size: 24px; font-weight: 500; line-height: 34px; color: #000; margin-top: 0px; padding-top: 0;}
-#collectCertfi .subject .des{ font-size: 16px; line-height: 23px; margin-top: 50px;}
+#collectCertfi .subject .des{width: 260px;  font-size: 16px; line-height: 23px; margin-top: 50px;}
 
 #collectCertfi .ownerWrap { padding: 43px 69px 19px 69px;  background: url(../images/certifi_bottom.png) repeat;}
 #collectCertfi .ownerWrap .ownerList { margin-top: 35px;}
@@ -2116,13 +2116,34 @@ table tbody .item .cell { height: 90px;}
 #collectCertfi .ownerWrap .ownerList table tr th:nth-child(1){ width: 103px;}
 #collectCertfi .ownerWrap .ownerList table tr th:nth-child(2){ width: 110px;}
 #collectCertfi .ownerWrap .ownerList table tr th:nth-child(3){ width: 103px;}
-#collectCertfi .ownerWrap .ownerList table tbody tr:nth-child(1) td {
-  border-top: 1px solid #000;
-}
+#collectCertfi .ownerWrap .ownerList table tbody tr:nth-child(1) td { border-top: 1px solid #000;}
 
 #collectCertfi .signBox{ display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; margin-top: 19px;}
 #collectCertfi .signBox .signDay{ font-size: 16px; line-height: 19px;}
 #collectCertfi .signBox img{ margin-top: 16px; width: 174px;}
+
+/* MK-01-0005 */
+#pieceCertfi .popHead { position: relative; padding: 0; height: 280px; background: url(../images/certifi_top02.png); background-position: center; background-size: cover; background-repeat: no-repeat;}
+#pieceCertfi .popHead .tit { position: absolute; bottom: 26px; left: 81px; font-size: 36px;}
+#pieceCertfi .popHead .logo { position: absolute; top: 120px; right: 30px;}
+
+#pieceCertfi .subject { margin-left: 48px;}
+#pieceCertfi .subject .year{ font-size: 16px; line-height: 23px; color: #4D4D4D;}
+#pieceCertfi .subject .title{ font-size: 24px; font-weight: 500; line-height: 34px; color: #000; margin-top: 0px; padding-top: 0;}
+#pieceCertfi .subject .des{width: 260px; font-size: 16px; line-height: 23px; margin-top: 50px;}
+
+#pieceCertfi .ownerWrap { padding: 43px 69px 19px 69px;  background: url(../images/certifi_bottom.png) repeat;}
+#pieceCertfi .ownerWrap .ownerList { margin-top: 35px;}
+#pieceCertfi .ownerItem { display: flex;}
+#pieceCertfi .thumb { display: flex; justify-content: center;  align-items: center; border: none;}
+#pieceCertfi .ownerWrap .ownerList .item { margin-bottom: 28px;}
+#pieceCertfi .ownerWrap .ownerList .item dt{ font-weight: 500; font-size: 21px; line-height: 28px; color: #535353;}
+#pieceCertfi .ownerWrap .ownerList .item dd{ font-size: 18px; line-height: 28px; color: #000;}
+#pieceCertfi .ownerWrap .ownerList .item dd span{ font-size: 14px; line-height: 16px; color: #747474; margin-left: 12px;}
+
+#pieceCertfi .signBox{ display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; margin-top: 185px;}
+#pieceCertfi .signBox .signDay{ font-size: 16px; line-height: 19px;}
+#pieceCertfi .signBox img{ margin-top: 16px; width: 174px;}
 
 /* PG-01-0001 */
 .collectionTbl { margin-top: 106px;}
