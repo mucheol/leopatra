@@ -1872,7 +1872,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #ab010001 .mainSection.visual .mainBanner .textBox .horLine { display: block; width: 283px; height: 1px; background-color: #fff; margin: 33px 0;}
 #ab010001 .mainSection.visual .mainBanner .textBox .des {font-size: 18px; line-height: 27px;}
 #ab010001 .mainSection.visual .mainBanner .leftBox { width: 50%; height: 100%; background-color: #506FB3;}
-#ab010001 .mainSection.visual .mainBanner .rightBox { width: 50%; height: 100%; background-color: #E9E9E9; background-position: center; background-repeat: no-repeat; background-size: cover;}
+#ab010001 .mainSection.visual .mainBanner .rightBox { width: 50%; height: 100%; background-image: url(../images/ab_banner.png); background-position: center; background-repeat: no-repeat; background-size: cover;}
 
 #ab010001 .inner { width: 1280px; margin: 0 auto;}
 #ab010001 .section01 {height: 405px; padding-left:205px;}
@@ -1906,7 +1906,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #ab010001 .section05 .textBox .iconText{ display: flex; margin-bottom: 35px;}
 #ab010001 .section05 .textBox .iconText .icon{ width: 24px; line-height: 29px; text-align: center;}
 #ab010001 .section05 .textBox .iconText .text{ font-size: 20px; line-height: 33px; margin-left: 26px;}
-#ab010001 .section05 .imgBox{ width: 700px; height: 522px; background-color: #E9E9E9;}
+#ab010001 .section05 .mapBox{ width: 700px; height: 522px; background-color: #E9E9E9;}
 
 #ab010001 .section06 { padding-bottom: 112px;}
 #ab010001 .section06 .inner { height: 402px; padding: 96px 68px; background-color: #F7F7F7;}
