@@ -1836,23 +1836,19 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .dP {display: flex;}
 
 /* MN-MA-0001 */
-#mnma0001 .mainSection.visual { height: 650px;}
-#mnma0001 .mainSection.visual .swiper-slide { display: flex; position: relative; height: 650px;}
+#mnma0001 .mainSection.visual { height:  800px;}
+#mnma0001 .mainSection.visual .mainVisualSwiper{width: 100%; height: 100%;}
+#mnma0001 .mainSection.visual .swiper-slide { display: flex; position: relative; height: 800px;}
+#mnma0001 .mainSection.visual .swiper-slide video { height: 100%; margin: 0 auto;}
+
 #mnma0001 .mainSection.visual .swiper-slide .textBox { position: absolute; top: 124px; left: 50%; transform: translateX(-50%); width: 1280px;color: #fff;}
 #mnma0001 .mainSection.visual .swiper-slide .textBox .title { font-size: 48px;}
 #mnma0001 .mainSection.visual .swiper-slide .textBox .subTitle { font-size: 24px; line-height: 33px; margin-top: 55px;}
 #mnma0001 .mainSection.visual .swiper-slide .textBox .link { width: 200px;}
 #mnma0001 .mainSection.visual .swiper-slide .textBox .link a { width: 100%}
 #mnma0001 .mainSection.visual .swiper-slide .textBox .linkP { width: 200px; font-size: 18px; color: #fff; margin-top: 89px;}
-#mnma0001 .mainSection.visual .swiper-slide .leftBox { width: 50%; height: 100%; background-color: #00091E;}
-#mnma0001 .mainSection.visual .swiper-slide .rightBox {position: relative; width: 50%; height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;}
-#mnma0001 .mainSection.visual .swiper-slide .rightBox::after{ content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%;  background: rgba(0, 9, 30, 0.32);}
-#mnma0001 .mainSection.visual .swiper-wrapper .swiper-slide:nth-child(3) .rightBox { background-image: url("../images/bg_main_01.png");}
-#mnma0001 .mainSection.visual .swiper-wrapper .swiper-slide:nth-child(2) .rightBox { background-image: url("../images/bg_main_02.png");}
-#mnma0001 .mainSection.visual .ctrlBoxSwiper .paginationSwiper { position: absolute; bottom: -75px; left: 45%; transform: translate(-50%, -50%);}
-#mnma0001 .mainSection.visual .ctrlBoxSwiper .paginationSwiper span::before { content: ""; display: none;}
-#mnma0001 .mainSection.visual .ctrlBoxSwiper .paginationSwiper span { position: relative; background-color: #fff; width: 9px; height: 9px; border-radius: 50%; margin-left: 13px;}
-#mnma0001 .mainSection.visual .ctrlBoxSwiper .paginationSwiper span.swiper-pagination-bullet-active { background-color: #506FB3;  }
+#mnma0001 .mainSection.visual { width: 100%; height:100%; background-color: #000;}
+#mnma0001 .mainSection.visual .swiper-wrapper { width: 100%; height:100%; background-color: #000;}
 #mnma0001 .eventCon { width: 1280px; margin: 0 auto; padding: 84px 0 139px 0;}
 #mnma0001 .eventCon .title { font-size: 38px;}
 #mnma0001 .eventCon .eventBox { margin-top: 39px; display: flex; justify-content: space-between;}
@@ -1881,11 +1877,12 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #ab010001 .section01 p:nth-child(2){ width: calc(100% - 345px); font-size: 22px; line-height: 34px;}
 
 #ab010001 .section02 .cardBox { width: 100%; display: flex; flex-wrap: wrap;}
-#ab010001 .section02 .cardBox .card { width: 340px; height: 250px; margin: auto; margin-bottom: 130px;}
+#ab010001 .section02 .cardBox .card { width: 340px; height: 450px; margin: 0 40px; margin-bottom: 130px;}
+#ab010001 .section02 .cardBox .card > div {display: flex; align-items: flex-end;}
 #ab010001 .section02 .cardBox .card .num { font-size: 40px; font-weight: 300; color: #506FB3;}
-#ab010001 .section02 .cardBox .card .horLine { width: 39.04px; height: 4.63px; background-color: #506FB3; margin: 26px 0;}
-#ab010001 .section02 .cardBox .card .cardTitle { font-size: 24px; font-weight: 500; line-height: 27px;}
-#ab010001 .section02 .cardBox .card .cardDes { width: 340px; font-size: 16px; line-height: 27px; margin-top: 26px;}
+#ab010001 .section02 .cardBox .card .cardTitle { font-size: 24px; font-weight: 500; line-height: 27px;margin-left: 17px; padding-bottom: 7px;}
+#ab010001 .section02 .cardBox .card img { width: 320px; height: 320px;margin-top: 15px;}
+#ab010001 .section02 .cardBox .card .cardDes { width: 320px; font-size: 16px; line-height: 27px; margin-top: 26px;}
 
 #ab010001 .section03 .inner{ display: flex;  padding: 42px 0 112px 0;}
 #ab010001 .section03 .videoBox { width: 836px; height:522px; background-color: #E9E9E9;}
