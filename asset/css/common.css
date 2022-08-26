@@ -1876,11 +1876,11 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #ab010001 .section01 p:nth-child(1){ width: 345px; font-size: 48px;}
 #ab010001 .section01 p:nth-child(2){ width: calc(100% - 345px); font-size: 22px; line-height: 34px;}
 
-#ab010001 .section02 .cardBox { width: 100%; display: flex; flex-wrap: wrap;}
-#ab010001 .section02 .cardBox .card { width: 340px; height: 450px; margin: 0 40px; margin-bottom: 130px;}
-#ab010001 .section02 .cardBox .card > div {display: flex; align-items: flex-end;}
-#ab010001 .section02 .cardBox .card .num { font-size: 40px; font-weight: 300; color: #506FB3;}
-#ab010001 .section02 .cardBox .card .cardTitle { font-size: 24px; font-weight: 500; line-height: 27px;margin-left: 17px; padding-bottom: 7px;}
+#ab010001 .section02 .cardBox { width: 100%; display: flex; justify-content: space-between; flex-wrap: wrap;}
+#ab010001 .section02 .cardBox .card { width: 340px; height: 450px;margin-bottom: 130px;}
+#ab010001 .section02 .cardBox .card > div {display: flex; align-items: center;}
+#ab010001 .section02 .cardBox .card .num { font-size: 40px; font-weight: 500; color: #506FB3;}
+#ab010001 .section02 .cardBox .card .cardTitle { font-size: 24px; font-weight: 500; line-height: 27px;margin-left: 17px;}
 #ab010001 .section02 .cardBox .card img { width: 320px; height: 320px;margin-top: 15px;}
 #ab010001 .section02 .cardBox .card .cardDes { width: 320px; font-size: 16px; line-height: 27px; margin-top: 26px;}
 
