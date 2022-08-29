@@ -520,27 +520,27 @@ function mainUI(){
 		simulateTouch  : false,
 		loop : true,
     loopAdditionalSlides : 1,
-		// on : {
-		// 	init : function(swiper){
-		// 		// 정지 / 재생
-		// 		el.find('.mainSection.visual .ctrlBoxSwiper .btnCtrl').on('click' , function(e){
-		// 			e.preventDefault();
+		on : {
+			init : function(swiper){
+				// 정지 / 재생
+				el.find('.mainSection.visual .ctrlBoxSwiper .btnCtrl').on('click' , function(e){
+					e.preventDefault();
 
-		// 			if($(this).hasClass('pause')){
-		// 				$(this).removeClass('pause');
-		// 				$(this).addClass('play');
+					if($(this).hasClass('pause')){
+						$(this).removeClass('pause');
+						$(this).addClass('play');
 
-		// 				mainVisualSwiper.autoplay.stop();
-		// 			}
-		// 			else{
-		// 				$(this).addClass('pause');
-		// 				$(this).removeClass('play');
+						mainVisualSwiper.autoplay.stop();
+					}
+					else{
+						$(this).addClass('pause');
+						$(this).removeClass('play');
 
-		// 				mainVisualSwiper.autoplay.start();
-		// 			}
-		// 		});
-		// 	}
-		// }
+						mainVisualSwiper.autoplay.start();
+					}
+				});
+			}
+		}
 	});
 
   let myVideo = document.querySelector(".myVideo");
@@ -569,7 +569,7 @@ function mainUI(){
   myVideo.addEventListener("ended", () => {
     // mainVisualSwiper.slideNext();
     mainVisualSwiper.autoplay.start();
-    console.log("video END");
+    // console.log("video END");
   });
 
 	// mainVisualSwiper.on('autoplayStop' , function(){
