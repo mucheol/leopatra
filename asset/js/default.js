@@ -510,17 +510,71 @@ function mainUI(){
 		},
 		pagination : {
 			el : '.mainVisualSwiper .ctrlBoxSwiper .paginationSwiper',
-			type : 'bullets',
-      clickable: true
+			type : 'fraction'
 		},
 		autoplay : {
 			delay : 5000,
-      disableOnInteraction: false
+			disableOnInteraction : false
 		},
 		speed : 300,
 		simulateTouch  : false,
 		loop : true,
+    loopAdditionalSlides : 1,
+		// on : {
+		// 	init : function(swiper){
+		// 		// 정지 / 재생
+		// 		el.find('.mainSection.visual .ctrlBoxSwiper .btnCtrl').on('click' , function(e){
+		// 			e.preventDefault();
+
+		// 			if($(this).hasClass('pause')){
+		// 				$(this).removeClass('pause');
+		// 				$(this).addClass('play');
+
+		// 				mainVisualSwiper.autoplay.stop();
+		// 			}
+		// 			else{
+		// 				$(this).addClass('pause');
+		// 				$(this).removeClass('play');
+
+		// 				mainVisualSwiper.autoplay.start();
+		// 			}
+		// 		});
+		// 	}
+		// }
 	});
+
+  let myVideo = document.querySelector(".myVideo");
+  let videoIndex = 6;
+
+  mainVisualSwiper.on("slideChange", () => {
+    // console.log(mainVisualSwiper.activeIndex, videoIndex);
+    if (mainVisualSwiper.activeIndex === videoIndex) {
+      myVideo.currentTime = 0;
+      
+      $('.myVideo').get(0).currentTime = 0;
+      myVideo.play();
+      $('.myVideo').get(0).play();
+      mainVisualSwiper.autoplay.stop();
+    } else {
+      myVideo.load();
+      // console.log(mainVisualSwiper.autoplay.running);
+      // if (!mainVisualSwiper.autoplay.running) {
+      //   mainVisualSwiper.autoplay.play();
+      // }
+    }
+    
+    // if (mainVisualSwiper.activeIndex === (videoIndex - 1) ) {
+    //   myVideo
+  });
+  myVideo.addEventListener("ended", () => {
+    // mainVisualSwiper.slideNext();
+    mainVisualSwiper.autoplay.start();
+    console.log("video END");
+  });
+
+	// mainVisualSwiper.on('autoplayStop' , function(){
+	// 	el.find('.mainVisualSwiper .ctrlBoxSwiper .btnCtrl').removeClass('pause').addClass('play');
+	// });
 
 
 
