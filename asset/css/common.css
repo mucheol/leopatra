@@ -1546,7 +1546,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .mainSection.visual .ctrlBoxSwiper .ctrlSwiper{margin-left:11px}
 .mainSection.visual .ctrlBoxSwiper .ctrlSwiper .btnCtrl{display:block;text-indent:-9999em;width:20px;height:20px;background-size:20px;background-position:0 0;background-repeat:no-repeat;}
 .mainSection.visual .ctrlBoxSwiper .ctrlSwiper .btnCtrl.pause{background-image:url(../images/btn_main_visual_swiper_pause.png)}
-.mainSection.visual .ctrlBoxSwiper .ctrlSwiper .btnCtrl.play{background-image:url(../images/btn_main_visual_swiper_play.png)}
+.mainSection.visual .ctrlBoxSwiper .ctrlSwiper .btnCtrl.play{background-image:url(../images/btn_main_visual_swiper_play.png);}
 
 .mainSection.collection{overflow:hidden}
 .mainSection.collection .cellectionList{position:relative;height:705px}
@@ -1857,7 +1857,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #mnma0001 .eventCon .eventBox .item{ position: relative; width: 630px; height: 400px; padding: 27px 21px; background-position: center; background-size: cover;background-repeat: no-repeat;}
 #mnma0001 .eventCon .eventBox .item .item_main { font-size: 28px; font-weight: 500;}
 #mnma0001 .eventCon .eventBox .item .item_sub { font-size: 18px; margin-top: 12px;}
-#mnma0001 .eventCon .eventBox .item .link { margin-top: 10px;}
+#mnma0001 .eventCon .eventBox .item .link { margin-top: 4px;}
 #mnma0001 .eventCon .eventBox .item .link a{ display: flex; flex-direction: row; align-items: flex-end; font-size: 22px;}
 #mnma0001 .eventCon .eventBox .item .link a img{ height: 7px; transform: rotate(270deg); margin-bottom: 4px;}
 #mnma0001 .eventCon .eventBox .item02 { padding: 143px 0 64px; text-align: center; }

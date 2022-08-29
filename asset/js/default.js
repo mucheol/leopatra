@@ -572,9 +572,9 @@ function mainUI(){
     // console.log("video END");
   });
 
-	// mainVisualSwiper.on('autoplayStop' , function(){
-	// 	el.find('.mainVisualSwiper .ctrlBoxSwiper .btnCtrl').removeClass('pause').addClass('play');
-	// });
+	mainVisualSwiper.on('autoplayStop' , function(){
+		el.find('.mainVisualSwiper .ctrlBoxSwiper .btnCtrl').removeClass('pause').addClass('play');
+	});
 
 
 
