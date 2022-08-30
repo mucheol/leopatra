@@ -501,7 +501,7 @@ function mainUI(){
 		return;
 	}
 
-	var mainVisualSwiper = new Swiper('.mainVisualSwiper .swiper', {
+	const mainVisualSwiper = new Swiper('.mainVisualSwiper .swiper', {
 		observeParents : true,
 		observer : true,
 		navigation: {
@@ -544,31 +544,20 @@ function mainUI(){
 	});
 
   let myVideo = document.querySelector(".myVideo");
-  let videoIndex = 6;
+  // let videoIndex = 6;
 
-  mainVisualSwiper.on("slideChange", () => {
+  mainVisualSwiper.on("slideChange", function () {
     // console.log(mainVisualSwiper.activeIndex, videoIndex);
     if (mainVisualSwiper.activeIndex === videoIndex) {
-      myVideo.currentTime = 0;
-      
-      myVideo.load();
-      // $('.myVideo').get(0).load();
       myVideo.play();
-      // $('.myVideo').get(0).play();
-      // mainVisualSwiper.autoplay.stop();
-    } else {
-      // console.log(mainVisualSwiper.autoplay.running);
-      // if (!mainVisualSwiper.autoplay.running) {
-      //   mainVisualSwiper.autoplay.play();
-      // }
     }
-    
   });
-  // myVideo.addEventListener("ended", () => {
-    // mainVisualSwiper.slideNext();
-    // mainVisualSwiper.autoplay.start();
-    // console.log("video END");
-  // });
+  myVideo.addEventListener("ended", () => {
+    myVideo.currentTime = 0;
+    mainVisualSwiper.slideNext();
+    mainVisualSwiper.autoplay.start();
+    console.log("video END");
+  });
 
 	mainVisualSwiper.on('autoplayStop' , function(){
 		el.find('.mainVisualSwiper .ctrlBoxSwiper .btnCtrl').removeClass('pause').addClass('play');
@@ -689,8 +678,6 @@ $(function(){
 });
 
 $(document).ready(function(){
-  // MN-MA-0001
-
   // MK-01-0002
 $('.dibBtn').on('click',function(){
   $(this).toggleClass('active');
