@@ -551,26 +551,24 @@ function mainUI(){
     if (mainVisualSwiper.activeIndex === videoIndex) {
       myVideo.currentTime = 0;
       
-      $('.myVideo').get(0).currentTime = 0;
-      myVideo.play();
-      $('.myVideo').get(0).play();
-      mainVisualSwiper.autoplay.stop();
-    } else {
       myVideo.load();
+      // $('.myVideo').get(0).load();
+      myVideo.play();
+      // $('.myVideo').get(0).play();
+      // mainVisualSwiper.autoplay.stop();
+    } else {
       // console.log(mainVisualSwiper.autoplay.running);
       // if (!mainVisualSwiper.autoplay.running) {
       //   mainVisualSwiper.autoplay.play();
       // }
     }
     
-    // if (mainVisualSwiper.activeIndex === (videoIndex - 1) ) {
-    //   myVideo
   });
-  myVideo.addEventListener("ended", () => {
+  // myVideo.addEventListener("ended", () => {
     // mainVisualSwiper.slideNext();
-    mainVisualSwiper.autoplay.start();
+    // mainVisualSwiper.autoplay.start();
     // console.log("video END");
-  });
+  // });
 
 	mainVisualSwiper.on('autoplayStop' , function(){
 		el.find('.mainVisualSwiper .ctrlBoxSwiper .btnCtrl').removeClass('pause').addClass('play');
