@@ -544,10 +544,10 @@ function mainUI(){
 	});
 
   let myVideo = document.querySelector(".myVideo");
-  // let videoIndex = 6;
+  let videoIndex = 6;
 
   mainVisualSwiper.on("slideChange", function () {
-    // console.log(mainVisualSwiper.activeIndex, videoIndex);
+    console.log(mainVisualSwiper.activeIndex, videoIndex);
     if (mainVisualSwiper.activeIndex === videoIndex) {
       myVideo.play();
     }
