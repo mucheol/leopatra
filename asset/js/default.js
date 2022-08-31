@@ -552,12 +552,12 @@ function mainUI(){
       myVideo.play();
     }
   });
-  myVideo.addEventListener("ended", function() {
-    myVideo.currentTime = 0;
-    mainVisualSwiper.slideNext();
-    mainVisualSwiper.autoplay.start();
-    console.log("video END");
-  });
+    myVideo.addEventListener("ended", function() {
+      myVideo.currentTime = 0;
+      mainVisualSwiper.slideNext();
+      mainVisualSwiper.autoplay.start();
+      console.log("video END");
+    });
 
 	mainVisualSwiper.on('autoplayStop' , function(){
 		el.find('.mainVisualSwiper .ctrlBoxSwiper .btnCtrl').removeClass('pause').addClass('play');
