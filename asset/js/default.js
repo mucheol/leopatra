@@ -552,7 +552,7 @@ function mainUI(){
       myVideo.play();
     }
   });
-  myVideo.addEventListener("ended", () => {
+  myVideo.addEventListener("ended", function() {
     myVideo.currentTime = 0;
     mainVisualSwiper.slideNext();
     mainVisualSwiper.autoplay.start();
