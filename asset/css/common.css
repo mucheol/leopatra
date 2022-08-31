@@ -1971,7 +1971,8 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #ab010001 .section02 .cardBox .card .cardDes { width: 320px; font-size: 16px; line-height: 27px; margin-top: 26px;}
 
 #ab010001 .section03 .inner{ display: flex;  padding: 42px 0 112px 0;}
-#ab010001 .section03 .videoBox { width: 836px; height:522px; background-color: #E9E9E9;}
+#ab010001 .section03 .videoBox { height:522px; }
+#ab010001 .section03 .videoBox video { width: 100%; height:100%; }
 #ab010001 .section03 .textBox { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; width: calc(100% - 836px); height: 522px; padding-left: 63px;}
 #ab010001 .section03 .textBox p{ font-size: 24px; line-height: 32px; color: #242424; margin-top: 42px;}
 #ab010001 .section03 .textBox .title{ font-size: 48px; line-height: 69.5px; margin-top: 0;}
