@@ -1944,6 +1944,9 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #mnma0002p .section05 .flexBox .textBox .p3 { display: flex; align-items: center; position: relative; width: 100%; height: 155px; font-weight: 700; font-size: 22px; line-height: 30px; padding-left: 29px; margin-bottom: 60px; color: #fff; background-color: #506FB3;}
 #mnma0002p .section05 .flexBox .textBox .p3::after { position: absolute; left: 100%; content: ""; width: 100vw; height: 100%; background-color: #506FB3;}
 #mnma0002p .section05 .flexBox .textBox .p4,#mnma0002p .section05 .flexBox .textBox .p5 { width: 680px; font-size: 18px;line-height: 30px;margin-top: 25px;}
+#mnma0002p .fixLink { position: fixed; top: 346px; right: 181px; display: flex; justify-content: center; align-items: center; width: 130px; height: 121px; background-color: #506FB3;}
+#mnma0002p .fixLink .inner { display: flex; justify-content: center; align-items: center; width: 126px; height: 117px; background-color: #fff;}
+#mnma0002p .fixLink .inner p{ font-weight: 600; font-size: 18px; line-height: 30px; color: #506FB3; text-align: center;}
 
 /* AB-01-0001 */
 #ab010001 .mainSection.visual { height: 650px;}
@@ -1965,9 +1968,9 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #ab010001 .section02 .cardBox { width: 100%; display: flex; justify-content: space-between; flex-wrap: wrap;}
 #ab010001 .section02 .cardBox .card { width: 340px; height: 450px;margin-bottom: 130px;}
 #ab010001 .section02 .cardBox .card > div {display: flex; align-items: center;}
-#ab010001 .section02 .cardBox .card .num { font-size: 40px; font-weight: 500; color: #506FB3;}
-#ab010001 .section02 .cardBox .card .cardTitle { font-size: 24px; font-weight: 500; line-height: 27px;margin-left: 17px;}
-#ab010001 .section02 .cardBox .card img { width: 320px; height: 320px;margin-top: 15px;}
+#ab010001 .section02 .cardBox .card .num { font-size: 28px; line-height: 27px; font-weight: 500; color: #506FB3;}
+#ab010001 .section02 .cardBox .card .cardTitle { font-size: 34px; font-weight: 500; line-height: 27px;margin-left: 17px;}
+#ab010001 .section02 .cardBox .card img { width: 320px; height: 320px;margin-top: 30px;}
 #ab010001 .section02 .cardBox .card .cardDes { width: 320px; font-size: 16px; line-height: 27px; margin-top: 26px;}
 
 #ab010001 .section03 .inner{ display: flex;  padding: 42px 0 112px 0;}
@@ -2055,6 +2058,8 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .viewInfo .infoArea .price { line-height: 45px; font-size: 38px; font-weight: 500; color: #506FB3;}
 .viewInfo .infoArea .content { padding: 26px 0 0; border-bottom: none}
 .viewInfo .infoArea .dt { width: 101px; padding: 12.3px 0; font-size: 16px; font-weight: 400; line-height: 23.17px; color: #535353;}
+.viewInfo .infoArea .dl:nth-child(1) .dt,.viewInfo .infoArea .dl:nth-child(2) .dt {font-size: 18px;}
+.viewInfo .infoArea .dl:nth-child(1) .dd,.viewInfo .infoArea .dl:nth-child(2) .dd {font-weight: 700;font-size: 22px; line-height: 20px;}
 .viewInfo .infoArea .dd {padding: 13.3px 0; font-size: 18px; line-height: 21.09px; color: #000;}
 .viewInfo .infoArea .purchaseQuantity {position: relative; height: 91px; display: flex; align-items: center; margin-top: 27px; border-top : 1px solid #D9D9D9; border-bottom : 1px solid #D9D9D9;}
 .viewInfo .infoArea .purchaseQuantity p { width: 71px; font-size: 18px; margin-right: 34px; color: #1E1E1E;}
@@ -2072,7 +2077,8 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #MK-01-0002 .infoArea2 { width: 100%; height: 340px; border-bottom: 2px solid #0D0D0D;}
 #MK-01-0002 .infoArea2 .topTitle { margin: 35px 0 25px;}
 #MK-01-0002 .infoArea2 .content .dt { margin-top: 10px; float: left; width: 120px; font-size: 16px; font-weight: 400 !important; color: #535353; line-height: 23.17px; vertical-align: top; font-weight: 700;}
-#MK-01-0002 .infoArea2 .content .dd { margin-top: 10px; font-size: 18px; float: left; vertical-align: top; width: calc(100% - 120px); min-height: 38px;}
+#MK-01-0002 .infoArea2 .content .dd { margin-top: 10px; font-size: 16px; float: left; vertical-align: top; width: calc(100% - 120px); min-height: 38px;}
+#MK-01-0002 .infoArea2 .content .dl:nth-child(4) .dd {font-size: 18px;}
 
 #MK-01-0002 .topTitle.tT02 {margin:30px 0 20px 0}
 #MK-01-0002 .topTitle .selectboxWrap02 { width: 95px; height: 35px; font-size: 21px;}
