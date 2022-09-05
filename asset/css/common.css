@@ -2045,6 +2045,19 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .market .boardTop .total::after { position: absolute; content: ""; width: 1px; height: 22.54px; margin-top: 3px; margin-left: 30px; background-color: #000;}
 .market .contWrap { background-color: #fff; padding: 0 0 100px 0;}
 
+/* MK-01-0001 */
+.prdList .bestItem {display: flex;width: 100%;height: 550px;padding: 20px 0 45px;margin-bottom: 70px;border-bottom: 1px solid #BBBBBB;box-sizing: content-box;}
+.prdList .bestItem .textBox{width: 390px;height: 100%;border: 1px solid #DBDBDB;padding: 59px 42px;}
+.prdList .bestItem .textBox .p0{font-weight: 700;font-size: 24px;line-height: 35px;color: #ED0000;}
+.prdList .bestItem .textBox .p1{font-weight: 700;font-size: 28px;line-height: 41px;margin-top: 20px;}
+.prdList .bestItem .textBox .p2{font-weight: 700;font-size: 18px;line-height: 27px;margin-top: 4px;}
+.prdList .bestItem .textBox .p3{width: 235px;font-size: 16px;line-height: 27px;margin-top: 4px;}
+.prdList .bestItem .textBox .p4{width: 305px;font-size: 14px;line-height: 21px;margin-top: 51px;}
+.prdList .bestItem .textBox .horLine{width: 90px;height: 1px;margin: 40px 0 19px 0;}
+.prdList .bestItem .textBox .p5{font-weight: 500;font-size: 38px;line-height: 45px;}
+.prdList .bestItem .imgBox {display: flex;justify-content: center;align-items: center;margin-left: auto;background-color: #506FB3;max-height: 550px;}
+.prdList .bestItem .imgBox img{height: 100%;}
+
 /* MK-01-0002 */
 .viewInfo { border-bottom: 1px solid #C4C4C4;}
 .viewInfo .thumbnail { width: 600px; height: 600px; outline: none; border:none;}
