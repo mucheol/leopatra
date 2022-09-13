@@ -1855,21 +1855,56 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .dP {display: flex;}
 
 /* MN-MA-0001 */
-#mnma0001 .mainSection.visual { height:  800px;}
-#mnma0001 .mainSection.visual .mainVisualSwiper{width: 100%; height: 100%;}
-#mnma0001 .mainSection.visual .swiper-slide {position: relative; display: flex; position: relative; height: 800px;}
-#mnma0001 .mainSection.visual .swiper-slide .slideBack{  content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); }
-#mnma0001 .mainSection.visual .swiper-slide .textBox { text-align: center;}
-#mnma0001 .mainSection.visual .swiper-slide video { height: 100%; margin: 0 auto;}
+#mnma0001 .mainContainer {position: relative; height: 1173px;background-color: #506FB3;}
+#mnma0001 .mainContainer .inner{width: 1280px; margin: 0 auto; padding: 95px 180px 0 180px; color: #fff;}
+#mnma0001 .mainContainer .title{ font-weight: 700; font-size: 38px; line-height: 45px; }
+#mnma0001 .mainContainer .p2{ font-weight: 500; font-size: 26px; line-height: 30px; margin-top: 33.6px; margin-bottom: 46px;}
+#mnma0001 .mainContainer .p3{ font-size: 18px; line-height: 26px; margin-top: 33.6px;}
+#mnma0001 .mainContainer .p4{ position: absolute; transform: rotate(90deg); top: 628px; right: 309px; font-size: 16px; line-height: 19px;}
+#mnma0001 .mainContainer .btnBox{margin-top: 57px;}
+#mnma0001 .mainContainer .btnBox button{width: 400px; height: 80px;font-weight: 700;font-size: 24px;line-height: 33px; color: #fff; border: 1px solid #fff; margin: 0 14px;}
+#mnma0001 .mainContainer .btnBox button:hover{background-color: #324B82;}
 
-#mnma0001 .mainSection.visual .swiper-slide .textBox { position: absolute; top: 290px; left: 50%; transform: translateX(-50%); width: 1280px;color: #fff;}
-#mnma0001 .mainSection.visual .swiper-slide .textBox .title { font-size: 48px;}
-#mnma0001 .mainSection.visual .swiper-slide .textBox .subTitle { font-size: 24px; line-height: 33px; margin-top: 55px;}
-#mnma0001 .mainSection.visual .swiper-slide .textBox .link { width: 350px; margin: 0 auto;}
-#mnma0001 .mainSection.visual .swiper-slide .textBox .link a { width: 100%}
-#mnma0001 .mainSection.visual .swiper-slide .textBox .linkP {display: flex; justify-content: center; align-items: center; background: rgba(0, 0, 0, 0.7); width: 350px; height: 90px; font-size: 24px; color: #fff; margin-top: 75px;}
-#mnma0001 .mainSection.visual { width: 100%; height:100%; background-color: #000;}
-#mnma0001 .mainSection.visual .swiper-wrapper { width: 100%; height:100%; background-color: #000;}
+#mnma0001 .mainContents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#mnma0001 .mainContents .inner{
+  position: relative;
+  width: 1280px;
+  height: auto;
+  padding-top: 80px;
+}
+#mnma0001 .mainContents .sticky{
+  position: relative;
+  width: 100%;
+  height:400vh;
+  padding-top: 200px;
+}
+#mnma0001 .mainContents .slideCon{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500vh;
+}
+#mnma0001 .mainContents .stickyItem{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+/* #mnma0001 .mainContents .stickyItem.fade{
+  opacity: 0;
+} */
+#mnma0001 .mainContents .stickyItem img{
+  width: 500px;
+  height: 550px;
+}
+
 #mnma0001 .eventCon { width: 1280px; margin: 0 auto; padding: 84px 0 139px 0;}
 #mnma0001 .eventCon .title { font-size: 38px;}
 #mnma0001 .eventCon .eventBox { margin-top: 39px; display: flex; justify-content: space-between;}
@@ -1951,33 +1986,25 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 /* AB-01-0001 */
 #ab010001 .mainSection.visual { height: 650px;}
 #ab010001 .mainSection.visual .mainBanner { display: flex; position: relative; height: 650px;}
-#ab010001 .mainSection.visual .mainBanner .textBox { position: absolute; top: 108px; left: 50%; transform: translateX(-50%); width: 1280px;color: #fff;}
+#ab010001 .mainSection.visual .mainBanner .textBox { position: absolute; top: 135px; left: 50%; transform: translateX(-50%); width: 1280px;color: #fff;}
 #ab010001 .mainSection.visual .mainBanner .textBox .title { font-size: 48px; line-height: 69.5px;}
 #ab010001 .mainSection.visual .mainBanner .textBox .subTitle { font-size: 24px; font-weight: 500; line-height: 32px; margin-top: 38px;}
 #ab010001 .mainSection.visual .mainBanner .textBox .horLine { display: block; width: 283px; height: 1px; background-color: #fff; margin: 33px 0;}
-#ab010001 .mainSection.visual .mainBanner .textBox .des {font-size: 18px; line-height: 27px;}
+#ab010001 .mainSection.visual .mainBanner .textBox .des {font-size: 24px; line-height: 36px;}
 #ab010001 .mainSection.visual .mainBanner .leftBox { width: 50%; height: 100%; background-color: #506FB3;}
 #ab010001 .mainSection.visual .mainBanner .rightBox { width: 50%; height: 100%; background-image: url(../images/ab_banner.png); background-position: center; background-repeat: no-repeat; background-size: cover;}
 
 #ab010001 .inner { width: 1280px; margin: 0 auto;}
-#ab010001 .section01 {height: 405px; padding-left:205px;}
-#ab010001 .section01 .inner { display: flex;flex-direction: row; justify-content: left; align-items: center; height: 100%; }
-#ab010001 .section01 p:nth-child(1){ width: 345px; font-size: 48px;}
-#ab010001 .section01 p:nth-child(2){ width: calc(100% - 345px); font-size: 22px; line-height: 34px;}
 
-#ab010001 .section02 .cardBox { width: 100%; display: flex; justify-content: space-between; flex-wrap: wrap;}
-#ab010001 .section02 .cardBox .card { width: 340px; height: 450px;margin-bottom: 130px;}
-#ab010001 .section02 .cardBox .card > div {display: flex; align-items: center;}
-#ab010001 .section02 .cardBox .card .num { font-size: 28px; line-height: 27px; font-weight: 500; color: #506FB3;}
-#ab010001 .section02 .cardBox .card .cardTitle { font-size: 34px; font-weight: 500; line-height: 27px;margin-left: 17px;}
-#ab010001 .section02 .cardBox .card img { width: 320px; height: 320px;margin-top: 30px;}
-#ab010001 .section02 .cardBox .card .cardDes { width: 320px; font-size: 16px; line-height: 27px; margin-top: 26px;}
+#ab010001 .section01 {height: 375px;}
+#ab010001 .section01 .inner { display: flex;flex-direction: row; justify-content: left; align-items: center; height: 100%;}
+#ab010001 .section01 p{font-size: 22px; line-height: 34px;}
 
-#ab010001 .section03 .inner{ display: flex;  padding: 42px 0 112px 0;}
-#ab010001 .section03 .videoBox { height:522px; }
+#ab010001 .section03 .inner{position: relative; display: flex;  padding: 0 0 112px 0;}
+#ab010001 .section03 .videoBox {width: 1031px; height:644px; margin-left: 58px;}
 #ab010001 .section03 .videoBox video { width: 100%; height:100%; }
-#ab010001 .section03 .textBox { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; width: calc(100% - 836px); height: 522px; padding-left: 63px;}
-#ab010001 .section03 .textBox p{ font-size: 24px; line-height: 32px; color: #242424; margin-top: 42px;}
+#ab010001 .section03 .textBox {position: absolute; top: 322px; right: 0;transform: translateY(-50%); display: flex; flex-direction: column; justify-content: center; align-items: flex-start; width: 503px; height: 526px; background-color: rgba(0, 0, 0, 0.8); padding: 87px 66px;}
+#ab010001 .section03 .textBox p{ font-size: 24px; line-height: 36px;color: #fff; }
 #ab010001 .section03 .textBox .title{ font-size: 48px; line-height: 69.5px; margin-top: 0;}
 
 #ab010001 .section04 { width: 100%; height: 526px; background-color: #506FB3;}
@@ -2047,16 +2074,19 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 
 /* MK-01-0001 */
 .prdList .bestItem {display: flex;width: 100%;height: 550px;padding: 20px 0 45px;margin-bottom: 70px;border-bottom: 1px solid #BBBBBB;box-sizing: content-box;}
-.prdList .bestItem .textBox{width: 390px;height: 100%;border: 1px solid #DBDBDB;padding: 59px 42px;}
+.prdList .bestItem .textBox{width: 453px;height: 100%;border: 1px solid #DBDBDB;padding: 59px 38px;}
 .prdList .bestItem .textBox .p0{font-weight: 700;font-size: 24px;line-height: 35px;color: #ED0000;}
 .prdList .bestItem .textBox .p1{font-weight: 700;font-size: 28px;line-height: 41px;margin-top: 20px;}
 .prdList .bestItem .textBox .p2{font-weight: 700;font-size: 18px;line-height: 27px;margin-top: 4px;}
-.prdList .bestItem .textBox .p3{width: 235px;font-size: 16px;line-height: 27px;margin-top: 4px;}
-.prdList .bestItem .textBox .p4{width: 305px;font-size: 14px;line-height: 21px;margin-top: 51px;}
-.prdList .bestItem .textBox .horLine{width: 90px;height: 1px;margin: 40px 0 19px 0;}
+.prdList .bestItem .textBox .p3{font-size: 16px;line-height: 27px;margin-top: 4px;}
+.prdList .bestItem .textBox .p4{font-size: 14px;line-height: 21px;margin-top: 23px;}
+.prdList .bestItem .textBox .storyBtn{font-weight: 700; font-size: 18px; line-height: 21px; margin-top: 38px;  }
+  .prdList .bestItem .textBox .storyBtn a{color: #506FB3; }
+  .prdList .bestItem .textBox .storyBtn img { transform: rotate(270deg);   margin-bottom: 3px;  }
+.prdList .bestItem .textBox .horLine{width: 90px;height: 1px;margin:19px 0; background-color: rgba(0, 0, 0, 0.4);}
 .prdList .bestItem .textBox .p5{font-weight: 500;font-size: 38px;line-height: 45px;}
-.prdList .bestItem .imgBox {display: flex;justify-content: center;align-items: center;margin-left: auto;background-color: #506FB3;max-height: 550px;}
-.prdList .bestItem .imgBox img{height: 100%;}
+.prdList .bestItem .imgBox {display: flex;justify-content: center;align-items: center;margin-left: auto;background-color: #506FB3;width: 809px; max-height: 550px; margin-left: 37px;}
+.prdList .bestItem .imgBox img{width: 100%; height: 100%;}
 
 /* MK-01-0002 */
 .viewInfo { border-bottom: 1px solid #C4C4C4;}
@@ -2091,7 +2121,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #MK-01-0002 .infoArea2 .topTitle { margin: 35px 0 25px;}
 #MK-01-0002 .infoArea2 .content .dt { margin-top: 10px; float: left; width: 120px; font-size: 16px; font-weight: 400 !important; color: #535353; line-height: 23.17px; vertical-align: top; font-weight: 700;}
 #MK-01-0002 .infoArea2 .content .dd { margin-top: 10px; font-size: 16px; float: left; vertical-align: top; width: calc(100% - 120px); min-height: 38px;}
-#MK-01-0002 .infoArea2 .content .dl:nth-child(4) .dd {font-size: 18px;}
+#MK-01-0002 .infoArea2 .detailBtn {cursor: pointer;}
 
 #MK-01-0002 .topTitle.tT02 {margin:30px 0 20px 0}
 #MK-01-0002 .topTitle .selectboxWrap02 { width: 95px; height: 35px; font-size: 21px;}
