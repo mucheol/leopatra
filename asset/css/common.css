@@ -1860,52 +1860,32 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #mnma0001 .mainContainer .title{ font-weight: 700; font-size: 38px; line-height: 45px; }
 #mnma0001 .mainContainer .p2{ font-weight: 500; font-size: 26px; line-height: 30px; margin-top: 33.6px; margin-bottom: 46px;}
 #mnma0001 .mainContainer .p3{ font-size: 18px; line-height: 26px; margin-top: 33.6px;}
-#mnma0001 .mainContainer .p4{ position: absolute; transform: rotate(90deg); top: 628px; right: 309px; font-size: 16px; line-height: 19px;}
+#mnma0001 .mainContainer .p4{position: absolute; top: 628px; left: calc(50% + 436px); transform: translateX(-50%) rotate(90deg);font-size: 16px; line-height: 19px; width: 450px;}
 #mnma0001 .mainContainer .btnBox{margin-top: 57px;}
 #mnma0001 .mainContainer .btnBox button{width: 400px; height: 80px;font-weight: 700;font-size: 24px;line-height: 33px; color: #fff; border: 1px solid #fff; margin: 0 14px;}
 #mnma0001 .mainContainer .btnBox button:hover{background-color: #324B82;}
 
-#mnma0001 .mainContents {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-#mnma0001 .mainContents .inner{
-  position: relative;
-  width: 1280px;
-  height: auto;
-  padding-top: 80px;
-}
-#mnma0001 .mainContents .sticky{
-  position: relative;
-  width: 100%;
-  height:400vh;
-  padding-top: 200px;
-}
-#mnma0001 .mainContents .slideCon{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 500vh;
-}
-#mnma0001 .mainContents .stickyItem{
-  height: 100vh;
-  display: flex;
-  align-items: center;
-}
-/* #mnma0001 .mainContents .stickyItem.fade{
-  opacity: 0;
-} */
-#mnma0001 .mainContents .stickyItem img{
-  width: 500px;
-  height: 550px;
-}
+#mnma0001 .mainContents {display: flex;justify-content: center;align-items: center;width: 100%;}
+#mnma0001 .mainContents .inner{position: relative;width: 1280px;height: auto;padding-top: 80px;}
+#mnma0001 .mainContents .sticky{position: relative;width: 100%;}
+#mnma0001 .mainContents .slideCon{position: relative;display: flex;flex-direction: column;justify-content: center;align-items: baseline;width: 100%;height: 5000px;margin-left: 188px;margin-top: 300px;}
+#mnma0001 .mainContents .stickyItem{position: sticky;top: 50%; transform: translateY(-50%);height: 1095px !important;display: flex;align-items: center;justify-content: end;transition: 1s; z-index: -1;opacity: 0;}
+#mnma0001 .mainContents .stickyItem img{position: sticky;top: 10%;width: 500px;height: 550px; transition: 1s;}
+#mnma0001 .mainContents .textCon{position: absolute;top: 0;  right: 0;display: flex;flex-direction: column;justify-content: center;align-items: baseline;width: 530px;height: 5000px;}
+#mnma0001 .mainContents .textCon .stickyText{position: sticky;top: 60%;transform: translateY(-50%);height: 1095px;display: flex;flex-direction: column;justify-content: center;align-items: baseline; transition:1s;}
+#mnma0001 .mainContents .textCon .stickyText .p0{position: relative; top: 0; font-weight: 500;font-size: 28px;line-height: 27px;}
+#mnma0001 .mainContents .textCon .stickyText .flexBox{position: relative;top: 0; display: flex;}
+#mnma0001 .mainContents .textCon .stickyText .p1{position: relative;font-size: 34px;line-height: 27px;margin-top: 20px;}
+#mnma0001 .mainContents .textCon .stickyText .p1::after{position: absolute;bottom: -15px;left: 0;content: "";width: 100%;height: 1px;background-color: #506FB3;}
+#mnma0001 .mainContents .textCon .stickyText img{position: absolute;bottom: -15px;width: 96px;height: 96px;}
+#mnma0001 .mainContents .textCon .stickyText:nth-child(1) img{left: 120px;}
+#mnma0001 .mainContents .textCon .stickyText:nth-child(2) img{left: 340px;}
+#mnma0001 .mainContents .textCon .stickyText:nth-child(3) img{left: 320px;}
+#mnma0001 .mainContents .textCon .stickyText:nth-child(4) img{left: 140px;}
+#mnma0001 .mainContents .textCon .stickyText:nth-child(5) img{left: 240px;}
+#mnma0001 .mainContents .textCon .stickyText .p2{position: relative; top: 0;font-size: 24px;line-height: 35px;margin-top: 50px;}
 
-#mnma0001 .eventCon { width: 1280px; margin: 0 auto; padding: 84px 0 139px 0;}
+#mnma0001 .eventCon { width: 1280px; margin: 0 auto; margin-top: -400px;padding: 0 0 139px 0;}
 #mnma0001 .eventCon .title { font-size: 38px;}
 #mnma0001 .eventCon .eventBox { margin-top: 39px; display: flex; justify-content: space-between;}
 #mnma0001 .eventCon .eventBox .item{ position: relative; width: 630px; height: 400px; padding: 27px 21px; background-position: center; background-size: cover;background-repeat: no-repeat;}
