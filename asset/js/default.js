@@ -494,109 +494,6 @@ function accodianUI() {
 }
 
 // mainUI
-// function mainUI(){
-// 	var el = $('.mainWrap');
-
-// 	if(el.length <= 0){
-// 		return;
-// 	}
-
-// 	const mainVisualSwiper = new Swiper('.mainVisualSwiper .swiper', {
-// 		observeParents : true,
-// 		observer : true,
-// 		navigation: {
-// 			nextEl: '.mainVisualSwiper .ctrlBoxSwiper .btnSwiper.next',
-// 			prevEl: '.mainVisualSwiper .ctrlBoxSwiper .btnSwiper.prev',
-// 		},
-// 		pagination : {
-// 			el : '.mainVisualSwiper .ctrlBoxSwiper .paginationSwiper',
-// 			type : 'fraction'
-// 		},
-// 		autoplay : {
-// 			delay : 5000,
-// 			disableOnInteraction : false
-// 		},
-// 		speed : 300,
-// 		simulateTouch  : false,
-// 		loop : true,
-//     loopAdditionalSlides : 1,
-// 		on : {
-// 			init : function(swiper){
-// 				// 정지 / 재생
-// 				el.find('.mainSection.visual .ctrlBoxSwiper .btnCtrl').on('click' , function(e){
-// 					e.preventDefault();
-
-// 					if($(this).hasClass('pause')){
-// 						$(this).removeClass('pause');
-// 						$(this).addClass('play');
-
-// 						mainVisualSwiper.autoplay.stop();
-// 					}
-// 					else{
-// 						$(this).addClass('pause');
-// 						$(this).removeClass('play');
-
-// 						mainVisualSwiper.autoplay.start();
-// 					}
-// 				});
-// 			}
-// 		}
-// 	});
-
-//   let myVideo = document.querySelector(".myVideo");
-//   let videoIndex = 6;
-
-//   mainVisualSwiper.on("slideChange", function () {
-//     console.log(mainVisualSwiper.activeIndex, videoIndex);
-//     if (mainVisualSwiper.activeIndex === videoIndex) {
-//       myVideo.play();
-//     }
-//   });
-//     myVideo.addEventListener("ended", function() {
-//       myVideo.currentTime = 0;
-//       mainVisualSwiper.slideNext();
-//       mainVisualSwiper.autoplay.start();
-//       console.log("video END");
-//     });
-
-// 	mainVisualSwiper.on('autoplayStop' , function(){
-// 		el.find('.mainVisualSwiper .ctrlBoxSwiper .btnCtrl').removeClass('pause').addClass('play');
-// 	});
-
-
-
-// 	var communitySwiper = new Swiper('.communitySwiper .swiper', {
-// 		observeParents : true,
-// 		observer : true,
-// 		centeredSlides : true,
-// 		slidesPerView: 5,
-// 		spaceBetween : 47,
-// 		navigation: {
-// 			nextEl: '.communitySwiper .ctrlBoxSwiper .btnSwiper.next',
-// 			prevEl: '.communitySwiper .ctrlBoxSwiper .btnSwiper.prev',
-// 		},
-// 		speed : 300,
-// 		simulateTouch  : false,
-// 		loop : true
-// 	});
-
-// 	var curationSwiper = new Swiper('.curationSwiper .swiper', {
-// 		observeParents : true,
-// 		observer : true,
-// 		navigation: {
-// 			nextEl: '.curationSwiper .ctrlBoxSwiper .btnSwiper.next',
-// 			prevEl: '.curationSwiper .ctrlBoxSwiper .btnSwiper.prev',
-// 		},
-// 		pagination : {
-// 			el : '.curationSwiper .ctrlBoxSwiper .paginationSwiper'
-// 		},
-// 		speed : 300,
-// 		simulateTouch  : false,
-// 		loop : true
-// 	});
-// }
-
-// mainUI
 function mainUI(){
 	var el = $('.mainWrap');
 
@@ -610,9 +507,9 @@ function mainUI(){
 
 
     if(scrollY > 900) {
-      $('.stickyT01').css({'opacity':'1','top':'50%'})
-      $('.sticky01').css({'opacity':'1','top':'50%'})
-      $('.sticky01 img').css({'opacity':'1','top':'50%'})
+      $('.stickyT01').css({'opacity':'1','top':'55%'})
+      $('.sticky01').css({'opacity':'1','top':'55%'})
+      $('.sticky01 img').css({'opacity':'1','top':'55%'})
     }else {
       $('.stickyT01').css({'opacity':'0','top':'60%'})
       $('.sticky01').css({'opacity':'0','top':'60%'})
@@ -624,64 +521,62 @@ function mainUI(){
     }else {
       $('.sticky01').css('opacity','1')
     }
-    if(scrollY > 2100) {
-      $('.stickyT02').css({'opacity':'1','top':'50%'})
-      $('.stickyT02').addClass('.fadeAni')
-      $('.sticky02').css({'opacity':'1','top':'50%'})
-      $('.sticky02 img').css({'opacity':'1','top':'50%'})
+    if(scrollY > 1600) {
+      $('.stickyT02').css({'opacity':'1','top':'55%'})
+      $('.sticky02').css({'opacity':'1','top':'55%'})
+      $('.sticky02 img').css({'opacity':'1','top':'55%'})
     }else {
       $('.stickyT02').css({'opacity':'0','top':'60%'})
-      $('.stickyT02').removeClass('.fadeAni')
       $('.sticky02').css({'opacity':'0','top':'60%'})
       $('.sticky02 img').css({'opacity':'0','top':'60%'})
     }
-    if(scrollY > 2600) {
+    if(scrollY > 2300) {
       $('.sticky02').css('opacity','0')
       $('.stickyT02').css('opacity','0')
     }else {
       $('.sticky02').css('opacity','1')
     }
-    if(scrollY > 3100) {
-      $('.stickyT03').css({'opacity':'1','top':'50%'})
-      $('.sticky03').css({'opacity':'1','top':'50%'})
-      $('.sticky03 img').css({'opacity':'1','top':'50%'})
+    if(scrollY > 2300) {
+      $('.stickyT03').css({'opacity':'1','top':'55%'})
+      $('.sticky03').css({'opacity':'1','top':'55%'})
+      $('.sticky03 img').css({'opacity':'1','top':'55%'})
     }else {
       $('.stickyT03').css({'opacity':'0','top':'60%'})
       $('.sticky03').css({'opacity':'0','top':'60%'})
       $('.sticky03 img').css({'opacity':'0','top':'60%'})
     }
-    if(scrollY > 3600) {
+    if(scrollY > 3000) {
       $('.sticky03').css('opacity','0')
       $('.stickyT03').css('opacity','0')
     }else {
       $('.sticky03').css('opacity','1')
     }
-    if(scrollY > 4100) {
-      $('.stickyT04').css({'opacity':'1','top':'50%'})
-      $('.sticky04').css({'opacity':'1','top':'50%'})
-      $('.sticky04 img').css({'opacity':'1','top':'50%'})
+    if(scrollY > 3000) {
+      $('.stickyT04').css({'opacity':'1','top':'55%'})
+      $('.sticky04').css({'opacity':'1','top':'55%'})
+      $('.sticky04 img').css({'opacity':'1','top':'55%'})
     }else {
       $('.stickyT04').css({'opacity':'0','top':'60%'})
       $('.sticky04').css({'opacity':'0','top':'60%'})
       $('.sticky04 img').css({'opacity':'0','top':'60%'})
       
     }
-    if(scrollY > 4600) {
+    if(scrollY > 3700) {
       $('.stickyT04').css('opacity','0')
       $('.sticky04').css('opacity','0')
     }else {
       $('.sticky04').css('opacity','1')
     }
-    if(scrollY > 5100) {
-      $('.stickyT05').css({'opacity':'1','top':'50%'})
-      $('.sticky05').css({'opacity':'1','top':'50%'})
-      $('.sticky05 img').css({'opacity':'1','top':'50%'})
+    if(scrollY > 3700) {
+      $('.stickyT05').css({'opacity':'1','top':'55%'})
+      $('.sticky05').css({'opacity':'1','top':'55%'})
+      $('.sticky05 img').css({'opacity':'1','top':'55%'})
     }else {
       $('.stickyT05').css({'opacity':'0','top':'60%'})
       $('.sticky05').css({'opacity':'0','top':'60%'})
       $('.sticky05 img').css({'opacity':'0','top':'60%'})
     }
-    if(scrollY > 5300) {
+    if(scrollY > 4400) {
       $('.stickyT05').css('opacity','0')
       $('.sticky05').css('opacity','0')
     }else {
