@@ -511,9 +511,9 @@ function mainUI(){
       $('.sticky01').css({'opacity':'1','top':'55%'})
       $('.sticky01 img').css({'opacity':'1','top':'55%'})
     }else {
-      $('.stickyT01').css({'opacity':'0','top':'60%'})
-      $('.sticky01').css({'opacity':'0','top':'60%'})
-      $('.sticky01 img').css({'opacity':'0','top':'60%'})
+      $('.stickyT01').css({'opacity':'1','top':'60%'})
+      $('.sticky01').css({'opacity':'1','top':'60%'})
+      $('.sticky01 img').css({'opacity':'1','top':'60%'})
     }
     if(scrollY > 1600) {
       $('.sticky01').css('opacity','0')
