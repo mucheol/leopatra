@@ -1868,10 +1868,10 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #mnma0001 .mainContents {display: flex;justify-content: center;align-items: center;width: 100%;}
 #mnma0001 .mainContents .inner{position: relative;width: 1280px;height: auto;padding-top: 80px;}
 #mnma0001 .mainContents .sticky{position: relative;width: 100%;}
-#mnma0001 .mainContents .slideCon{position: relative;display: flex;flex-direction: column;justify-content: center;align-items: baseline;width: 100%;height: 3300px;margin-left: 188px;margin-top: 300px;}
+#mnma0001 .mainContents .slideCon{position: relative;display: flex;flex-direction: column;justify-content: center;align-items: baseline;width: 100%;height: 4000px;margin-left: 188px;}
 #mnma0001 .mainContents .stickyItem{position: sticky;top: 55%; transform: translateY(-50%);height: 565px;display: flex;align-items: center;justify-content: end;transition: 1s; z-index: -1;}
 #mnma0001 .mainContents .stickyItem img{position: sticky;top: 10%;width: 500px;height: 550px; transition: 1s;}
-#mnma0001 .mainContents .textCon{position: absolute;top: 0;  right: 0;display: flex;flex-direction: column;justify-content: center;align-items: baseline;width: 530px;height: 3338px;}
+#mnma0001 .mainContents .textCon{position: absolute;top: 0;  right: 0;display: flex;flex-direction: column;justify-content: center;align-items: baseline;width: 530px;height: 4038px;}
 #mnma0001 .mainContents .textCon .stickyText{position: sticky;top: 55%;transform: translateY(-50%);height: 600px;display: flex;flex-direction: column;justify-content: center;align-items: baseline; transition:1s;}
 #mnma0001 .mainContents .textCon .stickyText .p0{position: relative; top: 0; font-weight: 500;font-size: 28px;line-height: 27px;}
 #mnma0001 .mainContents .textCon .stickyText .flexBox{position: relative;top: 0; display: flex;}
