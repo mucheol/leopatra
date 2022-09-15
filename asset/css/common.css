@@ -2026,7 +2026,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .popupCon .ownerItem .info .subInfo {display: flex;}
 .popupCon .ownerItem .info .subInfo p { font-size: 16px; font-weight: 500; color: #6D6D6D; }
 .popupCon .ownerItem .info .subInfo p:nth-child(3) { font-size: 18px; font-weight: 400;}
-.popupCon .ownerItem .info .subInfo:nth-child(4) {position: absolute; bottom: 55px;}
+.popupCon .ownerItem .info .subInfo:nth-child(4) {position: relative; margin-top: 40px;}
 .popupCon .ownerItem .info .subInfo:nth-child(4) p { font-size: 18px; font-weight: 700; color: #2B2B2B; }
 .popupCon .ownerItem .info .subInfo:nth-child(5) {position: absolute; bottom: 25px;}
 .popupCon .ownerItem .info .subInfo:nth-child(5) p { font-size: 16px; color: #000; }
@@ -2128,17 +2128,17 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .layerPop#purchasePiece .popCont { width: 653px; height: 677px; padding: 0 67.7px 0; max-height: none; font-size: 18px; overflow: hidden;}
 .layerPop#purchasePiece .topTitle { font-size: 28px; font-weight: 700; height:100px; margin:0; line-height: 100px; border-bottom: 1px solid #000;}
 
-.layerPop#purchasePiece .ownerItem { display: flex; align-items: center; width: 100%; border: none; padding:0; border-bottom: 1px solid #000; overflow: hidden;}
+.layerPop#purchasePiece .ownerItem { display: flex; align-items: center; width: 100%; border: none; padding: 20px 0; border-bottom: 1px solid #000; overflow: hidden;}
 .layerPop#purchasePiece .ownerItem .thumb { width: 250px; height: 250px;}
-.layerPop#purchasePiece .ownerItem .info { position: relative; width: auto; height: 287px; padding-left: 38.5px;}
-.layerPop#purchasePiece .ownerItem .info .name { font-size: 18px; color: #A7A7A7; padding-top: 50px;}
-.layerPop#purchasePiece .ownerItem .info .title { max-height: 101px; font-size: 24px; line-height: 32px; padding-top: 5px; margin-bottom: 14px;}
+.layerPop#purchasePiece .ownerItem .info { position: relative; width: 265px; height: auto; padding-left: 38.5px;}
+.layerPop#purchasePiece .ownerItem .info .name { font-size: 18px; color: #A7A7A7;}
+.layerPop#purchasePiece .ownerItem .info .title {font-size: 24px; line-height: 32px; padding-top: 5px; margin-bottom: 14px;}
 .layerPop#purchasePiece .ownerItem .info .item { font-size: 16px; color:#2B2B2B;}
 .layerPop#purchasePiece .ownerItem .info .item:nth-child(2) { font-size: 18px;}
-.layerPop#purchasePiece .ownerItem .info .subInfo {display: flex;}
-.layerPop#purchasePiece .ownerItem .info .subInfo + .subInfo {position: absolute; bottom: 55px;}
+.layerPop#purchasePiece .ownerItem .info .subInfo {display: flex; width: 225px; flex-wrap: wrap; line-height: 25px;}
+.layerPop#purchasePiece .ownerItem .info .subInfo + .subInfo {position: relative; margin-top: 20px;}
 .layerPop#purchasePiece .ownerItem .info .sub02 p { font-size: 18px; font-weight: 700; color: #2B2B2B; }
-.layerPop#purchasePiece .ownerItem .info .subInfo .piece {font-weight: 500;}
+.layerPop#purchasePiece .ownerItem .info .subInfo .piece {font-weight: 500; width: auto;}
 
 .layerPop#purchasePiece .resultBox { width: 100%; height: 150px; padding: 15px 0; border-bottom: 1px solid #000;}
 .layerPop#purchasePiece .resultBox .resultDiv { display: flex; justify-content: space-between; }
@@ -2176,7 +2176,7 @@ table tbody .item .cell { height: 90px;}
 .topCon .accountCon .accountBox { border: 1px solid #DCDCDC; width: 33.3%; height: 164px; padding: 26px 24px;}
 .topCon .accountCon .accountBox + .accountBox { border-left: none; padding:26px 40px;}
 .topCon .accountCon .accountBox .photoBox { width: 111px; height: 111px; background-color: #506FB3;}
-.topCon .accountCon .accountBox .accountInfo {  position: relative; height: 111px; padding-left: 14px;}
+.topCon .accountCon .accountBox .accountInfo {  position: relative;width: 155px; height: 111px; padding-left: 14px; overflow-wrap: break-word;}
 .topCon .accountCon .accountBox .accountInfo .accountId {  font-size: 24px; line-height: 28px; font-weight: 700;}
 .topCon .accountCon .accountBox .accountInfo .accountEmail {  font-size: 14px; line-height: 16.5px; font-weight: 400; margin-top: 5px;}
 .topCon .accountCon .accountBox .accountInfo .accountBtn { position: absolute; bottom: 4px;}
@@ -2213,7 +2213,7 @@ table tbody .item .cell { height: 90px;}
 #collectCertfi .subject { margin-left: 48px;}
 #collectCertfi .subject .year{ font-size: 16px; line-height: 23px; color: #4D4D4D;}
 #collectCertfi .subject .title{ font-size: 24px; font-weight: 500; line-height: 34px; color: #000; margin-top: 0px; padding-top: 0;}
-#collectCertfi .subject .des{width: 260px;  font-size: 16px; line-height: 23px; margin-top: 50px;}
+#collectCertfi .subject .des{width: 350px;  font-size: 16px; line-height: 23px; margin-top: 50px;}
 
 #collectCertfi .ownerWrap { padding: 43px 69px 19px 69px;  background: url(../images/certifi_bottom.png) repeat;}
 #collectCertfi .ownerWrap .ownerList { margin-top: 35px;}
@@ -2243,7 +2243,7 @@ table tbody .item .cell { height: 90px;}
 #pieceCertfi .subject { margin-left: 48px;}
 #pieceCertfi .subject .year{ font-size: 16px; line-height: 23px; color: #4D4D4D;}
 #pieceCertfi .subject .title{ font-size: 24px; font-weight: 500; line-height: 34px; color: #000; margin-top: 0px; padding-top: 0;}
-#pieceCertfi .subject .des{width: 260px; font-size: 16px; line-height: 23px; margin-top: 50px;}
+#pieceCertfi .subject .des{width: 350px; font-size: 16px; line-height: 23px; margin-top: 50px;}
 
 #pieceCertfi .ownerWrap { padding: 43px 69px 19px 69px;  background: url(../images/certifi_bottom.png) repeat;}
 #pieceCertfi .ownerWrap .ownerList { margin-top: 35px;}
@@ -2462,8 +2462,8 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 /* PG-03-0001 */
 #pg030001 .pointBox {display: flex; width: 595px; height: 186px; border: 1px solid #9B9B9B; padding: 30px 32px; margin-top: 26px;}
 #pg030001 .pointBox .col { display: flex; width: 362px;}
-#pg030001 .pointBox .col .dl{ width: 50%; font-size: 16px; color: #4B4B4B;}
-#pg030001 .pointBox .col .dr{ width: 50%; font-size: 16px; text-align: right;}
+#pg030001 .pointBox .col .dl{ width: 120px; font-size: 16px; color: #4B4B4B; }
+#pg030001 .pointBox .col .dr{ width: calc(100% - 120px); font-size: 16px; text-align: right;}
 #pg030001 .pointBox .col:nth-child(1) .dl, #pg030001 .pointBox .col:nth-child(1) .dr{ font-size: 24px;}
 #pg030001 .pointBox .col:nth-child(1) { margin-bottom: 35px;}
 #pg030001 .pointBox .col:nth-child(2) { margin: 12px 0;}
@@ -2662,3 +2662,40 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 .notice.container #nt030001 .contentsBox .subDiv .dr { width: calc(100% - 150px); height: 100%; padding-left: 40px;}
 .notice.container #nt030001 .contentsBox .subDiv .dr p{ margin-top: 44px; font-size: 18px; color: #0F0F0F;}
 
+/* Contract01 */
+#contract01 .inner {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 60px 30px 100px;
+}
+#contract01 .title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-left: 20px;
+}
+#contract01 .contract_inner {
+  padding: 30px 0 50px 70px;
+}
+#contract01 .p1 {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 34px;
+  margin-top: 25px;
+}
+#contract01 .p2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 15px;
+}
+#contract01 .p3, #contract01 li {
+  font-size: 18px;
+  line-height: 32px;
+}
+#contract01 ol, #contract01 ul,#contract01 li{
+  list-style: decimal;
+  list-style-position: inside;
+  text-indent: -20px;
+  padding-left: 15px;
+}
