@@ -1973,25 +1973,34 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #ab010001 .mainSection.visual .mainBanner .textBox .subTitle { font-size: 24px; font-weight: 500; line-height: 32px; margin-top: 38px;}
 #ab010001 .mainSection.visual .mainBanner .textBox .horLine { display: block; width: 283px; height: 1px; background-color: #fff; margin: 33px 0;}
 #ab010001 .mainSection.visual .mainBanner .textBox .des {font-size: 24px; line-height: 36px;}
-#ab010001 .mainSection.visual .mainBanner .leftBox { width: 50%; height: 100%; background-color: #506FB3;}
-#ab010001 .mainSection.visual .mainBanner .rightBox { width: 50%; height: 100%; background-image: url(../images/ab_banner.png); background-position: center; background-repeat: no-repeat; background-size: cover;}
+#ab010001 .mainSection.visual .mainBanner .leftBox { width: 45%; height: 100%; background-color: #506FB3;}
+#ab010001 .mainSection.visual .mainBanner .rightBox { width: 55%; height: 100%; background-image: url(../images/ab_banner.png); background-position: center; background-repeat: no-repeat; background-size: cover;}
 
-#ab010001 .inner { width: 1280px; margin: 0 auto;}
+#ab010001 .inner { width: 1300px; margin: 0 auto;}
 
 #ab010001 .section01 {height: 375px;}
 #ab010001 .section01 .inner { display: flex;flex-direction: row; justify-content: left; align-items: center; height: 100%;}
 #ab010001 .section01 p{font-size: 22px; line-height: 34px;}
 
-#ab010001 .section03 .inner{position: relative; display: flex;  padding: 0 0 112px 0;}
-#ab010001 .section03 .videoBox {width: 1031px; height:644px; margin-left: 58px;}
-#ab010001 .section03 .videoBox video { width: 100%; height:100%; }
-#ab010001 .section03 .textBox {position: absolute; top: 322px; right: 0;transform: translateY(-50%); display: flex; flex-direction: column; justify-content: center; align-items: flex-start; width: 503px; height: 526px; background-color: rgba(0, 0, 0, 0.8); padding: 87px 66px;}
-#ab010001 .section03 .textBox p{ font-size: 24px; line-height: 36px;color: #fff; }
-#ab010001 .section03 .textBox .title{ font-size: 48px; line-height: 69.5px; margin-top: 0;}
+#ab010001 .section03 .flexBox{display: flex;margin-top: 61px;}
+#ab010001 .section03 .flexBox .leftBox p {font-size: 16px;line-height: 34px;margin-top: 7px;}
+#ab010001 .section03 .flexBox .rightBox  {margin-left: 115px;}
+#ab010001 .section03 .flexBox .rightBox .p1{font-weight: 700;font-size: 48px;line-height: 70px;margin-top: 30px;}
+#ab010001 .section03 .flexBox .rightBox .p2{width: 610px;font-size: 22px;line-height: 34px;margin-top: 30px;}
+#ab010001 .section03 .flexBox .rightBox span:nth-child(6) {font-size: 18px;}
+#ab010001 .section03 .flexBox02 {position: relative; display: flex; flex-wrap: wrap; padding: 97px 70px; background-color: #CEC2B3;gap: 50px; margin-top: 128px;}
+#ab010001 .section03 .flexBox03 {position: relative;height: 652px;}
+#ab010001 .section03 .flexBox03 p {position: relative;bottom: 145px;left: 550px;width: 340px;height: 96px;font-size: 22px;line-height: 32px;}
+#ab010001 .section03 .flexBox02 .paImg {position: absolute;top: -66px;right: -69px;}
+#ab010001 .section03 .flexBox02 .paText {position: absolute;top: 373px;right: 150px;font-size: 16px;line-height: 34px;transform: rotate(356deg);}
+#ab010001 .section03 .flexBox04 {display: flex;align-items: flex-end;justify-content: space-between; padding: 200px 0;}
+#ab010001 .section03 .flexBox04 .p1 {font-weight: 700;font-size: 22px;line-height: 34px;}
+#ab010001 .section03 .flexBox04 .p2 {width: 430px;font-size: 18px;line-height: 34px;  margin-top: 36px;  }
 
-#ab010001 .section04 { width: 100%; height: 526px; background-color: #506FB3;}
-#ab010001 .section04 .textBox{ text-align: center; color: #fff; padding: 94px 0 92px;}
-#ab010001 .section04 .textBox .title{ font-size: 48px; line-height: 69px;}
+#ab010001 .section04 {position: relative; width: 100%; height: 526px; background-image: url('../images/ab010001_img08.png');}
+#ab010001 .section04::after {position: absolute; content: ""; top: 0; left: 0; width: 100%; height: 100%;background: rgba(0, 0, 0, 0.7); z-index: 1;}
+#ab010001 .section04 .textBox{position: relative; text-align: center; color: #fff; padding: 94px 0 92px; z-index: 2;}
+#ab010001 .section04 .textBox .title{ font-size: 48px; font-weight: 500; line-height: 69px;}
 #ab010001 .section04 .textBox .subTitle{ font-size: 22px; line-height: 33px; margin: 38px 0 65px;}
 #ab010001 .section04 .textBox .whiteBtn{ width: 400px; height: 100px; background-color: #fff; font-size: 24px; font-weight: 700;}
 
@@ -2003,14 +2012,6 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #ab010001 .section05 .textBox .iconText .icon{ width: 24px; line-height: 29px; text-align: center;}
 #ab010001 .section05 .textBox .iconText .text{ font-size: 20px; line-height: 33px; margin-left: 26px;}
 #ab010001 .section05 .mapBox{ width: 700px; height: 522px; background-color: #E9E9E9;}
-
-#ab010001 .section06 { padding-bottom: 112px;}
-#ab010001 .section06 .inner { height: 402px; padding: 96px 68px; background-color: #F7F7F7;}
-#ab010001 .section06 .name { font-size: 20px; line-height: 33px;}
-#ab010001 .section06 .name span{ font-size: 26px; font-weight: 700;}
-#ab010001 .section06 .info01{ font-size: 22px; line-height: 33px; margin-top: 16px;}
-#ab010001 .section06 .info02{ font-size: 24px; line-height: 33px; margin-top: 6px;}
-#ab010001 .section06 .info03{ font-size: 24px;  line-height: 33px; margin-top: 55px;}
 
 /* 팝업창 공통 */
 .popupCon .layerPopArea { width: auto; margin: 0 auto;}
