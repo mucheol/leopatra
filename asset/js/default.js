@@ -493,97 +493,17 @@ function accodianUI() {
 	}
 }
 
-// mainUI
-function mainUI(){
-	var el = $('.mainWrap');
+// MK-01-0002
+function MK010002UI(){
+	var el = $('#MK-01-0002');
 
 	if(el.length <= 0){
 		return;
 	}
 
-//   window.addEventListener("scroll", function(){
-//     let scrollY = this.scrollY;
-//     console.log(scrollY)
-
-
-//     if(scrollY > 900) {
-//       $('.stickyT01').css({'opacity':'1','top':'55%'})
-//       $('.sticky01').css({'opacity':'1','top':'55%'})
-//       $('.sticky01 img').css({'opacity':'1','top':'55%'})
-//     }else {
-//       $('.stickyT01').css({'opacity':'1','top':'60%'})
-//       $('.sticky01').css({'opacity':'1','top':'60%'})
-//       $('.sticky01 img').css({'opacity':'1','top':'60%'})
-//     }
-//     if(scrollY > 1600) {
-//       $('.sticky01').css('opacity','0')
-//       $('.stickyT01').css('opacity','0')
-//     }else {
-//       $('.sticky01').css('opacity','1')
-//     }
-//     if(scrollY > 1600) {
-//       $('.stickyT02').css({'opacity':'1','top':'55%'})
-//       $('.sticky02').css({'opacity':'1','top':'55%'})
-//       $('.sticky02 img').css({'opacity':'1','top':'55%'})
-//     }else {
-//       $('.stickyT02').css({'opacity':'0','top':'60%'})
-//       $('.sticky02').css({'opacity':'0','top':'60%'})
-//       $('.sticky02 img').css({'opacity':'0','top':'60%'})
-//     }
-//     if(scrollY > 2300) {
-//       $('.sticky02').css('opacity','0')
-//       $('.stickyT02').css('opacity','0')
-//     }else {
-//       $('.sticky02').css('opacity','1')
-//     }
-//     if(scrollY > 2300) {
-//       $('.stickyT03').css({'opacity':'1','top':'55%'})
-//       $('.sticky03').css({'opacity':'1','top':'55%'})
-//       $('.sticky03 img').css({'opacity':'1','top':'55%'})
-//     }else {
-//       $('.stickyT03').css({'opacity':'0','top':'60%'})
-//       $('.sticky03').css({'opacity':'0','top':'60%'})
-//       $('.sticky03 img').css({'opacity':'0','top':'60%'})
-//     }
-//     if(scrollY > 3000) {
-//       $('.sticky03').css('opacity','0')
-//       $('.stickyT03').css('opacity','0')
-//     }else {
-//       $('.sticky03').css('opacity','1')
-//     }
-//     if(scrollY > 3000) {
-//       $('.stickyT04').css({'opacity':'1','top':'55%'})
-//       $('.sticky04').css({'opacity':'1','top':'55%'})
-//       $('.sticky04 img').css({'opacity':'1','top':'55%'})
-//     }else {
-//       $('.stickyT04').css({'opacity':'0','top':'60%'})
-//       $('.sticky04').css({'opacity':'0','top':'60%'})
-//       $('.sticky04 img').css({'opacity':'0','top':'60%'})
-      
-//     }
-//     if(scrollY > 3700) {
-//       $('.stickyT04').css('opacity','0')
-//       $('.sticky04').css('opacity','0')
-//     }else {
-//       $('.sticky04').css('opacity','1')
-//     }
-//     if(scrollY > 3700) {
-//       $('.stickyT05').css({'opacity':'1','top':'55%'})
-//       $('.sticky05').css({'opacity':'1','top':'55%'})
-//       $('.sticky05 img').css({'opacity':'1','top':'55%'})
-//     }else {
-//       $('.stickyT05').css({'opacity':'0','top':'60%'})
-//       $('.sticky05').css({'opacity':'0','top':'60%'})
-//       $('.sticky05 img').css({'opacity':'0','top':'60%'})
-//     }
-//     if(scrollY > 4400) {
-//       $('.stickyT05').css('opacity','0')
-//       $('.sticky05').css('opacity','0')
-//     }else {
-//       $('.sticky05').css('opacity','1')
-//     }
-// })
-
+  $('.detailBtn').on('click',function() {
+    $('.infoArea2').toggleClass('active')
+  })
 }
 
 // videoUI
@@ -662,9 +582,9 @@ $(function(){
 	locationUI();
 	fileUploadUI();
 	accodianUI();
-	mainUI();
 	videoUI();
 	toolTipLayer();
+	MK010002UI();
 });
 
 $(document).ready(function(){
