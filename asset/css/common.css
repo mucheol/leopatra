@@ -1807,7 +1807,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 
 .ownerWrap{background:url(../images/certifi_bottom.png) no-repeat;position:relative;z-index:5;padding:43px 69px 130px 69px}
 /* .ownerWrap:before{display:block;width:413px;height:413px;background:url(../images/bg_owner_mark.png) no-repeat;content:'';position:absolute;left:0;right:0;top:50%;margin:60px auto 0 auto;transform:translateY(-50%)} */
-.ownerWrap:after{display:block;content:'';width:228px;height:228px;background:url(../images/img_leopatra.png) no-repeat;position:absolute;right:40px;bottom:52px}
+.ownerWrap:after{display:block;content:'';width:228px;height:228px;background:url(../images/img_leopatra.png) no-repeat;position:absolute;right:40px;bottom:200px}
 .ownerWrap .ownerItem{position:relative;z-index:5;border:0;padding:0}
 .ownerWrap .ownerItem .info{padding-left:0;vertical-align: top;padding-top:17px;padding-right:10px;width:calc(100% - 241px)}
 .ownerWrap .ownerItem .info .subject{margin-bottom:0}
@@ -1873,7 +1873,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #mnma0001 .mainCon {width: 100%;height: auto;}
 #mnma0001 .mainCon .contents{display: flex; align-items: center; padding: 100px 60px; width: 100%; margin-bottom: 105px;}
 #mnma0001 .mainCon .contents:nth-child(1){background-color: #D6DDEC;}
-#mnma0001 .mainCon .contents:nth-child(2){background-color: #ECDCDC;}
+#mnma0001 .mainCon .contents:nth-child(2){background-color: #DEDCEC;}
 #mnma0001 .mainCon .contents:nth-child(3){background-color: #E9E9E9;}
 #mnma0001 .mainCon .contents:nth-child(4){background-color: #FFF3E6;}
 #mnma0001 .mainCon .contents:nth-child(5){background-color: #DAD4CE;}
@@ -2302,22 +2302,23 @@ table tbody .item .cell { height: 90px;}
 #collectCertfi .subject .title{ font-size: 24px; font-weight: 500; line-height: 34px; color: #000; margin-top: 0px; padding-top: 0;}
 #collectCertfi .subject .des{width: 350px;  font-size: 16px; line-height: 23px; margin-top: 50px;}
 
-#collectCertfi .ownerWrap { padding: 43px 60px 19px 60px;  background: url(../images/certifi_bottom.png) repeat;}
+#collectCertfi .certiStamp { position: absolute;z-index: -1;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+#collectCertfi .ownerWrap { padding: 43px 60px 19px 60px;  background: url(../images/certifi_bottom.png) repeat; background-size: cover;}
+.layerPop#collectCertfi .popCont {height: 600px;}
 #collectCertfi .ownerWrap .ownerList { margin-top: 35px;}
-#collectCertfi .ownerItem img{background-position: center; background-size: cover; background-repeat: no-repeat;}
 #collectCertfi .ownerItem .flexBox { display: flex;}
-#collectCertfi .ownerItem .flexBox .img01{width: 320px; background-image: url('../images/mk010004_img01.png'); background-position: center; background-size: cover; background-repeat: no-repeat;}
 #collectCertfi .ownerItem .flexBox .textBox{ padding-left: 39px;padding-top: 50px;}
-#collectCertfi .ownerItem .flexBox .textBox .p01{font-size: 22px;line-height: 32px;}
+#collectCertfi .ownerItem .flexBox .textBox .p01{font-size: 22px;line-height: 32px; font-weight: bold;}
 #collectCertfi .ownerItem .flexBox .textBox .p02{font-size: 16px;line-height: 30px;margin-top: 19px;}
-#collectCertfi .ownerItem .flexBox .img02{height: 278px; background-image: url('../images/mk010004_img02.png');}
-#collectCertfi .ownerItem .flexBox .img03{height: 278px; background-image: url('../images/mk010004_img03.png');}
-#collectCertfi .ownerItem .flexBox .img04{height: 278px; background-image: url('../images/mk010004_img04.png');}
+#collectCertfi .ownerItem .flexBox:nth-child(2){gap: 15px; padding-bottom: 20px; border-bottom: 1px solid #535353;}
+#collectCertfi .ownerItem .flexBox:nth-child(2) p{font-size: 16px; text-align: center; margin-top: 8px;line-height: 23px;color: #535353;}
   
 #collectCertfi .ownerWrap .ownerList .item { margin-bottom: 28px;}
-#collectCertfi .ownerWrap .ownerList .item dt{ font-weight: 500; font-size: 21px; line-height: 28px; color: #535353;}
-#collectCertfi .ownerWrap .ownerList .item dd{ font-size: 18px; line-height: 28px; color: #000;}
+#collectCertfi .ownerWrap .ownerList .item:nth-child(6) { margin-bottom: 40px;}
+#collectCertfi .ownerWrap .ownerList .item dt{ font-weight: 500;font-size: 18px;line-height: 26px;color: #535353;}
+#collectCertfi .ownerWrap .ownerList .item dd{ font-size: 18px; line-height: 26px; color: #000;}
 #collectCertfi .ownerWrap .ownerList .item dd span{ font-size: 14px; line-height: 16px; color: #747474; margin-left: 12px;}
+#collectCertfi .ownerWrap .ownerList .item dd p{ margin-bottom: 10px;}
 #collectCertfi .ownerWrap .ownerList table{ width: 392px; font-weight: 400; font-size: 14px; line-height: 20px; color: #4D4D4D; border-top: 1px solid #000;border-bottom: 1px solid #000;}
 #collectCertfi .ownerWrap .ownerList table thead{ height: 38.5px; border-bottom: 1px solid #000;}
 #collectCertfi .ownerWrap .ownerList table tbody tr{ height: 49px;}
@@ -2326,7 +2327,7 @@ table tbody .item .cell { height: 90px;}
 #collectCertfi .ownerWrap .ownerList table tr th:nth-child(3){ width: 103px;}
 #collectCertfi .ownerWrap .ownerList table tbody tr:nth-child(1) td { border-top: 1px solid #000;}
 
-#collectCertfi .signBox{ display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; margin-top: 19px;}
+#collectCertfi .signBox{ display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; margin-top: 19px;padding-top: 40px; padding-bottom: 50px;}
 #collectCertfi .signBox .signDay{ font-size: 16px; line-height: 19px;}
 #collectCertfi .signBox img{ margin-top: 16px; width: 174px;}
 
