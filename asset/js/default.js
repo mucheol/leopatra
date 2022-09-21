@@ -503,6 +503,15 @@ function MK010002UI(){
 
   $('.detailBtn').on('click',function() {
     $('.infoArea2').toggleClass('active')
+    if($('.infoArea2').hasClass('active')) {
+      $('.detailBtn img').css('transform', 'rotate(180deg)')
+    }else {
+      $('.detailBtn img').css('transform', 'rotate(0deg)')
+    }
+  })
+  $('.closeBtn').on('click',function() {
+    $('.infoArea2').toggleClass('active')
+    $('.detailBtn img').css('transform', 'rotate(0deg)')
   })
 }
 
