@@ -1908,28 +1908,21 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 /* MN-MA-0002P */
 #mnma0002p .inner { width: 1280px; margin: 0 auto;}
 #mnma0002p p { word-break: keep-all;}
-#mnma0002p .blueBox { background-color: #506FB3;}
 #mnma0002p .blueHorLine{display: block; width: 118.5px; height: 8px; background-color: #506FB3; margin: 0 auto; }
 
 #mnma0002p .post { font-weight: 700; font-size: 38px; line-height: 45px; width: 1280px; margin: 0 auto; padding-top: 86px; padding-bottom: 11px; border-bottom: 1px solid #D6D6D6;}
 #mnma0002p .section01 { padding-top:  45px;}
-#mnma0002p .section01 .inner{ position: relative; height: 1100px; padding: 122px 188px; color: #fff;}
-#mnma0002p .section01 .title{ font-weight: 700; font-size: 38px; line-height: 45px; }
-#mnma0002p .section01 .p2{ font-weight: 500; font-size: 26px; line-height: 30px; margin-top: 33.6px; margin-bottom: 46px;}
-#mnma0002p .section01 .p3{ font-size: 18px; line-height: 26px; margin-top: 33.6px;}
-#mnma0002p .section01 .p4{ position: absolute; transform: rotate(90deg); top: 669px; right: -9px; font-size: 16px; line-height: 19px;}
+#mnma0002p .section01 .inner{ position: relative;  color: #fff;background-color: #342A1E; box-sizing: border-box;}
+#mnma0002p .section01 .flexBox {display: flex;padding: 180px 0px;}
+#mnma0002p .section01 .flexBox img{width: 783px;height: 654px;}
+#mnma0002p .section01 .flexBox .imgBox p{font-weight: 300;font-size: 16px;line-height: 19px;text-align: center;margin-top: 12px;}
+#mnma0002p .section01 .flexBox .textBox{display: flex;flex-direction: column;justify-content: center;width: 410px;padding-left: 76px;}
+#mnma0002p .section01 .flexBox .textBox .p1{font-weight: 700;font-size: 38px;line-height: 45px;}
+#mnma0002p .section01 .flexBox .textBox .p2{width: 315px;font-size: 18px;line-height: 21px;margin-top: 60px;}
 
-#mnma0002p .section02 { padding-top: 117px;}
-#mnma0002p .section02 .inner  { padding-top: 117px;}
-#mnma0002p .section02 .title {margin-top: 58.7px; text-align: center;font-weight: 600;font-size: 28px; line-height: 33px;}
-#mnma0002p .section02 .p2 {padding: 0 40px; font-size: 18px; line-height: 30px; margin-top: 76px;}
-#mnma0002p .section02 .p3 {padding: 0 40px; font-size: 18px; line-height: 30px; margin-top: 33px;}
-#mnma0002p .section02 .imgBox { display: flex; margin-top: 183px;}
-#mnma0002p .section02 .imgBox img{width: 100%;}
-#mnma0002p .section02 .p4 {  font-weight: 500; font-size: 14px; line-height: 16px; margin-top: 17px; margin-left: 40px;}
-#mnma0002p .section02 .p4 span { margin-left: 273px;}
-#mnma0002p .section02 .p5 {padding: 0 40px; font-weight: 400; font-size: 18px; line-height: 30px; margin-top: 119px; }
-#mnma0002p .section02 .p6 {padding: 0 40px; font-weight: 300; font-size: 14px; line-height: 16px; text-align: right; margin-top: 63px;}
+#mnma0002p .section02 { padding-top: 117px;padding-bottom: 195px;}
+#mnma0002p .section02 p{ font-size: 18px;
+  line-height: 30px; margin-top: 40px;}
 
 #mnma0002p .section03 { padding-top: 224px;}
 #mnma0002p .section03 .inner { width: 1200px;}
@@ -2246,11 +2239,15 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .layerPop#purchasePiece .btnArea .btns.mid { height: 60px; line-height: 60px; padding: 0; margin-top: 78px;}
 .layerPop#purchasePiece .btnArea .btns.mid span{ font-size: 22px; font-weight: 400;}
 
+/* MK-01-0004P */
+.layerPop .popCont { height: calc(100vh - 350px) !important;}
+
+
+
 .popupBtnBox { width: 100%;  display: flex;}
 .popupBtnBox button { width: 50%; height: 60px; font-size: 22px;}
 button.fffBtn{ border: 1px solid #506FB3; color: #506FB3;}
 button.blueBtn{ background-color: #506FB3; color: #fff;}
-
 
 /* MY Page 공통 */
 .horLineBox { display: flex; }
