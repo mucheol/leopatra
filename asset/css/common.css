@@ -1921,8 +1921,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #mnma0002p .section01 .flexBox .textBox .p2{width: 315px;font-size: 18px;line-height: 21px;margin-top: 60px;}
 
 #mnma0002p .section02 { padding-top: 117px;padding-bottom: 195px;}
-#mnma0002p .section02 p{ font-size: 18px;
-  line-height: 30px; margin-top: 40px;}
+#mnma0002p .section02 p{ font-size: 18px;line-height: 30px; margin-top: 40px;}
 
 #mnma0002p .section03 { padding-top: 224px;}
 #mnma0002p .section03 .inner { width: 1200px;}
@@ -2093,8 +2092,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .viewInfo .infoArea .purchaseBtn { width: 100%; height: 70px; font-size: 20px; font-weight: 700; color:#fff; background-color: #506FB3; }
 .viewInfo .infoArea .purchaseQuantity .dt {color:#1E1E1E}
 
-#MK-01-0002 .infoArea2 { width: 100%; height: 340px; border-bottom: 2px solid #0D0D0D; overflow-y: hidden;}
-#MK-01-0002 .infoArea2.active {height: auto;}
+#MK-01-0002 .infoArea2 { width: 100%; height: auto; border-bottom: 2px solid #0D0D0D; overflow-y: hidden; }
 #MK-01-0002 .infoArea2 .topTitle { margin: 35px 0 25px;}
 #MK-01-0002 .infoArea2 .content .dt { margin-top: 10px; float: left; width: 120px; font-size: 16px; font-weight: 400 !important; color: #535353; line-height: 23.17px; vertical-align: top; font-weight: 700;}
 #MK-01-0002 .infoArea2 .content .dl:nth-child(5) .dt{height: 42px; line-height: 42px; margin-top: 0;}
@@ -2104,11 +2102,12 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #MK-01-0002 .infoArea2 .detailBtn:active {box-shadow: none;}
 #MK-01-0002 .infoArea2 .detailBtn img {width: 12px; margin-left: 27px; transition: .3s;}
 
-#MK-01-0002 .infoArea2 .detailPage {margin-top: 285px;border-top: 1px solid #D6D6D6;}
+#MK-01-0002 .infoArea2 .detailPage {height: 0; transition: 1s;clear: both; padding-top: 40px;}
+#MK-01-0002 .infoArea2.active .detailPage{height: auto;}
 #MK-01-0002 .infoArea2 .detailPage .inner { width: 872px; margin: 0 auto;}
 #MK-01-0002 .infoArea2 .detailPage .inner02 { width: 815px; margin: 0 auto;}
 
-#MK-01-0002 .infoArea2 .detailPage .p0{font-size: 16px;line-height: 26px;margin: 9px 0;}
+#MK-01-0002 .infoArea2 .detailPage .p0{font-size: 16px;line-height: 26px;margin: 9px 0;border-top: 1px solid #D6D6D6;}
 #MK-01-0002 .infoArea2 .detailPage .detailBoxes{width: 100%;height: auto;background-color: #342A1E; color: #fff;}
 #MK-01-0002 .infoArea2 .detailPage .detailBox01{width: 100%;text-align: center;padding: 112px 30px 137px;}
 #MK-01-0002 .infoArea2 .detailPage .detailBox01 .p1{font-weight: 300;font-size: 38px;line-height: 45px;margin-top: 16px;}
@@ -2239,9 +2238,6 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .layerPop#purchasePiece .btnArea .btns.mid { height: 60px; line-height: 60px; padding: 0; margin-top: 78px;}
 .layerPop#purchasePiece .btnArea .btns.mid span{ font-size: 22px; font-weight: 400;}
 
-/* MK-01-0004P */
-.layerPop .popCont { height: calc(100vh - 350px) !important;}
-
 
 
 .popupBtnBox { width: 100%;  display: flex;}
@@ -2306,10 +2302,18 @@ table tbody .item .cell { height: 90px;}
 #collectCertfi .subject .title{ font-size: 24px; font-weight: 500; line-height: 34px; color: #000; margin-top: 0px; padding-top: 0;}
 #collectCertfi .subject .des{width: 350px;  font-size: 16px; line-height: 23px; margin-top: 50px;}
 
-#collectCertfi .ownerWrap { padding: 43px 69px 19px 69px;  background: url(../images/certifi_bottom.png) repeat;}
+#collectCertfi .ownerWrap { padding: 43px 60px 19px 60px;  background: url(../images/certifi_bottom.png) repeat;}
 #collectCertfi .ownerWrap .ownerList { margin-top: 35px;}
-#collectCertfi .ownerItem { display: flex;}
-#collectCertfi .thumb { display: flex; justify-content: center;  align-items: center; border: none;}
+#collectCertfi .ownerItem img{background-position: center; background-size: cover; background-repeat: no-repeat;}
+#collectCertfi .ownerItem .flexBox { display: flex;}
+#collectCertfi .ownerItem .flexBox .img01{width: 320px; background-image: url('../images/mk010004_img01.png'); background-position: center; background-size: cover; background-repeat: no-repeat;}
+#collectCertfi .ownerItem .flexBox .textBox{ padding-left: 39px;padding-top: 50px;}
+#collectCertfi .ownerItem .flexBox .textBox .p01{font-size: 22px;line-height: 32px;}
+#collectCertfi .ownerItem .flexBox .textBox .p02{font-size: 16px;line-height: 30px;margin-top: 19px;}
+#collectCertfi .ownerItem .flexBox .img02{height: 278px; background-image: url('../images/mk010004_img02.png');}
+#collectCertfi .ownerItem .flexBox .img03{height: 278px; background-image: url('../images/mk010004_img03.png');}
+#collectCertfi .ownerItem .flexBox .img04{height: 278px; background-image: url('../images/mk010004_img04.png');}
+  
 #collectCertfi .ownerWrap .ownerList .item { margin-bottom: 28px;}
 #collectCertfi .ownerWrap .ownerList .item dt{ font-weight: 500; font-size: 21px; line-height: 28px; color: #535353;}
 #collectCertfi .ownerWrap .ownerList .item dd{ font-size: 18px; line-height: 28px; color: #000;}
