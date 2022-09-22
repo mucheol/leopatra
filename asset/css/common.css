@@ -1879,7 +1879,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #mnma0001 .mainCon .contents:nth-child(5){background-color: #DAD4CE;}
 #mnma0001 .mainCon .contents .imgBox {display: flex; justify-content: center; align-items: center; width: 545px; height: 550px;margin-left: 80px;} 
 #mnma0001 .mainCon .contents .imgBox img{width: 100%; height: 100%;}
-#mnma0001 .mainCon .contents:nth-child(2) .imgBox img{width: 350px; height: 100%;}
+#mnma0001 .mainCon .contents:nth-child(2) .imgBox img{width: auto; height: 100%;}
 #mnma0001 .mainCon .contents .textBox {margin-left: 40px;}
 #mnma0001 .mainCon .contents .textBox .p0{ font-weight: 500;font-size: 28px;line-height: 27px;}
 #mnma0001 .mainCon .contents .textBox .p1{font-size: 38px;line-height: 50px;margin-top: 20px;}
