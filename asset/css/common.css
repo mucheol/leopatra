@@ -1982,11 +1982,12 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 #ab010001 .section03 .flexBox .rightBox .p1{font-weight: 700;font-size: 48px;line-height: 70px;margin-top: 30px;}
 #ab010001 .section03 .flexBox .rightBox .p2{width: 610px;font-size: 22px;line-height: 34px;margin-top: 30px;}
 #ab010001 .section03 .flexBox .rightBox span:nth-child(6) {font-size: 18px;}
-#ab010001 .section03 .flexBox02 {position: relative; display: flex; flex-wrap: wrap; padding: 97px 70px; background-color: #CEC2B3;gap: 50px; margin-top: 128px;}
-#ab010001 .section03 .flexBox03 {position: relative;height: 652px;}
-#ab010001 .section03 .flexBox03 p {position: relative;bottom: 145px;left: 550px;width: 340px;height: 96px;font-size: 22px;line-height: 32px;}
-#ab010001 .section03 .flexBox02 .paImg {position: absolute;top: -66px;right: -69px;}
-#ab010001 .section03 .flexBox02 .paText {position: absolute;top: 373px;right: 150px;font-size: 16px;line-height: 34px;transform: rotate(356deg);}
+#ab010001 .section03 .flexBox02 {position: relative; display: grid; background-color: #CEC2B3; padding: 117px 135px; grid-template: 300px 300px 300px 300px / 300px 300px 300px ; gap: 75px; margin-top: 128px;}
+#ab010001 .section03 .flexBox02 .cell-a {position: relative; grid-row-start: 1; grid-row-end: 2; grid-column-start: 2; grid-column-end: 4;}
+#ab010001 .section03 .flexBox02 .cell-a img {position: absolute; left: -50px; bottom: -30px;}
+#ab010001 .section03 .flexBox02 .cell-a p {position: absolute; top: 170px; right: -80px; transform: rotate(-3.9deg); font-size: 16px;}
+#ab010001 .section03 .flexBox02 .cell-b {  display: flex;  align-items: center;  width: 385px;  height: 100%;  font-weight: 500;  font-size: 20px;  line-height: 29px;}
+#ab010001 .section03 .flexBox02 img + p {width: 350px; font-size: 18px; line-height: 26px; margin-top: 10px; }
 #ab010001 .section03 .flexBox04 {display: flex;align-items: flex-end;justify-content: space-between; padding: 200px 0;}
 #ab010001 .section03 .flexBox04 .p1 {font-weight: 700;font-size: 22px;line-height: 34px;}
 #ab010001 .section03 .flexBox04 .p2 {width: 430px;font-size: 18px;line-height: 34px;  margin-top: 36px;  }
@@ -2783,3 +2784,8 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #contract02 ol, #contract02 ul,#contract02 li{list-style: decimal;list-style-position: inside;text-indent: -28px;padding-left: 15px;}
 #contract02 .p4Box {margin-bottom: 5px;}
 #contract02 .p4Box .p4 {padding-left: 35px;font-size: 18px;line-height: 32px;}
+
+/* POPUP */
+#eec .image img {  width: 100%;}
+ .layerPop#eec .layerPopArea {  width: 50vw;  border-radius: 20px;  border: none;  position: relative;  display: inline-block;  vertical-align: middle;  z-index: 10;  margin: 0 auto 50px;  width: 767px;  background: #fff;  text-align: left;  overflow: hidden;}
+#eec .btnPopClose {  right: 0;}
