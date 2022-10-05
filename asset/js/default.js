@@ -513,6 +513,17 @@ function MK010002UI(){
     $('.infoArea2').toggleClass('active')
     $('.detailBtn img').css('transform', 'rotate(0deg)')
   })
+
+  // 캐쉬 아이콘 클릭시 on/off
+  $('.q_Icon').on('click',function(){
+    $('.question_notiBox').toggleClass('on')
+  })
+
+  let idx = 1;
+  $('.mainImg').attr("src","../asset/images/item"+ idx + ".png")
+}
+function toggleImg(idx) {
+  $('.mainImg').attr("src","../asset/images/item"+ idx + ".png")
 }
 
 // videoUI

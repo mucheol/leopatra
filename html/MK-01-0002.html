@@ -53,7 +53,28 @@
 				<!-- 콘텐츠 상세 : s -->
 				<div class="viewInfo">
 					<div class="thumbnail">
-						<img src="../asset/images/item03 (스탠다드 포노그래프).png" alt="" />
+            <div class="imgBox">
+              <img src="" alt="" class="mainImg" />
+              <img src="../asset/images/arr_prev_blue.png" alt="" class="arr arr_prev" onclick="toggleNum(0)">
+              <img src="../asset/images/arr_next_blue.png" alt="" class="arr arr_next" onclick="toggleNum(1)">
+            </div>
+            <div class="imgSlide">
+              <div class="imgBox" onclick="toggleImg(1)">
+                <img src="../asset/images/item1.png" alt="">
+              </div>
+              <div class="imgBox" onclick="toggleImg(2)">
+                <img src="../asset/images/item2.png" alt="">
+              </div>
+              <div class="imgBox" onclick="toggleImg(3)">
+                <img src="../asset/images/item3.png" alt="">
+              </div>
+              <div class="imgBox" onclick="toggleImg(4)">
+                <img src="../asset/images/item4.png" alt="">
+              </div>
+              <div class="imgBox" onclick="toggleImg(5)">
+                <img src="../asset/images/item5.png" alt="">
+              </div>
+            </div>
 					</div>
 					<div class="infoArea">
 						<div class="topTitle">
@@ -65,7 +86,18 @@
                 </div>
                 <div class="priceInfo">
                   <p class="price_notice">개당 공모가</p>
-                  <p class="price">500,000원</p>
+                  <div class="flexBox">
+                    <p class="price">500,000원</p>
+                    <div class="iconBox">
+                      <img src="../asset/images/question_icon.png" alt="" class="q_Icon" />
+                      <div class="question_notiBox">
+                        <p class="cash">캐시</p>
+                        <p>레오파트라에서 쓰는 캐시입니다.<br/>
+                          1캐시는 1원의 가치를 가지고 있습니다.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 							</div>
 						</div>
