@@ -2401,53 +2401,23 @@ table tbody .item .cell { height: 90px;}
 #mk010007 .popHead .tit { position: absolute; bottom: 26px; left: 81px; font-size: 36px;color: #000;}
 #mk010007 .popHead .logo { position: absolute; top: 88px; right: 278px;}
 #mk010007 .popHead .logoP { position: absolute; top: 100px; right: 30px;font-size: 28px;line-height: 41px;}
+#mk010007 .popCont {overflow-x: hidden;}
 #mk010007.layerPop .btnPopClose {right: 10px;}
 #mk010007 .ownerWrap {background: none; padding: 32px 32px 0 32px;}
 #mk010007 .ownerWrap::after {display: none;}
-#mk010007 .ownerWrap .flexBox {
-  display: flex;
-}
-#mk010007 .ownerWrap .flexBox .textBox{
-  width: 230px;
-}
-#mk010007 .ownerWrap .flexBox .textBox .p1{
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 32px;
-}
-#mk010007 .ownerWrap .flexBox .textBox .p2{
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 30px;
-  margin-top: 29px;
-}
-#mk010007 .ownerWrap .titleBox .flexBox{
-  justify-content: center;
-  flex-direction: column;
-  margin-left: 40px;
-  
-}
-#mk010007 .ownerWrap .titleBox .flexBox .p3{
-  font-size: 22px;
-  line-height: 32px;
-}
-#mk010007 .ownerWrap .titleBox .flexBox .p4{
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 41px;
-}
-#mk010007 .ownerWrap .ownerList {
-  margin-top: 23px;
-}
-#mk010007 .ownerWrap .signBox {
-  text-align: center;
-}
-#mk010007 .ownerWrap .foot {
-  width: 100%;
-  height: 146px;
-  background-color: #548235;
-}
-
+#mk010007 .ownerWrap .flexBox {  display: flex;}
+#mk010007 .ownerWrap .flexBox .textBox{  width: 230px;}
+#mk010007 .ownerWrap .flexBox .textBox .p1{  font-weight: 500;  font-size: 22px;  line-height: 32px;}
+#mk010007 .ownerWrap .flexBox .textBox .p2{  font-weight: 500;  font-size: 16px;  line-height: 30px;  margin-top: 29px;}
+#mk010007 .ownerWrap .titleBox .flexBox{  justify-content: center;  flex-direction: column;  margin-left: 40px;  }
+#mk010007 .ownerWrap .titleBox .flexBox .p3{  font-size: 22px;  line-height: 32px;}
+#mk010007 .ownerWrap .titleBox .flexBox .p4{  font-weight: 500;  font-size: 28px;  line-height: 41px;}
+#mk010007 .ownerWrap .ownerList {  margin-top: 23px;  overflow-x: hidden;}
+#mk010007 .ownerWrap .ownerList .item dt { width: 130px;}
+#mk010007 .ownerWrap .signBox {  text-align: center;  margin-top: 40px;}
+#mk010007 .foot {  width: 767px;  margin-top: 20px;  margin-bottom: -25px;  margin-left: -27px;}
+#mk010007 .popFooter {  position: relative;  display: flex;  justify-content: center;  align-items: center;  width: 100%;  height: 146px;  background-color: #548235;  font-size: 18px;  line-height: 26px;}
+#mk010007 .stamp {  position: absolute;  bottom: 100px;  left: 500px;}
 
 /* PG-01-0001 */
 .collectionTbl { margin-top: 106px;}
