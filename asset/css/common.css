@@ -1858,11 +1858,10 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 
 /* MN-MA-0001 */
 #mnma0001 .mainContainer {position: relative;}
-#mnma0001 .mainContainer iframe{position: absolute; top: 0; left: 0; width: 100%; height: 800px; object-fit: cover; z-index: 1;}
-#mnma0001 .mainContainer .inner {position: relative;width: 1290px;height: 800px;margin: 0 auto;padding-top: 134px;z-index: 2;}
-#mnma0001 .mainContainer .inner p{color: #fff;}
-#mnma0001 .mainContainer .inner .p1{font-weight: 700;font-size: 48px;line-height: 56px;margin-top: 17px;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);}
-#mnma0001 .mainContainer .inner button {display: flex;justify-content: center;align-items: center;width: 280px;height: 80px;font-weight: 700;font-size: 24px;line-height: 33px;color: #fff;background: rgba(80, 111, 179, 0.8);margin-top: 400px;}
+#mnma0001 .mainContainer iframe{position: relative; top: 0; left: 0; width: 100%; height: 800px; object-fit: cover; z-index: 1;}
+#mnma0001 .mainContainer p{color: #fff;}
+#mnma0001 .mainContainer .p1{position: absolute; top: 50px; left: 320px; font-weight: 700;font-size: 48px;line-height: 56px;margin-top: 17px;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4); z-index: 1;}
+#mnma0001 .mainContainer button {position: absolute; bottom: 100px; left: 320px; display: flex;justify-content: center;align-items: center;width: 280px;height: 80px;font-weight: 700;font-size: 24px;line-height: 33px;color: #fff;background: rgba(80, 111, 179, 0.8);margin-top: 400px; z-index: 1;}
 
 #mnma0001 .mainContents {display: flex;justify-content: center;align-items: center;width: 100%;}
 #mnma0001 .mainContents .inner{position: relative;width: 1280px;height: auto;padding-top: 80px;}
@@ -2396,6 +2395,59 @@ table tbody .item .cell { height: 90px;}
 #collectCertfiE .signBox{ display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; margin-top: 19px;padding-top: 40px; padding-bottom: 50px;}
 #collectCertfiE .signBox .signDay{ font-size: 16px; line-height: 19px;}
 #collectCertfiE .signBox img{ margin-top: 16px; width: 174px;}
+
+/* MK-01-0007 */
+#mk010007 .popHead { position: relative; padding: 0; height: 280px; background-color: #A9D18E;}
+#mk010007 .popHead .tit { position: absolute; bottom: 26px; left: 81px; font-size: 36px;color: #000;}
+#mk010007 .popHead .logo { position: absolute; top: 88px; right: 278px;}
+#mk010007 .popHead .logoP { position: absolute; top: 100px; right: 30px;font-size: 28px;line-height: 41px;}
+#mk010007.layerPop .btnPopClose {right: 10px;}
+#mk010007 .ownerWrap {background: none; padding: 32px 32px 0 32px;}
+#mk010007 .ownerWrap::after {display: none;}
+#mk010007 .ownerWrap .flexBox {
+  display: flex;
+}
+#mk010007 .ownerWrap .flexBox .textBox{
+  width: 230px;
+}
+#mk010007 .ownerWrap .flexBox .textBox .p1{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+}
+#mk010007 .ownerWrap .flexBox .textBox .p2{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 29px;
+}
+#mk010007 .ownerWrap .titleBox .flexBox{
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 40px;
+  
+}
+#mk010007 .ownerWrap .titleBox .flexBox .p3{
+  font-size: 22px;
+  line-height: 32px;
+}
+#mk010007 .ownerWrap .titleBox .flexBox .p4{
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 41px;
+}
+#mk010007 .ownerWrap .ownerList {
+  margin-top: 23px;
+}
+#mk010007 .ownerWrap .signBox {
+  text-align: center;
+}
+#mk010007 .ownerWrap .foot {
+  width: 100%;
+  height: 146px;
+  background-color: #548235;
+}
+
 
 /* PG-01-0001 */
 .collectionTbl { margin-top: 106px;}
