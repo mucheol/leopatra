@@ -1855,6 +1855,7 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .innerCon { width: 1300px; margin: 0 auto;}
 .dP {display: flex;}
 
+
 /* MN-MA-0001 */
 #mnma0001 .mainContainer {position: relative;}
 #mnma0001 .mainContainer iframe{position: absolute; top: 0; left: 0; width: 100%; height: 800px; object-fit: cover; z-index: 1;}
@@ -2054,8 +2055,8 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .prdList .bestItem .textBox .p3{font-size: 16px;line-height: 27px;margin-top: 4px;}
 .prdList .bestItem .textBox .p4{font-size: 14px;line-height: 21px;margin-top: 23px;}
 .prdList .bestItem .textBox .storyBtn{font-weight: 700; font-size: 18px; line-height: 21px; margin-top: 38px;  }
-  .prdList .bestItem .textBox .storyBtn a{color: #506FB3; }
-  .prdList .bestItem .textBox .storyBtn img { transform: rotate(270deg);   margin-bottom: 3px;  }
+.prdList .bestItem .textBox .storyBtn a{color: #506FB3; }
+.prdList .bestItem .textBox .storyBtn img { transform: rotate(270deg);   margin-bottom: 3px;  }
 .prdList .bestItem .textBox .horLine{width: 90px;height: 1px;margin:19px 0; background-color: rgba(0, 0, 0, 0.4);}
 .prdList .bestItem .textBox .p5{font-weight: 500;font-size: 38px;line-height: 45px;}
 .prdList .bestItem .imgBox {display: flex;justify-content: center;align-items: center;margin-left: auto;background-color: #506FB3;width: 809px; max-height: 550px; margin-left: 37px;}
@@ -2252,8 +2253,6 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .layerPop#purchasePiece .btnArea .btns.mid { height: 60px; line-height: 60px; padding: 0; margin-top: 78px;}
 .layerPop#purchasePiece .btnArea .btns.mid span{ font-size: 22px; font-weight: 400;}
 
-
-
 .popupBtnBox { width: 100%;  display: flex;}
 .popupBtnBox button { width: 50%; height: 60px; font-size: 22px;}
 button.fffBtn{ border: 1px solid #506FB3; color: #506FB3;}
@@ -2406,9 +2405,9 @@ table tbody .item .cell { height: 90px;}
 .tblData.collectionTbl table tbody .item {display:table;table-layout:fixed;width:100%;padding:10px 0}
 .collectionTbl table tbody .item:nth-child(odd) { background-color: #F9F9F9;}
 .collectionTbl table tbody .item .cell:nth-child(1){ width: 114px;}
-.collectionTbl table tbody .item .cell:nth-child(2){ width: 253px; text-align: left; display: flex;}
-.collectionTbl table tbody .item .cell:nth-child(3){ width: 195px;}
-.collectionTbl table tbody .item .cell:nth-child(4){ width: 200px;}
+.collectionTbl table tbody .item .cell:nth-child(2){ width: 313px; text-align: left; display: flex;}
+.collectionTbl table tbody .item .cell:nth-child(3){ width: 165px;}
+.collectionTbl table tbody .item .cell:nth-child(4){ width: 170px;}
 .collectionTbl table tbody .item .cell:nth-child(5){ width: 219px;}
 .collectionTbl .cellInfoImg {    display: flex; justify-content: center; align-items: center; width: 75px; height: 75px; background-color: #fff; margin-right: 18px;}
 .collectionTbl .cellInfoImg img{ max-width: 100%; max-height: 100%;}
@@ -2419,6 +2418,10 @@ table tbody .item .cell { height: 90px;}
 .collectionTbl .situCell { display: flex; flex-wrap: wrap; justify-content: center;}
 .collectionTbl .situCell .situDetailItem {display: flex; justify-content: center; align-items: center; width: 100px; height: 40px; background-color: #fff; line-height: 40px; margin: 2px; font-size: 14px; border: 1px solid #D3D3D3;}
 .tblData.collectionTbl table tbody .item a:hover { background: transparent;}
+.collectionTbl .yearS {width: 30px;}
+.collectionTbl .yearSp {width: 157px;}
+.collectionTbl .yearL {width: 90px;}
+.collectionTbl .yearLp {width: 108px;}
 
 /* PG-01-0002 */
 .collectionRegi .title {  width: 100%; font-size: 24px; line-height: 35px; padding-bottom: 23px; border-bottom: 1px solid #000;}
@@ -2542,13 +2545,17 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #pg010008pId02 .popupBtnBox button { width: 100%;}
 
 /* PG-01-0009 */
-#pg010009 .collectionTbl table tbody .item .cell:nth-child(1){ width: 250px; text-align: left; display: flex; margin-left: 20px;}
+#pg010009 .collectionTbl table tbody .item .cell:nth-child(1){ width: 310px; text-align: left; display: flex; margin-left: 20px;}
 #pg010009 .collectionTbl table tbody .item .cell:nth-child(2){ width: 180px; display: table-cell; text-align: center;}
-#pg010009 .collectionTbl table tbody .item .cell:nth-child(3){ width: 130px;}
-#pg010009 .collectionTbl table tbody .item .cell:nth-child(4){ width: 130px;}
-#pg010009 .collectionTbl table tbody .item .cell:nth-child(5){ width: 130px;}
-#pg010009 .collectionTbl table tbody .item .cell:nth-child(6){ width: 130px;}
+#pg010009 .collectionTbl table tbody .item .cell:nth-child(3){ width: 100px;}
+#pg010009 .collectionTbl table tbody .item .cell:nth-child(4){ width: 120px;}
+#pg010009 .collectionTbl table tbody .item .cell:nth-child(5){ width: 120px;}
+#pg010009 .collectionTbl table tbody .item .cell:nth-child(6){ width: 120px;}
 #pg010009 .littleP { font-size: 14px;}
+#pg010009 .yearS {width: 30px;}
+#pg010009 .yearSp {width: 165px;}
+#pg010009 .yearL {width: 80px;}
+#pg010009 .yearLp {width: 116px;}
 
 /* PG-01-0010P */
 #pg010010p.layerPop .layerPopArea { width: 650px;}
@@ -2578,6 +2585,11 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #pg010011 .collectionTbl table tbody .item .cell:nth-child(5){ width: 100px;}
 #pg010011 .collectionTbl table tbody .item .cell:nth-child(6){ width: 130px;}
 
+#pg010011 .yearS {width: 30px;}
+#pg010011 .yearSp {width: 165px;}
+#pg010011 .yearL {width: 80px;}
+#pg010011 .yearLp {width: 116px;}
+
 /* PG-02-0001 */
 #pg020001 .collectionTbl { margin-top: 22px; border-top: 2px solid #171717;}
 /* 관심 소장품 없을때 (display: none해놨습니다) */
@@ -2598,6 +2610,11 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 #pg020001 .collectItem .itemBox .info .horLine{ margin: 1px 7px 0; background-color: #868686;}
 #pg020001 .collectItem .itemBox .info:nth-child(3) p:nth-child(2){ font-size: 14px;}
 #pg020001 .collectItem .itemBox .info .price { font-size: 20px; line-height: 23px; font-weight: 500; color: #000; position: absolute; bottom: 17px; right: 15px;}
+
+#pg020001 .yearS {width: 30px;}
+#pg020001 .yearSp {width: 130px;}
+#pg020001 .yearL {width: 85px;}
+#pg020001 .yearLp {width: 115px;}
 
 /* PG-03-0001 */
 #pg030001 .pointBox {display: flex; width: 595px; height: 186px; border: 1px solid #9B9B9B; padding: 30px 32px; margin-top: 26px;}
