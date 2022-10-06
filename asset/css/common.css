@@ -1857,16 +1857,11 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 
 /* MN-MA-0001 */
 #mnma0001 .mainContainer {position: relative;}
-#mnma0001 .mainContainer video{position: absolute; top: 0; left: 0; width: 100%; height: 800px; object-fit: cover; z-index: -1;}
-#mnma0001 .mainContainer .inner {position: relative;width: 1290px;height: 800px;margin: 0 auto;padding-top: 134px;}
+#mnma0001 .mainContainer iframe{position: absolute; top: 0; left: 0; width: 100%; height: 800px; object-fit: cover; z-index: 1;}
+#mnma0001 .mainContainer .inner {position: relative;width: 1290px;height: 800px;margin: 0 auto;padding-top: 134px;z-index: 2;}
 #mnma0001 .mainContainer .inner p{color: #fff;}
-#mnma0001 .mainContainer .inner .p0{font-weight: 500;font-size: 22px;line-height: 26px;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);}
 #mnma0001 .mainContainer .inner .p1{font-weight: 700;font-size: 48px;line-height: 56px;margin-top: 17px;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);}
-#mnma0001 .mainContainer .inner .p2{font-weight: 500;font-size: 26px;line-height: 38px;margin-top: 17px;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);}
-#mnma0001 .mainContainer .inner .p3{font-weight: 500;font-size: 26px;line-height: 38px;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);}
-#mnma0001 .mainContainer .inner .horLine {width: 86px;height: 1px;background-color: #fff;margin:84px 0 70px;}
-#mnma0001 .mainContainer .inner .p4{font-weight: 500;font-size: 26px;line-height: 38px;  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);}
-#mnma0001 .mainContainer .inner button {display: flex;justify-content: center;align-items: center;width: 280px;height: 80px;font-weight: 700;font-size: 24px;line-height: 33px;color: #fff;background: rgba(80, 111, 179, 0.8);margin-top: 59px;}
+#mnma0001 .mainContainer .inner button {display: flex;justify-content: center;align-items: center;width: 280px;height: 80px;font-weight: 700;font-size: 24px;line-height: 33px;color: #fff;background: rgba(80, 111, 179, 0.8);margin-top: 400px;}
 
 #mnma0001 .mainContents {display: flex;justify-content: center;align-items: center;width: 100%;}
 #mnma0001 .mainContents .inner{position: relative;width: 1280px;height: auto;padding-top: 80px;}
@@ -2070,39 +2065,14 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .viewInfo { border-bottom: 1px solid #C4C4C4;}
 .viewInfo .thumbnail {display: block; width: 610px; height: auto; outline: none; border:none;}
 .viewInfo .thumbnail .imgBox {position: relative; display: flex;justify-content: center;align-items: center;  width: 610px;  height: 610px;  border: 1px solid #BCBCBC;  padding: 20px;}
-.viewInfo .thumbnail .imgBox .arr {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%,-50%);
-  width: 12px;
-  padding: 10px;
-  box-sizing: content-box;
-  cursor: pointer;
-}
-.viewInfo .thumbnail .imgBox .arr_prev {
-  left: 25px;
-}
-.viewInfo .thumbnail .imgBox .arr_next {
-  right: 0px;
-}
+.viewInfo .thumbnail .imgBox .arr {  position: absolute;  top: 50%;  transform: translate(-50%,-50%);  width: 12px;  padding: 10px;  box-sizing: content-box;  cursor: pointer;}
+  .viewInfo .thumbnail .imgBox .arr_prev {  left: 25px;}
+.viewInfo .thumbnail .imgBox .arr_next {  right: 0px;}
 .viewInfo .thumbnail > .imgBox {margin-bottom: 36px;}
 .viewInfo .thumbnail .imgBox .mainImg{  width: 100%; max-height: 100%;}
-.viewInfo .thumbnail .imgSlide {
-  position: relative;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-.viewInfo .thumbnail .imgSlide .imgBox{
-  width: 110px;
-  height: 110px;
-  padding: 0;
-  cursor: pointer;
-}
-.viewInfo .thumbnail .imgSlide img{
-  width: 100%; 
-  max-height: 100%;
-}
+.viewInfo .thumbnail .imgSlide {  position: relative;  display: flex;  gap: 10px;  justify-content: center;}
+.viewInfo .thumbnail .imgSlide .imgBox{  width: 110px;  height: 110px;  padding: 0;  cursor: pointer;}
+.viewInfo .thumbnail .imgSlide img{  width: 100%;   max-height: 100%;}
 .viewInfo .infoArea { width: 650px; height: auto; padding: 0 0 0 50px;}
 .viewInfo .infoArea .topTitle { margin-top: 0;}
 .viewInfo .infoArea .name { color: #A7A7A7; font-size: 18px; font-weight: 500;}
