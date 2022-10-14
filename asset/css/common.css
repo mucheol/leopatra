@@ -2398,14 +2398,14 @@ table tbody .item .cell { height: 90px;}
 
 /* MK-01-0007 */
 #mk010007 { padding-top: 20px;}
-#mk010007 .layerPopArea {width: 630px; height: 730px; overflow: hidden;}
+#mk010007 .layerPopArea {width: 550px; height: 730px; overflow: hidden;}
 #mk010007 .popHead { position: relative; padding: 0; height: 142px; background-color: #A9D18E;}
 #mk010007 .popHead .tit { position: absolute; bottom: 14px; left: 66px; font-size: 24px;color: #000;}
 #mk010007 .popHead .logo { position: absolute; top: 54px; right: 190px; width: 40px;}
 #mk010007 .popHead .logoP { position: absolute; top: 61px; right: 30px;font-size: 18px;line-height:26px;}
 #mk010007 .popCont {overflow-x: hidden; padding: 0; height: auto; max-height: none;}
 #mk010007.layerPop .btnPopClose {top:25px; right: 25px; width: 19px; height: 22px;}
-#mk010007 .ownerWrap {background: none; padding: 0 36px 0 56px;}
+#mk010007 .ownerWrap {background: none; padding: 0;}
 #mk010007 .ownerWrap::after {display: none;}
 #mk010007 .ownerWrap .flexBox {  display: flex; justify-content: space-between;}
 #mk010007 .ownerWrap .flexBox .img01{ width: 245px; height: 125px;}
@@ -2427,7 +2427,7 @@ table tbody .item .cell { height: 90px;}
 #mk010007 .ownerWrap .signBox {  text-align: center;  margin-top: 3px;font-size: 12px; line-height: 33px;}
 #mk010007 .foot {  width: 100%; height: 61px;}
 #mk010007 .popFooter {  position: relative;  display: flex;  justify-content: center;  align-items: center;  width: 100%;  height: 100%;  background-color: #548235;  font-size: 10px;  line-height: 14px;}
-#mk010007 .stamp {  position: absolute;  bottom: 25px;  left: 420px; width: 179px;}
+#mk010007 .stamp {  position: absolute;  bottom: 25px;  left: 360px; width: 179px;}
 
 /* PG-01-0001 */
 .collectionTbl { margin-top: 106px;}
