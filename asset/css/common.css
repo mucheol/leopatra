@@ -2359,9 +2359,10 @@ table tbody .item .cell { height: 90px;}
 #pieceCertfi .signBox img{ margin-top: 16px; width: 174px;}
 
 /* MK-01-0006 */
-#collectCertfiE .popHead { position: relative; padding: 0; height: 280px; background: url(../images/certifi_top.png); background-position: center; background-size: cover; background-repeat: no-repeat;}
+#collectCertfiE {user-select: none; cursor: default;}
+#collectCertfiE .popHead { position: relative; padding: 0; height: 170px; background: url(../images/certifi_top03.png); background-position: center; background-size: cover; background-repeat: no-repeat;}
 #collectCertfiE .popHead .tit { position: absolute; bottom: 26px; left: 81px; font-size: 36px;}
-#collectCertfiE .popHead .logo { position: absolute; top: 120px; right: 30px;}
+#collectCertfiE .popHead .logo { position: absolute; top: 100px; right: 30px;}
 
 #collectCertfiE .subject { margin-left: 48px;}
 #collectCertfiE .subject .year{ font-size: 16px; line-height: 23px; color: #4D4D4D;}
@@ -2547,7 +2548,7 @@ input[type="text"]:disabled { background-color: #E9E9E9;}
 
 /* PG-01-0008P */
 #pg010008p.layerPop .layerPopArea { width: 650px;}
-#pg010008p.layerPop .popCont { padding: 0 70px; height: 640px;}
+#pg010008p.layerPop .popCont { padding: 0 70px; height: auto;}
 #pg010008p.layerPop .popCont .ownerItem { padding: 35px 0;}
 #pg010008p.layerPop .popCont .ownerItem .info { width: auto;}
 #pg010008p.layerPop .popCont .ownerItem .info .title { max-width: 202px;}
