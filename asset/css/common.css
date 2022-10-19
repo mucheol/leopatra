@@ -444,6 +444,8 @@ textarea.textarea.answer:read-only{background:#F3F5FF;}
 .fileBox input[type="file"]{overflow:hidden;position:absolute;width:1px;height:1px;padding:0;margin:-1px;clip:rect(0,0,0,0);border:0;}
 .fileBox .value{font-size:21px;margin-top:5px}
 .fileBox .uploadFile div.inpText{color:#B1B1B1}
+/* Flex */
+.flexBox {display: flex;}
 
 /* Text */
 .colorText1 {color:#506FB3 !important}
@@ -2222,6 +2224,69 @@ border-bottom: 10px solid #fff;content: "";position: absolute;top:42px;left:-15p
 .tblData.holdingTbl table tbody .item .cell{ text-align: left; color: #4D4D4D;}
 .tblData.holdingTbl table tbody .item .cell:nth-child(1){ width: 355px;}
 .tblData.holdingTbl table tbody .item .cell:nth-child(2){ width: 45px;}
+
+/* MK-01-0002-2 */
+#MK-01-0002-2 .infoArea2 { width: 100%; height: auto; border-bottom: 2px solid #0D0D0D; overflow-y: hidden; }
+#MK-01-0002-2 .infoArea2 .topTitle { margin: 35px 0 25px;}
+#MK-01-0002-2 .infoArea2 .content .dt { margin-top: 10px; float: left; width: 120px; font-size: 16px; font-weight: 400 !important; color: #535353; line-height: 23.17px; vertical-align: top; font-weight: 700;}
+#MK-01-0002-2 .infoArea2 .content .dl:nth-child(5) .dt{height: 42px; line-height: 42px; margin-top: 0;}
+#MK-01-0002-2 .infoArea2 .content .dd { margin-top: 10px; font-size: 16px; float: left; vertical-align: top; width: calc(100% - 120px); min-height: 38px;}
+#MK-01-0002-2 .infoArea2 .content .dl:nth-child(5) .dd{margin-top: 0;}
+#MK-01-0002-2 .infoArea2 .detailBtn {display: flex; justify-content: center; align-items: center;border-radius: 25px; width: 262px !important; height: 42px;font-size: 18px; line-height: 26px; font-weight: 500; border: 1px solid #E3E3E3; cursor: pointer;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);}
+#MK-01-0002-2 .infoArea2 .detailBtn:active {box-shadow: none;}
+#MK-01-0002-2 .infoArea2 .detailBtn img {width: 12px; margin-left: 27px; transition: .3s;}
+
+#MK-01-0002-2 .infoArea2 .detailPage {height: 0; transition: 1s;clear: both; padding-top: 40px;}
+#MK-01-0002-2 .infoArea2.active .detailPage{height: auto;}
+#MK-01-0002-2 .infoArea2 .detailPage .inner { width: 872px; margin: 0 auto;}
+#MK-01-0002-2 .infoArea2 .detailPage .inner02 { width: 815px; margin: 0 auto;}
+
+#MK-01-0002-2 .infoArea2 .detailPage .p0{font-size: 16px;line-height: 26px;margin: 9px 0;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBoxes{width: 100%;height: auto;background-color: #1E1F2A; color: #fff;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox01{width: 100%;text-align: center;padding: 112px 30px 100px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox01 .p1{font-weight: 300;font-size: 38px;line-height: 45px;margin-top: 16px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox01 .p2{font-weight: 500;font-size: 16px;line-height: 27px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox01 .horLine{width: 480px;height: 1px;margin: 52px auto 26px;background-color: #313949;} 
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox01 .flexBox { justify-content: center;  align-items: center;  height: 415px;  margin-top: 52px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox01 .flexBox .imgBox { margin: 0 4.5px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox01 .flexBox .imgBox .p3 { margin-top: 11px;  font-size: 14px;  line-height: 27px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox01 .textBox {width: 818px;  margin: 0 auto;  margin-top: 121px;  text-align: left;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox01 .textBox .p4{font-size: 16px;  line-height: 27px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox01 .textBox .p4:nth-child(2){margin-top: 55px;}
+
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 {width: 871px;  margin: 0 auto;} 
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 .p5{ font-size: 16px;line-height: 27px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 .flexBox01 {justify-content: space-between;} 
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 .flexBox01 .p5 {font-size: 16px;line-height: 22px;margin-top: 36px;margin-left: 26px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 .flexBox01 .imgBox:nth-child(2) {margin-top: 128px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 .flexBox02 { margin-top: 78px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 .flexBox02 .p5 {width: 409px;margin-top: 265px;margin-left: 26px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 .flexBox03 { margin-top: 110px; }
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 .flexBox03 .textBox {width: 398px;  margin-top: 260px;  margin-left: 26px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 .flexBox03 .textBox .aBox {margin-top: 28px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 .flexBox03 .textBox .aBox a{color: #fff;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 .flexBox04 {align-items: flex-end; margin-top: 102px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 .flexBox04 .p5 {margin-left: 31px;margin-bottom: 20px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 .flexBox05 {justify-content: end; margin-top: 102px; padding-bottom: 223px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 .flexBox05 .p5 {margin-top: 36px;margin-left: 26px;margin-bottom: 15px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox02 .flexBox05 a {font-size: 12px;line-height: 17px;color: #fff;margin-left: 26px;}
+
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox03 {width: 100%; background-color: #030515; padding-top: 125px; padding-bottom: 182px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox03 .inner {width: 871px;  margin: 0 auto;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox03 .imgBox {margin-bottom: 32px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox03 .imgBox .p6 { font-size: 16px;  line-height: 27px;  margin-top: 8px;  margin-left: 26px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox03 .flexBox { justify-content: space-between;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox03 .textBox {width: 499px;margin-top: 193px;margin-left: 26px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox03 .textBox .p6 {font-size: 16px;line-height: 27px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox03 .textBox .p6:nth-child(2) {width: 450px;margin-top: 25px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox03 .textBox .horLine {width: 55px;height: 1px;background-color: #535353;margin: 32px 0 28px;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailBox03 .textBox a {font-size: 12px;line-height: 17px;color: #fff;}
+
+#MK-01-0002-2 .infoArea2 .detailPage .detailCloseBtnBox{display: flex; justify-content: center; align-items: center; width: 100%; height: 172px; background-color: #fff;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailCloseBtnBox .closeBtn {width: 262px;height: 42px;border: 1px solid #E3E3E3;font-size: 18px;line-height: 26px;color: #506FB3;border-radius: 25px;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);}
+#MK-01-0002-2 .infoArea2 .detailPage .detailCloseBtnBox .closeBtn:active {box-shadow: none;}
+#MK-01-0002-2 .infoArea2 .detailPage .detailCloseBtnBox .closeBtn img{width: 12px;height: 6px;margin-left: 27px;transform: rotate(180deg);}
+
 
 /* Mk-01-0003P */
 .layerPop#purchasePiece .layerPopArea { width: auto; margin: 0 auto;}

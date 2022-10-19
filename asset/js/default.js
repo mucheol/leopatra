@@ -526,6 +526,40 @@ function toggleImg(idx) {
   $('.mainImg').attr("src","../asset/images/item"+ idx + ".png")
 }
 
+// MK-01-0002-2
+function MK0100022UI(){
+	var el = $('#MK-01-0002-2');
+
+	if(el.length <= 0){
+		return;
+	}
+
+  $('.detailBtn').on('click',function() {
+    $('.infoArea2').toggleClass('active')
+    if($('.infoArea2').hasClass('active')) {
+      $('.detailBtn img').css('transform', 'rotate(180deg)')
+    }else {
+      $('.detailBtn img').css('transform', 'rotate(0deg)')
+    }
+  })
+  $('.closeBtn').on('click',function() {
+    $('.infoArea2').toggleClass('active')
+    $('.detailBtn img').css('transform', 'rotate(0deg)')
+  })
+
+  // 캐쉬 아이콘 클릭시 on/off
+  $('.q_Icon').on('click',function(){
+    $('.question_notiBox').toggleClass('on')
+  })
+
+  let idx = 1;
+  $('.mainImg').attr("src","../asset/images/item"+ idx + ".png")
+}
+
+function toggleImg(idx) {
+  $('.mainImg').attr("src","../asset/images/item"+ idx + ".png")
+}
+
 // videoUI
 function videoUI(){
 	var el = $('.videoWrap.videoControl');
@@ -605,6 +639,7 @@ $(function(){
 	videoUI();
 	toolTipLayer();
 	MK010002UI();
+	MK0100022UI();
 });
 
 $(document).ready(function(){
