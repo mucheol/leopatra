@@ -2370,9 +2370,9 @@ table tbody .item .cell { height: 90px;}
 .mainCon .situationBox02 label{ font-size: 18px; line-height: 24px;}
 
 /* MK-01-0004 */
-#collectCertfi .popHead { position: relative; padding: 0; height: 280px; background: url(../images/certifi_top.png); background-position: center; background-size: cover; background-repeat: no-repeat;}
+#collectCertfi .popHead { position: relative; padding: 0; height: 170px; background: url(../images/certifi_top03.png); background-position: center; background-size: cover; background-repeat: no-repeat;}
 #collectCertfi .popHead .tit { position: absolute; bottom: 26px; left: 81px; font-size: 36px;}
-#collectCertfi .popHead .logo { position: absolute; top: 120px; right: 30px;}
+#collectCertfi .popHead .logo { position: absolute; top: 100px; right: 30px;}
 
 #collectCertfi .subject { margin-left: 48px;}
 #collectCertfi .subject .year{ font-size: 16px; line-height: 23px; color: #4D4D4D;}
@@ -2401,9 +2401,9 @@ table tbody .item .cell { height: 90px;}
 
 .certiStamp { position: absolute;z-index: -1;top: 50%;left: 50%;transform: translate(-50%, -50%);}
 /* MK-01-0005 */
-#pieceCertfi .popHead { position: relative; padding: 0; height: 280px; background: url(../images/certifi_top02.png); background-position: center; background-size: cover; background-repeat: no-repeat;}
+#pieceCertfi .popHead { position: relative; padding: 0; height: 170px; background: url(../images/certifi_top02.png); background-position: center; background-size: cover; background-repeat: no-repeat;}
 #pieceCertfi .popHead .tit { position: absolute; bottom: 26px; left: 81px; font-size: 36px;}
-#pieceCertfi .popHead .logo { position: absolute; top: 120px; right: 30px;}
+#pieceCertfi .popHead .logo { position: absolute; top: 100px; right: 30px;}
 
 #pieceCertfi .subject { margin-left: 48px;}
 #pieceCertfi .subject .year{ font-size: 16px; line-height: 23px; color: #4D4D4D;}
