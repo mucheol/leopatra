@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pb02</title>
+  <link rel="stylesheet" href="../asset/css/common.css">
+  <style>
+    .pb02 {
+      width: 100vw;
+      color: rgb(255, 255, 255);
+    }
+    .pb02 .inner {
+      width: 100%;
+      padding: 0 8vw;
+    }
+    .pb02 a {
+      font-size: 10px;
+      line-height: 14px;
+      color: #fff;
+    }
+    .noWrap {
+      white-space: nowrap;
+    }
+    .pb02 .section01 {
+      background-color: rgb(52, 42, 30);
+      padding-bottom: 43px;
+    }
+    .pb02 .section01 .title {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+      padding-top: 48px;
+    }
+    .pb02 .section01 .title + span {
+      display: block;
+      background-color: #AEAA8D;
+      width: 64.8vw;
+      height: 1px;
+      margin: 25px auto 0;
+    }
+    .pb02 .section01 .titleEx {
+      margin-top: 25px;
+      text-align: center;
+      font-size: 12px;
+      line-height: 19px;
+    }
+    .pb02 .section01 .titleEx02 {
+      text-align: center;
+      font-size: 11px;
+      line-height: 19px;
+    }
+    .pb02 .section01 .imgBox {
+      position: relative;
+      max-width: 100vw;
+      margin-top: 50px;
+      margin-bottom: 41px;
+    }
+    .pb02 .section01 .imgBox img {
+      position: relative;
+      width: 100%;
+    }
+    .pb02 .section01 .imgBox .text {
+      position: absolute;
+      bottom: -46px;
+      display: flex;
+      align-items: flex-end;
+      width: 100%;
+      height: 185px;
+      background-color: #8C7F6E;
+      border-radius: 33px;
+    }
+    .pb02 .section01 .imgBox p {
+      width: 85%;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 7px;
+      font-size: 11px;
+      line-height: 16px;
+    }
+    .pb02 .section01 .subTitle {
+      font-size: 11px;
+      line-height: 16px;
+      text-align: center;
+      margin-top: 95px;
+    }
+    .pb02 .section01 .subTitle + .title{
+      padding-top: 6px;
+    }
+    /* SECTINO02 */
+    .pb02 .section02 {
+      background-image: url('../asset/images/pb02_section02_bg.png');
+      padding-top: 54px;
+      padding-bottom: 67px;
+    }
+    .pb02 .section02 .flexBox{
+      justify-content: space-between;
+    }
+    .pb02 .section02 .imgBox{
+      width: 40vw;
+      text-align: center;
+    }
+    .pb02 .section02 .imgBox img{
+      width: 100%;
+      margin-bottom: 6px;
+    }
+    .pb02 .section02 .btnBox {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .pb02 .section02 button {
+      width: 66.5vw;
+      height: 13vw;
+      background-color: #8C7F6E;
+      border-radius: 5.5vw;
+      margin: 24px auto;
+      text-align: center;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 19px;
+      color: #fff;
+    }
+    .pb02 .section02 button span{
+      color: #342A1E;
+    }
+    .pb02 .section02 .btnBox + p {
+      font-size: 12px;
+      line-height: 19px;
+      text-align: center;
+    }
+    /* SECTINO03 */
+    .pb02 .section03 {
+      background-color: #8C7F6E;
+      padding: 56px 0 42px;
+    }
+    .pb02 .section03 p{
+      font-size: 12px;
+      line-height: 19px;
+      text-align: center;
+    }
+    .pb02 .section03 p:nth-child(2){
+      margin-top: 33px;
+    }
+    /* SECTION04 */
+    .pb02 .section04 {
+      padding-top: 48px;
+      padding-bottom: 80px;
+      background: #342A1E;
+    }
+    .pb02 .section04 .title{
+      font-size: 20px;
+      line-height: 45px;
+    }
+    .pb02 .section04 .flexBox {
+      justify-content: space-between;
+      width: 100%;
+    }
+    .pb02 .section04 .text {
+      font-size: 12px;
+      line-height: 19px;
+      margin-bottom: 32px;
+    }
+    .pb02 .section04 .imgBox,
+    .pb02 .section04 .textBox{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      width: 100%;
+    }
+    .pb02 .section04 .textBox{
+      align-items: baseline;
+    }
+    .pb02 .section04 .imgBox img,
+    .pb02 .section04 .textBox p{
+      width: 40vw;
+      margin-top: 9px;
+      font-size: 11px;
+      line-height: 16px;
+    }
+    .pb02 .section04 .img06{
+      width: 100%;
+      margin-top: 13px;
+    }
+    .pb02 .section04 .img06 + p{
+      font-size: 11px;
+      line-height: 16px;
+      text-align: right;
+      margin-top: 9px;
+    }
+    .pb02 .section04 .img07Box{
+      width: 100%;
+      margin-top: 54px;
+    }
+    .pb02 .section04 .img07Box .imgBox{
+      position: relative;
+      width: 100%;
+    }
+    .pb02 .section04 .img07Box .imgBox img{
+      width: 100%;
+    }
+    .pb02 .section04 .img07Box .imgBox p{
+      position: absolute;
+      bottom: 7px;
+      left: 30px;
+      font-size: 11px;
+      line-height: 16px;
+    }
+    .pb02 .section04 .img07Box .textBox{
+      background-color: #8C7F6E;
+      text-align: center;
+    }
+    .pb02 .section04 .img07Box .textBox p{
+      width: 100%;
+      padding: 23px 30px;
+    }
+    .pb02 .section04 .flexBox {
+      justify-content: space-between;
+    }
+    .pb02 .section04 .flexBox .imgBox {
+      display: block;
+    }
+    .pb02 .section04 .flexBox .imgBox p{
+      font-size: 11px;
+      line-height: 16px;
+      margin-top: 8px;
+    }
+    .pb02 .section04 .textBox02 {
+      margin-top: 30px;
+    }
+    .pb02 .section04 .textBox02 p {
+      text-align: center;
+      font-size: 12px;
+      line-height: 19px;
+    }
+    .pb02 .section05 {
+      position: relative;
+      background-color: #1D1308;
+      padding-bottom: 84px;
+    }
+    .pb02 .section05 .img11 {
+      width: 100%;
+    }
+    .pb02 .section05 .p1 {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 19px;
+      margin-top: 17px;
+    }
+    .pb02 .section05 .p1.pl {
+      text-align: left;
+    }
+    .pb02 .section05 .p1.pr {
+      text-align: right;
+    }
+    .pb02 .section05 .textBox {
+      font-size: 12px;
+      line-height: 19px;
+      margin-top: 17px;
+    }
+    .pb02 .section05 .imgBox {
+      display: flex;
+      justify-content: end;
+      width: 100%;
+      margin-top: 54px;
+    }
+    .pb02 .section05 .img12 {
+      width: 65vw;
+    }
+    .pb02 .section05 .flexBox {
+      width: 100%;
+      justify-content: space-between;
+    }
+    .pb02 .section05 .flexBox .imgBox{
+      display: block;
+      width: 40vw;
+    }
+    .pb02 .section05 .flexBox img{
+      width: 100%;
+    }
+    .pb02 .section06 {
+      padding-top: 63px;
+      padding-bottom: 58px;
+      background-color: #342A1E;
+    }
+    .pb02 .section06 .flexBox {
+      width: 100%;
+      gap: 7px;
+      justify-content: space-between;
+    }
+    .pb02 .section06 .flexBox .imgBox{
+      width: 100%;
+    }
+    .pb02 .section06 .flexBox img{
+      width: 100%;
+    }
+    .pb02 .section06 .flexBox .imgBox p {
+      font-size: 11px;
+      line-height: 16px;
+      text-align: center;
+      margin-top: 11px;
+    }
+    .pb02 .section06 .text {
+      font-size: 12px;
+      line-height: 19px;
+      text-align: center;
+    }
+    .pb02 .section06 .img27 {
+      width: 100%;
+      margin-top: 58px;
+    }
+    .pb02 .section06 .img27 + p{
+      font-size: 11px;
+      line-height: 16px;
+      margin-top: 11px;
+    }
+    .pb02 .section07 {
+      padding-top: 67px;
+      padding-bottom: 118px;
+      background-color: #1D1308;
+    }
+    .pb02 .section07 .flexBox {
+      width: 100%;
+      gap: 15px;
+    }
+    .pb02 .section07 .flexBox img {
+      width: 100%;
+    }
+    .pb02 .section07 .flexBox p {
+      font-size: 11px;
+      line-height: 16px;
+      text-align: center;
+      margin-top: 14px;
+    }
+    .pb02 .section07 .text {
+      font-size: 12px;
+      line-height: 19px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="pb02">
+    <section class="section01">
+      <div class="inner">
+        <p class="title">레오파트라 에디슨 컬렉션 1호 <br/>
+          <span class="fontB">'에디슨 전기 자동차'</span>
+        </p>
+        <span></span>
+        <p class="titleEx">1913, Detroit Electric Car + Edison Battery + Electric Vehicle Charger Set</p>
+        <p class="titleEx02">디트로이트 전기 자동차 + 에디슨 배터리 + 전기자동차 충전기 세트</p>
+        <div class="imgBox">
+          <div class="text">
+            <p>토마스 에디슨이 만든 배터리를 장착해 그의 아내와 함께 10년간 타고 다녔던 전기자동차</p>
+          </div>
+          <img src="../asset/images/mk010002_img01.png" alt="">
+        </div>
+        <p class="subTitle">부의 미래를 여는 황금열쇠, 레오파트라</p>
+        <p class="title">110년전 <span class='fontB'>에디슨</span>이 만든<br/>
+          단 하나의 <span class='fontB'>전기자동차</span>
+        </p>
+        <span></span>
+        <p class="titleEx">에디슨 컬렉션 1호 조각거래... 세계 전기자동차의 (2022.9.29) 오픈, 
+          전세계 1대뿐인 프로토타입...강릉 참소리축음기·에디슨 박물관 독점 계약.
+          에디슨이 발명한 배터리·충전세트 함께 판매, 경매가는 상상을 초월할 듯
+        </p>
+      </div>
+    </section>
+    <section class="section02">
+      <div class="inner">
+        <div class="flexBox">
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img03_m.png" alt="">
+            <p>충전세트</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img04_m.png" alt="">
+            <p>나무 스코프 휠</p>
+          </div>
+        </div>
+        <div class="btnBox">
+          <button>에디슨 제작 전기자동차 <span>바로가기</span></button>
+        </div>
+        <p>1913년 토마스 에디슨이 프로토 타입으로 3개만을 만들고 두 대는 소실이 되어 오직 한 대만 남은 초기모델 디트로이트 일렉트릭(Anderson Electric Car Company) 전기자동차로 34인치 나무로 만든 스코프 휠과 AKRON.O 타이어(R.F.Goodrich.co)가 장착되었고, 에디슨이 특허를 보유한 알카라인 축전지(니켈+철)를 보닛과 트렁크에 14개를 탑재하였고, 그 당시 운행에 필요했던 '전기 충전세트'를 강릉 참소리 에디슨 박물관이 소장하고 있습니다</p>
+      </div>
+    </section>
+    <section class="section03">
+      <div class="inner">
+        <p>조각거래 플랫폼 '레오파트라'는 참소리 축음기 · 손성목 영화 · 에디슨 박물관 (관장 손성목)과 독점 계약을 맺고, 세계 전기자동차의 날인 2022년 9월 29일 ‘레오파트라 에디슨 컬렉션 1호 - 에디슨 전기 자동차’(충전장비세트, 배터리 포함) 조각 판매를 
+          시작합니다.
+        </p>
+        <p>조각 소유권은 최소 10만원 단위로 구매할 수 있으며, 경매를 통한 청산 시 보유한 소유권 비율에 따라 수익금을 배분 받을 수 있습니다.</p>
+      </div>
+    </section>
+    <section class="section04">
+      <div class="inner">
+        <p class="title">에디슨 <span class="fontB">배터리</span></p>
+        <p class="text">1913년 이전 전기자동차는 주로 납축전지였으나 문제점이 많았다고 합니다. 토마스 에디슨은  디트로이트 일렉트릭 자동차에 에디슨 공장에서 만든 배터리(니켈+철)를 사용한 알카라인 축전기를 3대를 장착하여 그의 아내 미나 밀러(Mina Miller)와 함께 타고 다녔다고 합니다.</p>
+        <div class="imgBox">
+          <img src="../asset/images/mk010002_img05.png" alt="">
+          <img src="../asset/images/mk010002_img07.png" alt="">
+        </div>
+        <div class="textBox">
+          <p>에디슨 배터리 설계도면</p>
+          <p>에디슨 자동차 전면 보닛에 있는 배터리</p>
+        </div>
+        <img src="../asset/images/mk010002_img06.png" alt="" class="img06">
+        <p>에디슨 자동차 트렁크에 탑재된 배터리</p>
+      </div>
+      <div class="img07Box">
+        <div class="imgBox">
+          <img src="../asset/images/mk010002_img08_m.png" alt="">
+          <p>고급형 마차에서 변형된 전기자동차의 외관</p>
+        </div>
+        <div class="textBox">
+          <p>외관은 당시 고급형 마차에서 변형이 되었고, 3인용으로 앞쪽에는 운전자가 타고, 뒤쪽에 2명이 타는데 당시는 드레스를 입은 여성과 큰 모자를 쓴 남자들이  탈수 있도록 천정이 높았습니다. 앞유리는 앞으로 열수 있고, 양쪽의 두 개의 문이 있습니다. </p>
+        </div>
+      </div>
+      <div class="inner">
+        <div class="flexBox">
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img09.png" alt="">
+            <p>깜박이, 백밀러, 휀다</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img10.png" alt="">
+            <p>라이트, 번호판 견인 구조물</p>
+          </div>
+        </div>
+        <div class="textBox02">
+          <p>
+            앞 유리 아래 전면 모서리에 두개의 화려한 캐리지 라이트가 있고,  양쪽 휠 위에 비가 올 때 바퀴에서 튀는 물을 막아주는 덮개(휀다)가 있으며 그 위에 차량의 뒤를 볼 수 있는 백밀러가 양쪽으로 있습니다. 전기자동차를 견인 할 수 있는 구조물도 있으며, 차의 신분을 알리는 번호판, 차량 총 무게의 3분의 1에 해당하는 보닛과 트렁크에 들어가 있는 배터리 14개가 있습니다
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section05">
+      <img src="../asset/images/mk010002_img11_m.png" alt="" class="img11">
+      <div class="inner">
+        <p class="p1 pl">뒷자석과 안전밸트</p>
+        <p class="textBox">실내에는 3명의 좌석은 모두 가죽으로 되어 있으며, 문 안쪽에도 모든 가죽으로 처리가 되어 있습니다. 110년이 지난 지금도 그 형태가 그대로 보존이 되어있습니다.</p>
+        <div class="imgBox">
+          <img src="../asset/images/mk010002_img12.png" alt="" class="img12">
+        </div>
+        <p class="p1 pr">실내 3개(운전석 1개와 뒤쪽 2개)의 가죽 좌석</p>
+        <div class="flexBox">
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img13_m.png" alt="">
+            <p class="p1">막대 운전대와 기어</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img14_m.png" alt="">
+            <p class="p1">자동차키</p>
+          </div>
+        </div>
+        <p class="textBox">운전대는 원형이 아닌 막대 손잡이로 바퀴를 조정 할 수 있으며, 브레이크 페달과 암페아 메타가 있으며, 자동차 키는 에디슨의 로고가 박혀있습니다.  </p>
+        <div class="flexBox">
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img15_m.png" alt="">
+            <p class="p1">암페어 메타</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img16_m.png" alt="">
+            <p class="p1">브레이크</p>
+          </div>
+        </div>
+        <p class="textBox">브레이크 패달의 경우 평지에서 정지할 경우는 크게 문제가 되지 않았지만, 내리막의 경우에 제동력이 떨어져 미리 브레이크를 잡지 않으면 사고가 날 수 있는 단점이 있었습니다. 특히, 차량의 3분의 1의 무게가 배터리였기 때문에 비포장도로에서는 바퀴가 주저 앉을 수 있기 때문에 항상 포장도로에서만 운행을 하였다고 합니다. </p>
+      </div>
+    </section>
+    <section class="section06">
+      <div class="inner">
+        <div class="flexBox">
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img17.png" alt="">
+            <p>넓은 금속 발판</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img18.png" alt="">
+            <p>알루미늄 문</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img19.png" alt="">
+            <p>높은 지붕</p>
+          </div>
+        </div>
+        <p class="text mt40">문은 잠금장치와 우산 등을 걸어 놓을 수 있는 고리, 창문을 열수 있는 손잡이, 문을 열수 있는 문고리, 안전밸트도 있었으며, 밤이나 비가 올 때 실내에서 불을 밝힐 수 있는 조명도 있습니다. 모든 구성의 하나하나가 지금 우리가 타고 다니는 자동차에 기본적으로 모두 장착 되어 있는 것입니다.</p>
+        <div class="flexBox mt50">
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img20_m.png" alt="">
+            <p>문 잠금장치</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img21_m.png" alt="">
+            <p>창문 손잡이</p>
+          </div>
+        </div>
+        <div class="flexBox mt40">
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img22_m.png" alt="">
+            <p>문고리</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img23_m.png" alt="">
+            <p>안전벨트</p>
+          </div>
+        </div>
+        <p class="text mt60">또한, 차의 하부에는 차체를 지탱하고 탄력을 줄 수 있는 철 스프링 구조물도 있습니다. </p>
+        <div class="flexBox mt30">
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img24_m.png" alt="">
+            <p>차체 스프링(우)</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img25_m.png" alt="">
+            <p>차체 스프링(좌)</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/mk010002_img26_m.png" alt="">
+            <p>바퀴 고정 허브</p>
+          </div>
+        </div>
+        <img src="../asset/images/mk010002_img27.png" alt="" class="img27">
+        <p>실내 전등</p>
+        <div class="text mt30">에디슨 전기자동차의 최고속도는 약 40km/h였으나, 1회 충전하면 약 100km를 달릴 수 있었다고 합니다. 특히 에디슨 배터리는 약 70년 넘게 작동 했다고 하니 110년 전의 에디슨의 기술은 정말 대단하다고 할 수 있습니다. </div>
+      </div>
+    </section>
+    <section class="section07">
+      <div class="flexBox">
+        <div class="imgBox">
+          <img src="../asset/images/mk010002_img28.png" alt="">
+          <p>토마스 에디슨과 아내 미나밀러</p>
+        </div>
+        <div class="imgBox">
+          <img src="../asset/images/mk010002_img29.png" alt="">
+          <p>헨리포드와 아내 클라라</p>
+        </div>
+      </div>
+      <div class="inner">
+        <p class="text mt30">
+          디트로이트 일렉트릭 전기자동차는 종종 의사, 부유한 전문가, 기업가가 구입했지만 주로 아내가 운전을 했다고 합니다. 20세기 초의 주목 할만한 여성 운전자로는 Thomas Edison의 아내 Mina Miller, John D. Rockefeller 주니어, Henry Ford의 아내 Clara, Henry Joy(Packard 사장)의 아내가 있었다고 합니다. 당시 여성들이 전기 자동차를 선호한 데에는
+          그럴만한 이유가 있었습니다.
+        </p>
+        <p class="text mt50">
+          내연 기관자동차는 시끄럽고 냄새도 나고, 1912년 전기 스타터가 발명되기 전까지 가솔린 자동차는 자동차 전면의 수동 크랭크로 시동을 걸어야 했는데 시동을 걸기 위해서는 여성은 거의 할 수 없었고 남자들도 기절할 정도까지 힘을 써야만 시동이 걸렸었다고 합니다. 우리나라에서 초기에 나온 경운기를 몰아보신 분은 이런 기분을 잘 아실거라 생각이 됩니다.
+        </p>
+        <p class="text mt20">
+          또한 가솔린 자동차는 종종 엔진과 라디에이터가 과열되고, 시동이 걸리지 않기도 했고, 변속하기가 어려워 시동 뿐 아니라 운전 자체가 많이 어려웠었다고 하죠.
+        </p>
+        <p class="text mt20">
+          반면 전기자동차는 스위치를 넣고 패달만 밟으면 바로 가속이 되었고, 냄새도 없고, 조용했고, 변속기도 없으며, 운전하기기 너무 쉬웠기에 남성보다는 여성이 선호했다고 합니다
+        </p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
