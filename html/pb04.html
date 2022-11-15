@@ -6,16 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>pb04</title>
   <link rel="stylesheet" href="../asset/css/common.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <style>
-    .pb03 {
+.pb03 {
       width: 1300px;
       min-height: 100vh;
       height: auto;
       margin: 0 auto;
+      background-color: #241C12;
       color: #fff;
-    }
-    .pb04 {
-      background-color: #1E1309;
     }
     .pb03 .p1 {
       font-size: 18px;
@@ -25,6 +24,9 @@
       width: 870px;
       padding: 165px 35px;
       margin: 0 auto;
+    }
+    .pb03 .inner_m {
+      display: none;
     }
     .pb03 .inner .section01{
       padding-bottom: 115px;
@@ -54,9 +56,13 @@
       margin-top: 27px;
     }
     .pb03 .titleImg {
+      display: flex;
       flex-wrap: wrap;
       margin-top: 52px;
       gap: 18px 16px;
+    }
+    .pb03 .titleImg_m {
+      display: none;
     }
     .pb03 .titleImg img{
       background-color: #fff;
@@ -99,8 +105,13 @@
       font-size: 16px;
       line-height: 21px;
     }
-    .pb03 video {
+    .pb03 .videoBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       margin-top: 82px;
+      width: 100%;
+      height: 366px;
       border: 1px solid rgba(255, 255, 255, 0.3);
     }
     .pb03 .p4 {
@@ -129,10 +140,12 @@
       background-color: rgba(255, 243, 229, .4);
     }
     .pb03 .section02 {
+      padding-top: 60px;
+    }
+    .pb03 .section02 .inner_w{
       display: flex;
       flex-wrap: wrap;
       gap: 18px;
-      padding-top: 60px;
     }
     .pb03 .section02 .imgBox {
       position: relative;
@@ -164,6 +177,157 @@
       line-height: 26px;
       text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
     }
+@media screen and (max-width:767px){ 
+  .pb03 {
+    width: 100vw;
+  }
+  .pb03 .inner {
+    width: 100%;
+    padding: 44px 0;
+  }
+  .pb03 .inner_w {
+    display: none;
+  }
+  .pb03 .section02 .inner_w {
+    display: none;
+  }
+  .pb03 .inner_m {
+    display: block;
+    width: 100%;
+    padding: 0 30px;
+  }
+  .pb03 .titleBox .imgBox {
+    width: 100px;
+    height: 100px;
+  }
+  .pb03 .titleBox .imgBox img {
+    width: 81px;
+    height: 81px;
+  }
+  .pb03 .titleBox .textBox {
+    margin-left: 21px;
+  }
+  .pb03 .titleBox .textBox .title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 15px;
+  }
+  .pb03 .titleBox .textBox .p1:nth-child(2) {
+    margin-top: 15px;
+  }
+  .pb03 .p1 {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  .pb03 .titleImg {
+    display: none;
+  }
+  .pb03 .titleImg_m {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 52px;
+  }
+  .pb03 .titleImg_m .imgBox{
+    background-color: #fff;
+  }
+  .pb03 .titleImg_m .imgBox img{
+    width: 100%;
+  }
+  .pb03 .titleImg_m .img03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .slick-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 32px;
+    transform: translate(-50%, -50%);
+    display: flex;
+  }
+  .slick-dots li{
+    width: 6px;
+    height: 6px;
+    margin: 0 4px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);;
+  }
+  .slick-dots li.slick-active{
+    background-color: #fff;
+  }
+  .pb03 .title02 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+  .pb03 .p2 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .pb03 .p3 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 3px;
+  }
+  .pb03 .p3 span {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .pb03 .videoBox {
+    margin-top: 40px;
+    height: 45vw;
+    padding: 1px;
+  }
+  .pb03 .p4 {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .pb03 .p4 img {
+    width: 10px;
+    margin-right: 10px;
+  }
+  .pb03 .p1Box {
+    margin-top: 40px;
+  }
+  .pb03 .p1Box .p1 {
+    line-height: 22px;
+  }
+  .pb03 .p1Box a {
+    font-size: 12px;
+  }
+  .pb03 .horLine {
+    width: 84vw;
+    margin-left: 8vw;
+  }
+  .pb03 .section02 {
+    padding-bottom: 85px;
+  }
+  .pb03 .section02 .inner_m {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .pb03 .section02 .imgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100% !important;
+  }
+  .pb03 .section02 .imgBox img{
+    width: 100%;
+  }
+  .pb03 .section02 .imgBox p {
+    left: auto;
+    right: 15px;
+    bottom: 10px;
+    font-size: 14px;
+  }
+}
   </style>
 </head>
 <body>
@@ -191,52 +355,132 @@
             <img src="../asset/images/TypeIV21763_04.png" alt="TypeIV">
           </div>
         </div>
-        <p class="title02">Victor IV 21763</p>
-        <p class="p2">제조사</p>
-        <p class="p3">Victor Talking Mch. Co</p>
-        <p class="p2">모델명</p>
-        <p class="p3">중상급 외부 혼 포노그래프<span>(upper-mid-range external horn phonograph)</span></p>
-        <p class="p2">모델타입</p>
-        <p class="p3">VIC IV, 마호가니 캐비넷, 10인치 턴테이블</p>
-        <p class="p2">제작년도</p>
-        <p class="p3">1904년 추정</p>
-        <video controls width="800px" height="366px">
-          <source src="../asset/images/TypeIV21763_05.mp4" type="video/mp4"/>
-        </video>
-        <p class="p4"><img src="../asset/images/triangle02.png" alt="triangle icon"> 동영상 (현재도 작동이 가능한 모델)</p>
-        <div class="p1Box">
-          <p class="p1">Victor IV는 당시 제품들 중 중상급 외부 나팔 축음기로, 본 축음기는 마호가니로 제작되었으며, 현재까지도 작동이 가능해서 좋은 음악을 들을 수 있는 컬렉션입니다.</p>
-          <p class="p1">10인치 턴테이블, 강력한 이중 스프링 모터와 테이퍼 암으로 구성되어 있습니다. 속도제어 스위치와 캐비닛의 기둥의 모양이 원형으로 되어 있는 포노그래프입니다.</p>
-          <p class="p1">Victor D의 이후 버전과 초기 Victor V 모델 사이에는 많은 디자인을 공유해서 쓰였습니다. 축음기에 대한 수요가 빠른 속도로 증가하고 있던 시기로 모델의 포지셔닝을 고려하지 못하고 대량으로 생산을 하였기 때문입니다.</p>
-          <p class="p1">1904년 4월의 대규모 공장 화재로 초기 생산된 내용과 일련번호가 사라지면서 새로운 일련번호로 생산되었습니다. 본 제품은 초기 모델로서의 일련번호가 구성되어 있습니다.</p>
-          <p class="p1">Victor IV는 1920년대 초 단종될 때까지 일련번호 기준 최소 50,000대가 생산되었다고 알려져 있습니다.</p>
-          <a href="http://www.victor-victrola.com/Victor%20IV.htm" target="_blank">http://www.victor-victrola.com/Victor%20IV.htm</a>
+        <!-- mobile - s -->
+        <div class="titleImg_m">
+          <div class="imgBox img01">
+            <img src="../asset/images/TypeIV21763m_02.png" alt="TypeIV">
+          </div>
+          <div class="imgBox img02">
+            <img src="../asset/images/TypeIV21763m_03.png" alt="TypeIV">
+          </div>
+          <div class="imgBox img03">
+            <img src="../asset/images/TypeIV21763m_04.png" alt="TypeIV">
+          </div>
         </div>
+        <!-- mobile - e -->
+        <div class="inner_w">
+          <p class="title02">Victor IV 21763</p>
+          <p class="p2">제조사</p>
+          <p class="p3">Victor Talking Mch. Co</p>
+          <p class="p2">모델명</p>
+          <p class="p3">중상급 외부 혼 포노그래프<span>(upper-mid-range external horn phonograph)</span></p>
+          <p class="p2">모델타입</p>
+          <p class="p3">VIC IV, 마호가니 캐비넷, 10인치 턴테이블</p>
+          <p class="p2">제작년도</p>
+          <p class="p3">1904년 추정</p>
+          <div class="videoBox">
+            <video controls height="100%">
+              <source src="../asset/images/TypeIV21763_05.mp4" type="video/mp4"/>
+            </video>
+          </div>
+          <p class="p4"><img src="../asset/images/triangle02.png" alt="triangle icon"> 동영상 (현재도 작동이 가능한 모델)</p>
+          <div class="p1Box">
+            <p class="p1">Victor IV는 당시 제품들 중 중상급 외부 나팔 축음기로, 본 축음기는 마호가니로 제작되었으며, 현재까지도 작동이 가능해서 좋은 음악을 들을 수 있는 컬렉션입니다.</p>
+            <p class="p1">10인치 턴테이블, 강력한 이중 스프링 모터와 테이퍼 암으로 구성되어 있습니다. 속도제어 스위치와 캐비닛의 기둥의 모양이 원형으로 되어 있는 포노그래프입니다.</p>
+            <p class="p1">Victor D의 이후 버전과 초기 Victor V 모델 사이에는 많은 디자인을 공유해서 쓰였습니다. 축음기에 대한 수요가 빠른 속도로 증가하고 있던 시기로 모델의 포지셔닝을 고려하지 못하고 대량으로 생산을 하였기 때문입니다.</p>
+            <p class="p1">1904년 4월의 대규모 공장 화재로 초기 생산된 내용과 일련번호가 사라지면서 새로운 일련번호로 생산되었습니다. 본 제품은 초기 모델로서의 일련번호가 구성되어 있습니다.</p>
+            <p class="p1">Victor IV는 1920년대 초 단종될 때까지 일련번호 기준 최소 50,000대가 생산되었다고 알려져 있습니다.</p>
+            <a href="http://www.victor-victrola.com/Victor%20IV.htm" target="_blank">http://www.victor-victrola.com/Victor%20IV.htm</a>
+          </div>
+        </div>
+        <!-- mobile - s -->
+        <div class="inner_m">
+          <p class="title02">Victor IV 21763</p>
+          <p class="p2">제조사</p>
+          <p class="p3">Victor Talking Mch. Co</p>
+          <p class="p2">모델명</p>
+          <p class="p3">중상급 외부 혼 포노그래프<span>(upper-mid-range external horn phonograph)</span></p>
+          <p class="p2">모델타입</p>
+          <p class="p3">VIC IV, 마호가니 캐비넷, 10인치 턴테이블</p>
+          <p class="p2">제작년도</p>
+          <p class="p3">1904년 추정</p>
+          <div class="videoBox">
+            <video controls height="100%">
+              <source src="../asset/images/TypeIV21763_05.mp4" type="video/mp4"/>
+            </video>
+          </div>
+          <p class="p4"><img src="../asset/images/triangle02.png" alt="triangle icon"> 동영상 (현재도 작동이 가능한 모델)</p>
+          <div class="p1Box">
+            <p class="p1">Victor IV는 당시 제품들 중 중상급 외부 나팔 축음기로, 본 축음기는 마호가니로 제작되었으며, 현재까지도 작동이 가능해서 좋은 음악을 들을 수 있는 컬렉션입니다.</p>
+            <p class="p1">10인치 턴테이블, 강력한 이중 스프링 모터와 테이퍼 암으로 구성되어 있습니다. 속도제어 스위치와 캐비닛의 기둥의 모양이 원형으로 되어 있는 포노그래프입니다.</p>
+            <p class="p1">Victor D의 이후 버전과 초기 Victor V 모델 사이에는 많은 디자인을 공유해서 쓰였습니다. 축음기에 대한 수요가 빠른 속도로 증가하고 있던 시기로 모델의 포지셔닝을 고려하지 못하고 대량으로 생산을 하였기 때문입니다.</p>
+            <p class="p1">1904년 4월의 대규모 공장 화재로 초기 생산된 내용과 일련번호가 사라지면서 새로운 일련번호로 생산되었습니다. 본 제품은 초기 모델로서의 일련번호가 구성되어 있습니다.</p>
+            <p class="p1">Victor IV는 1920년대 초 단종될 때까지 일련번호 기준 최소 50,000대가 생산되었다고 알려져 있습니다.</p>
+            <a href="http://www.victor-victrola.com/Victor%20IV.htm" target="_blank">http://www.victor-victrola.com/Victor%20IV.htm</a>
+          </div>
+        </div>
+        <!-- mobile - e -->
       </section>
       <span class="horLine"></span>
       <section class="section02">
-        <div class="imgBox">
-          <img src="../asset/images/TypeIV21763_06.png" alt="TypeIV">
-          <p class="p5">속도 제어 스위치</p>
+        <div class="inner_w">
+          <div class="imgBox">
+            <img src="../asset/images/TypeIV21763_06.png" alt="TypeIV">
+            <p class="p5">속도 제어 스위치</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/TypeIV21763_07.png" alt="TypeIV">
+            <p class="p5">테이퍼 암</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/TypeIV21763_08.png" alt="TypeIV">
+            <p class="p5">10인치 턴테이블</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/TypeIV21763_09.png" alt="TypeIV">
+            <p class="p5">모델넘버</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/TypeIV21763_10.png" alt="TypeIV">
+            <p class="p5">원형 기둥</p>
+          </div>
         </div>
-        <div class="imgBox">
-          <img src="../asset/images/TypeIV21763_07.png" alt="TypeIV">
-          <p class="p5">테이퍼 암</p>
-        </div>
-        <div class="imgBox">
-          <img src="../asset/images/TypeIV21763_08.png" alt="TypeIV">
-          <p class="p5">10인치 턴테이블</p>
-        </div>
-        <div class="imgBox">
-          <img src="../asset/images/TypeIV21763_09.png" alt="TypeIV">
-          <p class="p5">모델넘버</p>
-        </div>
-        <div class="imgBox">
-          <img src="../asset/images/TypeIV21763_10.png" alt="TypeIV">
-          <p class="p5">원형 기둥</p>
+        <div class="inner_m">
+          <div class="imgBox">
+            <img src="../asset/images/TypeIV21763m_06.png" alt="TypeIV">
+            <p class="p5">속도 제어 스위치</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/TypeIV21763m_07.png" alt="TypeIV">
+            <p class="p5">테이퍼 암</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/TypeIV21763m_08.png" alt="TypeIV">
+            <p class="p5">10인치 턴테이블</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/TypeIV21763m_09.png" alt="TypeIV">
+            <p class="p5">모델넘버</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/TypeIV21763m_10.png" alt="TypeIV">
+            <p class="p5">원형 기둥</p>
+          </div>
         </div>
       </section>
     </div>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.titleImg_m').slick({
+        dots: true,
+        dotsClass:'slick-dots',
+        autoplay: true,
+        autoplaySpeed: 3000,
+      });
+    });
+  </script>
 </body>
 </html>
