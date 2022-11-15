@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>pb06</title>
+  <title>pb07</title>
   <link rel="stylesheet" href="../asset/css/common.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <style>
     .pb03 {
       width: 1300px;
@@ -15,7 +16,7 @@
       color: #fff;
     }
     .pb07 {
-      background-color: #170007;
+      background-color: #12090C;
     }
     .pb03 .p1 {
       font-size: 18px;
@@ -25,6 +26,9 @@
       width: 870px;
       padding: 165px 35px;
       margin: 0 auto;
+    }
+    .pb03 .inner_m {
+      display: none;
     }
     .pb03 .inner .section01{
       padding-bottom: 115px;
@@ -54,9 +58,13 @@
       margin-top: 27px;
     }
     .pb03 .titleImg {
+      display: flex;
       flex-wrap: wrap;
       margin-top: 52px;
       gap: 18px 16px;
+    }
+    .pb03 .titleImg_m {
+      display: none;
     }
     .pb03 .titleImg img{
       background-color: #fff;
@@ -99,8 +107,13 @@
       font-size: 16px;
       line-height: 21px;
     }
-    .pb03 video {
+    .pb03 .videoBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       margin-top: 82px;
+      width: 100%;
+      height: 366px;
       border: 1px solid rgba(255, 255, 255, 0.3);
     }
     .pb03 .p4 {
@@ -129,10 +142,12 @@
       background-color: rgba(255, 243, 229, .4);
     }
     .pb03 .section02 {
+      padding-top: 60px;
+    }
+    .pb03 .section02 .inner_w{
       display: flex;
       flex-wrap: wrap;
       gap: 18px;
-      padding-top: 60px;
     }
     .pb03 .section02 .imgBox {
       position: relative;
@@ -164,6 +179,157 @@
       line-height: 26px;
       text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
     }
+@media screen and (max-width:767px){ 
+  .pb03 {
+    width: 100vw;
+  }
+  .pb03 .inner {
+    width: 100%;
+    padding: 44px 0;
+  }
+  .pb03 .inner_w {
+    display: none;
+  }
+  .pb03 .section02 .inner_w {
+    display: none;
+  }
+  .pb03 .inner_m {
+    display: block;
+    width: 100%;
+    padding: 0 30px;
+  }
+  .pb03 .titleBox .imgBox {
+    width: 100px;
+    height: 100px;
+  }
+  .pb03 .titleBox .imgBox img {
+    width: 81px;
+    height: 81px;
+  }
+  .pb03 .titleBox .textBox {
+    margin-left: 21px;
+  }
+  .pb03 .titleBox .textBox .title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 15px;
+  }
+  .pb03 .titleBox .textBox .p1:nth-child(2) {
+    margin-top: 15px;
+  }
+  .pb03 .p1 {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  .pb03 .titleImg {
+    display: none;
+  }
+  .pb03 .titleImg_m {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 52px;
+  }
+  .pb03 .titleImg_m .imgBox{
+    background-color: #fff;
+  }
+  .pb03 .titleImg_m .imgBox img{
+    width: 100%;
+  }
+  .pb03 .titleImg_m .img03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .slick-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 32px;
+    transform: translate(-50%, -50%);
+    display: flex;
+  }
+  .slick-dots li{
+    width: 6px;
+    height: 6px;
+    margin: 0 4px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);;
+  }
+  .slick-dots li.slick-active{
+    background-color: #fff;
+  }
+  .pb03 .title02 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+  .pb03 .p2 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .pb03 .p3 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 3px;
+  }
+  .pb03 .p3 span {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .pb03 .videoBox {
+      margin-top: 40px;
+      height: 45vw;
+      padding: 1px;
+    }
+  .pb03 .p4 {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .pb03 .p4 img {
+    width: 10px;
+    margin-right: 10px;
+  }
+  .pb03 .p1Box {
+    margin-top: 40px;
+  }
+  .pb03 .p1Box .p1 {
+    line-height: 22px;
+  }
+  .pb03 .p1Box a {
+    font-size: 12px;
+  }
+  .pb03 .horLine {
+    width: 84vw;
+    margin-left: 8vw;
+  }
+  .pb03 .section02 {
+    padding-bottom: 85px;
+  }
+  .pb03 .section02 .inner_m {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .pb03 .section02 .imgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100% !important;
+  }
+  .pb03 .section02 .imgBox img{
+    width: 100%;
+  }
+  .pb03 .section02 .imgBox p {
+    left: auto;
+    right: 15px;
+    bottom: 10px;
+    font-size: 14px;
+  }
+}
   </style>
 </head>
 <body>
@@ -191,47 +357,122 @@
             <img src="../asset/images/crowngramophone_04.png" alt="TypeIV(2)">
           </div>
         </div>
-        <p class="title02">Crown Gramophone</p>
-        <p class="p2">제조사</p>
-        <p class="p3">Kwong Loong Chan Company</p>
-        <p class="p2">모델명</p>
-        <p class="p3">크라운 그라모폰 <span>(Crown Gramophone)</span></p>
-        <p class="p2">제작년도</p>
-        <p class="p3">1930년대 추정</p>
-        <video controls width="800px" height="366px">
-          <source src="../asset/images/crowngramophone_05.mp4" type="video/mp4"/>
-        </video>
-        <p class="p4"><img src="../asset/images/triangle05.png" alt="triangle icon"> 동영상 (현재도 작동이 가능한 모델)</p>
-        <div class="p1Box">
-          <p class="p1">싱가폴 시장에 판매된 1930년대 Crown 축음기로, 당시 싱가폴 HMV 대리점을 운영하던 Kwong Loong Chan 회사가 제작 및 판매했습니다. 회사의 변호사가 1936년 6월 Strait Times에 광고를 기재하여 축음기와 악세사리에 Crown 이름을 사용할 수 있는 권리를 확보했습니다. </p>
-          <p class="p1">Howard Hope의 Crown 축음기에 대한 기사가 CLPGS 매거진 "For Record" 2016년 봄호 57호에 실렸습니다.</p>
-          <a href="https://forum.talkingmachine.info/viewtopic.php?t=13308#top" target="_blank">https://forum.talkingmachine.info/viewtopic.php?t=13308#top</a>
+        <!-- mobile - s -->
+        <div class="titleImg_m">
+          <div class="imgBox img01">
+            <img src="../asset/images/crowngramophonem_02.png" alt="TypeIV(2)">
+          </div>
+          <div class="imgBox img02">
+            <img src="../asset/images/crowngramophonem_03.png" alt="TypeIV(2)">
+          </div>
+          <div class="imgBox img03">
+            <img src="../asset/images/crowngramophonem_04.png" alt="TypeIV(2)">
+          </div>
         </div>
+        <!-- mobile - e -->
+        <div class="inner_w">
+          <p class="title02">Crown Gramophone</p>
+          <p class="p2">제조사</p>
+          <p class="p3">Kwong Loong Chan Company</p>
+          <p class="p2">모델명</p>
+          <p class="p3">크라운 그라모폰 <span>(Crown Gramophone)</span></p>
+          <p class="p2">제작년도</p>
+          <p class="p3">1930년대 추정</p>
+          <div class="videoBox">
+            <video controls height="100%">
+              <source src="../asset/images/crowngramophone_05.mp4" type="video/mp4"/>
+            </video>
+          </div>
+          <p class="p4"><img src="../asset/images/triangle05.png" alt="triangle icon"> 동영상 (현재도 작동이 가능한 모델)</p>
+          <div class="p1Box">
+            <p class="p1">싱가폴 시장에 판매된 1930년대 Crown 축음기로, 당시 싱가폴 HMV 대리점을 운영하던 Kwong Loong Chan 회사가 제작 및 판매했습니다. 회사의 변호사가 1936년 6월 Strait Times에 광고를 기재하여 축음기와 악세사리에 Crown 이름을 사용할 수 있는 권리를 확보했습니다. </p>
+            <p class="p1">Howard Hope의 Crown 축음기에 대한 기사가 CLPGS 매거진 "For Record" 2016년 봄호 57호에 실렸습니다.</p>
+            <a href="https://forum.talkingmachine.info/viewtopic.php?t=13308#top" target="_blank">https://forum.talkingmachine.info/viewtopic.php?t=13308#top</a>
+          </div>
+        </div>
+        <!-- mobile - s -->
+        <div class="inner_m">
+          <p class="title02">Crown Gramophone</p>
+          <p class="p2">제조사</p>
+          <p class="p3">Kwong Loong Chan Company</p>
+          <p class="p2">모델명</p>
+          <p class="p3">크라운 그라모폰 <span>(Crown Gramophone)</span></p>
+          <p class="p2">제작년도</p>
+          <p class="p3">1930년대 추정</p>
+          <div class="videoBox">
+            <video controls height="100%">
+              <source src="../asset/images/crowngramophone_05.mp4" type="video/mp4"/>
+            </video>
+          </div>
+          <p class="p4"><img src="../asset/images/triangle05.png" alt="triangle icon"> 동영상 (현재도 작동이 가능한 모델)</p>
+          <div class="p1Box">
+            <p class="p1">싱가폴 시장에 판매된 1930년대 Crown 축음기로, 당시 싱가폴 HMV 대리점을 운영하던 Kwong Loong Chan 회사가 제작 및 판매했습니다. 회사의 변호사가 1936년 6월 Strait Times에 광고를 기재하여 축음기와 악세사리에 Crown 이름을 사용할 수 있는 권리를 확보했습니다. </p>
+            <p class="p1">Howard Hope의 Crown 축음기에 대한 기사가 CLPGS 매거진 "For Record" 2016년 봄호 57호에 실렸습니다.</p>
+            <a href="https://forum.talkingmachine.info/viewtopic.php?t=13308#top" target="_blank">https://forum.talkingmachine.info/viewtopic.php?t=13308#top</a>
+          </div>
+        </div>
+        <!-- mobile - e -->
       </section>
       <span class="horLine"></span>
       <section class="section02">
-        <div class="imgBox">
-          <img src="../asset/images/crowngramophone_06.png" alt="TypeIV(2)">
-          <p class="p5">속도 제어 스위치</p>
+        <div class="inner_w">
+          <div class="imgBox">
+            <img src="../asset/images/crowngramophone_06.png" alt="TypeIV(2)">
+            <p class="p5">속도 제어 스위치</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/crowngramophone_07.png" alt="TypeIV(2)">
+            <p class="p5">테이퍼 암</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/crowngramophone_08.png" alt="TypeIV(2)">
+            <p class="p5">턴테이블과 특이한 캐비넷</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/crowngramophone_09.png" alt="TypeIV(2)">
+            <p class="p5">제조 회사</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/crowngramophone_10.png" alt="TypeIV(2)">
+            <p class="p5">제조 회사</p>
+          </div>
         </div>
-        <div class="imgBox">
-          <img src="../asset/images/crowngramophone_07.png" alt="TypeIV(2)">
-          <p class="p5">테이퍼 암</p>
-        </div>
-        <div class="imgBox">
-          <img src="../asset/images/crowngramophone_08.png" alt="TypeIV(2)">
-          <p class="p5">턴테이블과 특이한 캐비넷</p>
-        </div>
-        <div class="imgBox">
-          <img src="../asset/images/crowngramophone_09.png" alt="TypeIV(2)">
-          <p class="p5">제조 회사</p>
-        </div>
-        <div class="imgBox">
-          <img src="../asset/images/crowngramophone_10.png" alt="TypeIV(2)">
-          <p class="p5">제조 회사</p>
+        <div class="inner_m">
+          <div class="imgBox">
+            <img src="../asset/images/crowngramophonem_06.png" alt="TypeIV(2)">
+            <p class="p5">속도 제어 스위치</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/crowngramophonem_07.png" alt="TypeIV(2)">
+            <p class="p5">테이퍼 암</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/crowngramophonem_08.png" alt="TypeIV(2)">
+            <p class="p5">턴테이블과 특이한 캐비넷</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/crowngramophonem_09.png" alt="TypeIV(2)">
+            <p class="p5">제조 회사</p>
+          </div>
+          <div class="imgBox">
+            <img src="../asset/images/crowngramophonem_10.png" alt="TypeIV(2)">
+            <p class="p5">제조 회사</p>
+          </div>
         </div>
       </section>
     </div>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.titleImg_m').slick({
+        dots: true,
+        dotsClass:'slick-dots',
+        autoplay: true,
+        autoplaySpeed: 3000,
+      });
+    });
+  </script>
 </body>
 </html>
