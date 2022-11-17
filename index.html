@@ -1,0 +1,850 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="./_feWorksheet.min.css">
+	<style>
+		/* User style */
+		nav a {letter-spacing: -1px;}
+		.design, .date {text-align: center;}
+		td{line-height:1.4}
+		.del td{background:#ffcaca !important}
+	</style>
+	<script src="./_feWorksheet.min.js"></script>
+	<script>
+		/* User script(setting) */
+		$(function() {
+			$('body').feWorksheet({
+				// Options
+			});
+		});
+	</script>
+</head>
+<body>
+	<header><h1><em>레오파트라</em>, Front-end Web developer Worksheet</h1></header>
+	<!-- noticeWrap -->
+	<section class="noticeWrap">
+		<h2>Notice</h2>
+		<ul>
+			<li>Undone: 코딩중, Done: 코딩완료, Modify: 코딩 완료 후 HTML수정, Delete: 코딩 완료 후 SB삭제</li>
+		</ul>
+	</section>
+	<!-- //noticeWrap -->
+	<!-- filterWrap -->
+	<section class="filterWrap">
+		<h2>Task Key/Filter</h2>
+		<form action="/">
+			<fieldset>
+				<legend>Filter option(It'll be automatically applied)</legend>
+				<label><input type="checkbox" value="all">All</label>
+				<label><input type="checkbox"><b class='default'>0</b><i>Undone</i></label>
+				<label><input type="checkbox"><b>1</b><i>Done</i></label>
+				<label><input type="checkbox"><b>2</b><i>Modify</i></label>
+				<label><input type="checkbox"><b>3</b><i>Delete</i></label>
+			</fieldset>
+		</form>
+	</section>
+	<!-- //filterWrap -->
+	<!-- Worksheet -->
+	<section>
+		<h2>Worksheet: Weg</h2>
+		<h3>공통</h3>
+		<table>
+			<!-- caption : 경로입력 -->
+			<caption>./html</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="menuDepth">Depth1</th>
+					<th scope="col" class="menuDepth">Depth2</th>
+					<th scope="col" class="fileName">File Name/ID</th>
+					<th scope="col" class="dueDate">Done/Modify</th>
+					<th scope="col" class="people">People</th>
+					<th scope="col" class="issueMemo">Issue/Memo</th>
+					<th scope="col" class="checkTask">Task</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="menuDepth">layout</td>
+					<td class="menuDepth"></td>
+					<td class="fileName">layout.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 헤더부분 mypage아이콘 삭제(gnb로 이동)<br/>
+                                * 로그인,로그아웃 아이콘 사람아이콘으로 변경(common.css파일 22,54 line)<br/>
+                                * layout.css 52 line 컬러수정, 53 line 추가(헤더 hover시 색변화)</td>
+					<td class="checkTask">1</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>메인</h3>
+		<table>
+			<!-- caption : 경로입력 -->
+			<caption>./html</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="menuDepth">Depth1</th>
+					<th scope="col" class="menuDepth">Depth2</th>
+					<th scope="col" class="fileName">File Name/ID</th>
+					<th scope="col" class="dueDate">Done/Modify</th>
+					<th scope="col" class="people">People</th>
+					<th scope="col" class="issueMemo">Issue/Memo</th>
+					<th scope="col" class="checkTask">Task</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="menuDepth">메인</td>
+					<td class="menuDepth"></td>
+					<td class="fileName">MN-MA-0001.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 영상 끝나고 한바퀴 다시 돌았을때 영상이 0:00초로 재시작되지 않는 문제 해결 안된 상황입니다.<br/>
+                                * 이벤트 이미지 삽입, text위치 변경</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth">메인</td>
+					<td class="menuDepth"></td>
+					<td class="fileName">MN-MA-0002P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 새로 추가된 페이지</td>
+					<td class="checkTask">1</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>About</h3>
+		<table>
+			<!-- caption : 경로입력 -->
+			<caption>./html</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="menuDepth">Depth1</th>
+					<th scope="col" class="menuDepth">Depth2</th>
+					<th scope="col" class="fileName">File Name/ID</th>
+					<th scope="col" class="dueDate">Done/Modify</th>
+					<th scope="col" class="people">People</th>
+					<th scope="col" class="issueMemo">Issue/Memo</th>
+					<th scope="col" class="checkTask">Task</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="menuDepth">About</td>
+					<td class="menuDepth"></td>
+					<td class="fileName">AB-01-0001.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo"> 이미지 6개 삽입, html 변경</td>
+					<td class="checkTask">1</td>
+				</tr>
+			</tbody>
+		</table>
+
+    <h3>로그인 / 회원가입</h3>
+		<table>
+			<!-- caption : 경로입력 -->
+			<caption>./html</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="menuDepth">Depth1</th>
+					<th scope="col" class="menuDepth">Depth2</th>
+					<th scope="col" class="menuDepth">Depth3</th>
+					<th scope="col" class="fileName">File Name/ID</th>
+					<th scope="col" class="dueDate">Done/Modify</th>
+					<th scope="col" class="people">People</th>
+					<th scope="col" class="issueMemo">Issue/Memo</th>
+					<th scope="col" class="checkTask">Task</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="menuDepth">로그인</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">LL-01-0001.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 변경없음 페이지</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth">회원가입</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">LL-01-0002.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 변경없음 페이지</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">주소 찾기</td>
+					<td class="menuDepth"></td>
+					<td class="fileName">LL-01-0003P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 변경없음 페이지</td>
+					<td class="checkTask">1</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>마켓</h3>
+		<table>
+			<!-- caption : 경로입력 -->
+			<caption>./html</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="menuDepth">Depth1</th>
+					<th scope="col" class="menuDepth">Depth2</th>
+					<th scope="col" class="menuDepth">Depth3</th>
+					<th scope="col" class="menuDepth">Depth4</th>
+					<th scope="col" class="menuDepth">Depth5</th>
+					<th scope="col" class="fileName">File Name/ID</th>
+					<th scope="col" class="dueDate">Done/Modify</th>
+					<th scope="col" class="people">People</th>
+					<th scope="col" class="issueMemo">Issue/Memo</th>
+					<th scope="col" class="checkTask">Task</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="menuDepth">마켓</td>
+					<td class="menuDepth">마켓 리스트</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">MK-01-0001.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 공모 중 보기 -> 경매 중 보기 변경</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">마켓 상세</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">MK-01-0002.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 구매수량 옆의 박스 inputBox로 교체, 총 결제금액칸 추가</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">마켓 상세</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">MK-01-0002-2.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo"></td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">조각 구매</td>
+					<td class="menuDepth"></td>
+					<td class="fileName">MK-01-0003P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 팝업창 x표시 추가<br/>
+                                * 구매 -> 확인 버튼이름 수정</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">소장품 소유 증명서</td>
+					<td class="menuDepth"></td>
+					<td class="fileName">MK-01-0004.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo"></td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+          <td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">조각 소유 증명서</td>
+					<td class="menuDepth"></td>
+					<td class="fileName">MK-01-0005.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 회의 후 시작</td>
+					<td class="checkTask">0</td>
+				</tr>
+        <tr>
+          <td class="menuDepth"></td>
+          <td class="menuDepth"></td>
+          <td class="menuDepth"></td>
+          <td class="menuDepth">소유권 증명서</td>
+          <td class="menuDepth"></td>
+          <td class="fileName">MK-01-0006.html</td>
+          <td class="date"></td>
+          <td class="people"></td>
+          <td class="issueMemo"></td>
+          <td class="checkTask">1</td>
+        </tr>
+        <tr>
+          <td class="menuDepth"></td>
+          <td class="menuDepth"></td>
+          <td class="menuDepth"></td>
+          <td class="menuDepth">조각 소유 증명서</td>
+          <td class="menuDepth"></td>
+          <td class="fileName">MK-01-0007.html</td>
+          <td class="date"></td>
+          <td class="people"></td>
+          <td class="issueMemo"></td>
+          <td class="checkTask">1</td>
+        </tr>
+				
+			</tbody>
+		</table>
+
+		<h3>마이페이지</h3>
+		<table>
+			<!-- caption : 경로입력 -->
+			<caption>./html</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="menuDepth">Depth1</th>
+					<th scope="col" class="menuDepth">Depth2</th>
+					<th scope="col" class="menuDepth">Depth3</th>
+					<th scope="col" class="menuDepth">Depth4</th>
+					<th scope="col" class="menuDepth">Depth5</th>
+					<th scope="col" class="menuDepth">Depth6</th>
+					<th scope="col" class="fileName">File Name/ID</th>
+					<th scope="col" class="dueDate">Done/Modify</th>
+					<th scope="col" class="people">People</th>
+					<th scope="col" class="issueMemo">Issue/Memo</th>
+					<th scope="col" class="checkTask">Task</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="menuDepth">마이페이지</td>
+					<td class="menuDepth">보유현황</td>
+					<td class="menuDepth">소장품 관리</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-01-0001.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 보유중/청산완료 버튼 탭형식으로 변경
+                                * snb 에서 파란글씨 미적용되어 li에서 a태그로 클래스 옮김</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">소장품 등록</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-01-0002.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 카테고리 박스 select박스로 변경 <br/>
+                                * 조각 발행 정보 탭기능추가 (default.js 최하단 js추가)
+                                * arr-select-gray.png 이미지 추가</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">경매 등록</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-01-0003P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 시간 select박스로 변경<br/>
+                                * 경매종료 위치 수정<br/>
+                                * 구매 -> 확인 오류 수정<br/>
+                                * calendarBox로 변경(링크태그 삽입)</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">경매 현황</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-01-0004P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 경매등록 -> 경매현황 오류수정<br/>
+                                * 경매 회차 select박스로 변경</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">조각 분할</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-01-0005P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 누락된 설명글 삽입<br/>
+                                * 선택,시간박스 select박스로 변경<br/>
+                                * 구매 -> 확인 버튼이름 수정<br/>
+                                * calendarBox로 변경(링크태그 삽입)</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">청산 완료</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-01-0006.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 보유중/청산완료 버튼 탭형식으로 변경<br/>
+                                * 소장품 등록 버튼 삭제<br/>
+                                * 경매 진행중 체크박스 삭제<br/>
+                                * snb, 버튼 등 링크태그 삽입</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">보유 중</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-01-0007.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo"> * snb, 버튼 등 링크태그 삽입</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">소유권 양도</td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-01-0008P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo"></td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">조각 관리</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-01-0009.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* snb, 버튼 등 링크태그 삽입</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">청산 결과</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-01-0010P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo"></td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">구매 내역</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-01-0011.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* snb, 버튼 등 링크태그 삽입</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">My 찜</td>
+					<td class="menuDepth">관심 소장품</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-02-0001.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* snb 링크태그 삽입</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">My 포인트</td>
+					<td class="menuDepth">포인트 현황</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-03-0001.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* snb 링크태그 삽입, 표 링크 제거<br/>
+                                * 대기포인트 우측 > 모양 text에서 img로 변경</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">포인트 충전</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">MM-01-0001.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 변경없음 페이지 (기존 코드 없음)</td>
+					<td class="checkTask">0</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">인출</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-03-0002P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 변경없음 페이지</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td> 
+					<td class="menuDepth"></td>
+					<td class="menuDepth">인출 신청 완료</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-03-0003P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 변경없음 페이지</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">대기금 내역</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-03-0004.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* snb 링크태그 삽입, 표 링크 제거</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">My 정보</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-04-0001.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* snb 링크태그 삽입</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">회원정보 수정</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-04-0002.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* snb 링크태그 삽입</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">비밀번호 변경</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-04-0003P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 변경없음 페이지</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">계좌 등록</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-04-0004P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 변경없음 페이지</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">계좌 등록 완료</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-04-0005P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 변경없음 페이지 (기존 코드 없음)</td>
+					<td class="checkTask">0</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">회원 탈퇴</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-04-0006.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* snb 링크태그 삽입</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">회원 탈퇴 완료</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-04-0007P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 변경없음 (레오파트라 -> 참소리 조각투자로 단어변경)</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">회원 탈퇴 불가</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">PG-04-0008P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 변경없음 (PPT대로 문구변경)</td>
+					<td class="checkTask">1</td>
+				</tr>
+			</tbodty>
+		</table>
+
+    <h3>아이디, 비밀번호 찾기</h3>
+		<table>
+			<!-- caption : 경로입력 -->
+			<caption>./html</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="menuDepth">Depth1</th>
+					<th scope="col" class="menuDepth">Depth2</th>
+					<th scope="col" class="fileName">File Name/ID</th>
+					<th scope="col" class="dueDate">Done/Modify</th>
+					<th scope="col" class="people">People</th>
+					<th scope="col" class="issueMemo">Issue/Memo</th>
+					<th scope="col" class="checkTask">Task</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="menuDepth">아이디 찾기</td>
+					<td class="menuDepth"></td>
+					<td class="fileName">ET-01-0001.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 변경없음 (PPT대로 문구변경)</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">아이디 팝업</td>
+					<td class="fileName">ET-01-0002P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 변경없음</td>
+					<td class="checkTask">1</td>
+				</tr>
+        <tr>
+					<td class="menuDepth">비밀번호 찾기</td>
+					<td class="menuDepth"></td>
+					<td class="fileName">ET-02-0001.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 변경없음 (PPT대로 문구변경)</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">비밀번호 재발급 팝업</td>
+					<td class="fileName">ET-02-0002P.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 변경없음 (PPT대로 문구변경)</td>
+					<td class="checkTask">1</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Notice</h3>
+		<table>
+			<!-- caption : 경로입력 -->
+			<caption>./html</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="menuDepth">Depth1</th>
+					<th scope="col" class="menuDepth">Depth2</th>
+					<th scope="col" class="fileName">File Name/ID</th>
+					<th scope="col" class="dueDate">Done/Modify</th>
+					<th scope="col" class="people">People</th>
+					<th scope="col" class="issueMemo">Issue/Memo</th>
+					<th scope="col" class="checkTask">Task</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="menuDepth">Notice</td>
+					<td class="menuDepth">공지사항</td>
+					<td class="fileName">NT-01-0001.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo"></td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">1:1문의</td>
+					<td class="fileName">NT-02-0001.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 페이징 숫자 삽입</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">1:1문의</td>
+					<td class="fileName">NT-02-0002.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 문의 내역, 문의작성 버튼 색 변경</td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">자주묻는질문</td>
+					<td class="fileName">NT-03-0001.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo">* 셀렉트, 인풋박스 누락 수정, 페이징 디자인 추가</td>
+					<td class="checkTask">1</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Contract</h3>
+		<table>
+			<!-- caption : 경로입력 -->
+			<caption>./html</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="menuDepth">Depth1</th>
+					<th scope="col" class="menuDepth">Depth2</th>
+					<th scope="col" class="fileName">File Name/ID</th>
+					<th scope="col" class="dueDate">Done/Modify</th>
+					<th scope="col" class="people">People</th>
+					<th scope="col" class="issueMemo">Issue/Memo</th>
+					<th scope="col" class="checkTask">Task</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="menuDepth">Contract</td>
+					<td class="menuDepth"></td>
+					<td class="fileName">contract01.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo"></td>
+					<td class="checkTask">0</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Popup</h3>
+		<table>
+			<!-- caption : 경로입력 -->
+			<caption>./html</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="menuDepth">Depth1</th>
+					<th scope="col" class="menuDepth">Depth2</th>
+					<th scope="col" class="fileName">File Name/ID</th>
+					<th scope="col" class="dueDate">Done/Modify</th>
+					<th scope="col" class="people">People</th>
+					<th scope="col" class="issueMemo">Issue/Memo</th>
+					<th scope="col" class="checkTask">Task</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="menuDepth">Popup</td>
+					<td class="menuDepth"></td>
+					<td class="fileName">edison-electronic-carP.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo"></td>
+					<td class="checkTask">1</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+	</section>
+	<!-- //Worksheet -->
+</body>
+</html>
